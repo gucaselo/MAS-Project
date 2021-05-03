@@ -1,9 +1,11 @@
 # import necessary libraries
 from flask import Flask, render_template, jsonify
 import sqlalchemy
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, inspect
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
+
+
 
 # create instance of Flask app
 app = Flask(__name__)
@@ -14,7 +16,7 @@ app = Flask(__name__)
 def jsonified():
 
     # Create Engine
-    engine = create_engine(f"sqlite:///data/shootings.sqlite")
+    engine = create_engine("sqlite:///data/shootings.sqlite")
 
     # Connect to the engine
     conn = engine.connect()
@@ -26,7 +28,9 @@ def jsonified():
     Base = automap_base()
 
     # Use the Base class to reflect the database tables
-    Base.prepare(engine, reflect=False)
+    Base.prepare(engine, reflect=True)
+
+    print(Base.classes.keys())
 
     # Assign class to variable data
     data = Base.classes.shooting_data
@@ -48,11 +52,11 @@ def jsonified():
                 'injured': injured,
                 'latitude': lat,
                 'longitude': lng}
-    
+
     # Close session
     session.close()
 
-return render_template("index.html", data=jsonify(incident_list))
+    return render_template("index.html", data=jsonify(incident_list))
 
 if __name__ == "__main__":
     app.run(debug=True)
