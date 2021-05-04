@@ -5,8 +5,6 @@ from sqlalchemy import create_engine, inspect
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 
-
-
 # create instance of Flask app
 app = Flask(__name__)
 
@@ -34,8 +32,10 @@ def jsonified():
 
     # Assign class to variable data
     data = Base.classes.shooting_data
+    guns = Base.classes.ownership_data
+    poverty = Base.classes.poverty_data
 
-    # Create variables for the dictionary
+    # Create variables for the shooting incident dictionary
     lng = session.query(data.longitude).all()
     lat = session.query(data.latitude).all()
     killed = session.query(data.number_killed).all()
@@ -44,7 +44,15 @@ def jsonified():
     state = session.query(data.state).all()
     locale = session.query(data.city_county).all()
 
-    # Create dictionary to be returned
+    # Create variables for the gun ownership dictionary
+    gun_states = session.query(guns.state).all()
+    gun_capita = session.query(guns.number_per_capita).all()
+
+    # Create variables for the poverty rate dictionary
+    poverty_states = session.query(poverty.state).all()
+    poverty_rates = session.query(poverty.poverty_rate).all()
+
+    # Create shooting data dictionary to be returned
     incident_list = {'date': date,
                 'state': state,
                 'city_county': locale,
@@ -52,11 +60,20 @@ def jsonified():
                 'injured': injured,
                 'latitude': lat,
                 'longitude': lng}
+    
+    # Create gun ownership dictionary to be returned
+    gun_list = {'state': gun_states,
+                'num_guns': gun_capita}
+    
+    # Create poverty rate dictionary to be returned
+    poverty_list = {'state' : poverty_states,
+               'poverty_rates': poverty_rates}
 
     # Close session
     session.close()
 
-    return render_template("index.html", data=jsonify(incident_list))
+    return render_template("index.html", shootingdata=jsonify(incident_list),
+    gundata = jsonify(gun_list), povertydata = jsonify(poverty_list))
 
 if __name__ == "__main__":
     app.run(debug=True)
