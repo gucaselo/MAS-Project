@@ -87,7 +87,7 @@ def guns():
     # Create gun ownership dictionary to be returned
     gun_list = {'state': gun_states,
                 'num_guns': gun_capita}
-    
+
     # Close session
     session.close()
 
