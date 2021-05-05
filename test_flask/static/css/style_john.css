@@ -1,0 +1,280 @@
+﻿body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height:50px;
+    font-weight:900;
+    font-size:40px;
+    padding:10px 20px 5px 20px;
+    text-transform:uppercase;
+}
+
+ h1:before {
+content: '';
+display: block;
+position: absolute;
+width: 120px;
+height: 1px;
+background: #fff;
+margin: auto;
+left: -150px;
+right: 0;
+}
+
+ h1:after {
+content: '';
+display: block;
+position: absolute;
+width: 120px;
+height: 1px;
+background: #fff;
+margin: auto;
+left: 0;
+right: -150px;
+}
+.pad-adjust {
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    line-height:50px;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+h4 {
+    padding-top:10px;
+    line-height:40px;
+    padding-bottom:20px;
+}
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:20px;
+}
+
+.space-free {
+    height:100px;
+}
+
+.g-pad-bottom {
+    padding-bottom:40px;
+}
+.for-full-back {
+     /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=90);
+
+  /* Netscape */
+  -moz-opacity: 0.9;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.9;
+
+  /* Good browsers */
+  opacity: 0.9;
+}
+
+section {
+    padding-top:20px;
+}
+
+ /*=======================================
+    SIDE MENUS STYLES
+==================================================*/
+
+#cbp-spmenu-s1 {
+    overflow:auto;
+}
+
+#cbp-spmenu-s1>h3 {
+    text-align:right;
+}
+#icon-left {
+    text-align:right;
+}
+
+#showLeftPush {
+    position:fixed;
+    z-index:9999;
+    left:5px;
+    top:20px;
+    color: #fff;
+}
+
+#cbp-spmenu-s2 {
+     overflow:auto;
+}
+ #cbp-spmenu-s2 > h3 {
+     text-align:left;
+    }
+#icon-right {
+    text-align:right;
+}
+#showRightPush {
+    position: fixed; 
+    z-index: 9999;
+     right: 5px; 
+     top: 20px; 
+     color: #fff;
+}
+/*=======================================
+    COMPONENTS.CSS ADJUSTMENTS STYLES
+==================================================*/
+
+.cbp-spmenu a:focus,.cbp-spmenu a:hover {
+    text-decoration:none;
+}
+
+.cbp-spmenu a>i {
+    margin-right:25px;
+}
+.cbp-spmenu h3 {
+font-size: 2.9em;
+font-weight: 900;
+color:#fff;
+padding:30px;
+
+}
+
+.cbp-spmenu a {
+display: block;
+color: #fff;
+font-size: 1.1em;
+font-weight: 900;
+}
+
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+.head-btn-one {
+    background-color: rgba(252, 64, 101, 1);
+     border: 0px solid #fff;
+
+}
+
+#home {
+    padding-top:130px;
+    padding-bottom:200px;
+    color:#fff;
+}
+.head-main {
+    font-size:80px ;
+    font-weight:900;
+    
+}
+.head-sub-main {
+    font-size:40px ;
+    font-weight:600;
+    padding:5px 20px 10px 20px;
+}
+.head-last {
+    font-size:20px ;
+    font-weight:300;
+    padding:5px 20px 20px 20px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+border-radius: 0px; 
+
+}
+
+/*=======================================
+    ABOUT SECTION STYLES
+==================================================*/
+
+.team-member {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.team-member > img {
+    float: left;
+    width: 100%;
+}
+.team-member > h3 {
+    background: rgba(252, 64, 101, 1);
+    bottom: 25px;
+    color:#fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    padding: 15px 0;
+    position: absolute;
+    text-align: center;  
+    width: 100%;
+    
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.team-member:hover > h3 {
+    background: #b60d0d;
+    bottom: -55px;
+    color: #FFFFFF;	
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+/*=======================================
+    COLOR CODES
+==================================================*/
+
+.color-bg-one {
+    background-color:rgba(0, 122, 255, 1)!important;
+    color:#fff;
+}
+.color-white {
+   background-color:#fff!important;
+}
+.color-dark {
+   background-color:#696969!important;
+}
+
+.color-light {
+   background-color:#E9E9E9!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
