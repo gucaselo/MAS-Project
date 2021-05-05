@@ -1,5 +1,23 @@
 incident_id,incident_date,state,city_county,address,number_killed,number_injured
+1993551,2021-05-03,Michigan,Saginaw,1315 Randolph St,1,4
+1993090,2021-05-02,Ohio,Columbus,491 Park St,0,4
+1993664,2021-05-02,Pennsylvania,Philadelphia,5200 block of Burton St,1,3
+1993221,2021-05-02,Maryland,Baltimore,1500 block of Washington Blvd,1,3
+1993280,2021-05-02,Illinois,Chicago,2100 block of W Adams St,0,5
+1992570,2021-05-02,Minnesota,Saint Paul,843 Selby Ave,0,4
+1992127,2021-05-01,Delaware,Wilmington,800 block of N Pine St,0,4
+1992534,2021-05-01,Louisiana,New Orleans,St Bernard Ave and N Claiborne Ave,2,4
+1992410,2021-05-01,New York,New Rochelle,Horton Ave and Brook St,1,4
+1992490,2021-05-01,Massachusetts,Holyoke,209 South St,0,5
+1992469,2021-05-01,Florida,Clewiston,1117 Harlem Academy Ave,1,3
+1990821,2021-04-29,Georgia,Atlanta,2300 block of Polar Rock Terrace SW,1,5
+1990600,2021-04-28,Florida,Miami,2100 block of NW 85th St,0,5
+1989840,2021-04-28,North Carolina,Boone,553 Hardaman Cir,5,0
+1988688,2021-04-27,Virginia,Richmond,4000 Midlothian Turnpike,2,3
+1989023,2021-04-27,Alabama,Fairfield,200 block of Glen Crest Dr,1,4
 1987241,2021-04-26,Louisiana,Houma,656 Corporate Dr,0,5
+1988326,2021-04-26,Oregon,Gresham,SE Stark St and SE 174th Ave,0,7
+1991347,2021-04-25,Texas,Palestine,1101 W Palestine Ave,0,4
 1987235,2021-04-25,Alabama,Phenix City,1700 Highway 280 Bypass,0,4
 1986593,2021-04-25,Arkansas,Little Rock,1900 E 6th St,1,3
 1986770,2021-04-25,Missouri,Kansas City,E 18th St and Vine St,1,3
@@ -123,8 +141,8 @@ incident_id,incident_date,state,city_county,address,number_killed,number_injured
 1921641,2021-02-05,Pennsylvania,Mohnton,360 E Wyomissing Ave,1,3
 1924951,2021-02-05,Mississippi,Benoit,1017 Lake Bolivar Rd,3,1
 1920771,2021-02-04,North Carolina,High Point,2912 W English Rd,2,3
-1919399,2021-02-03,Tennessee,Memphis,800 block of Olympic St,1,3
 1919696,2021-02-03,Colorado,Oak Creek,200 block of Wild Hogg Dr,3,2
+1919399,2021-02-03,Tennessee,Memphis,800 block of Olympic St,1,3
 1917918,2021-02-02,Florida,Fort Lauderdale (Sunrise),10100 Reflections Blvd W,3,3
 1917909,2021-02-02,Oklahoma,Muskogee,903 Indiana St,6,1
 1917661,2021-02-01,New York,Rochester,400 block of Lyell Avenue,1,3
@@ -914,8 +932,8 @@ incident_id,incident_date,state,city_county,address,number_killed,number_injured
 1493429,2019-08-31,Maryland,Baltimore,900 block of N Monroe St,0,4
 1492297,2019-08-31,Maryland,Frederick,600 block of N Market St,0,4
 1493038,2019-08-31,Illinois,Chicago,7100 block of S Paulina St,2,3
-1492087,2019-08-30,Alabama,Mobile,1621 Virginia St,0,6
 1491495,2019-08-30,Maryland,Baltimore,1600 block of E 29th St,1,3
+1492087,2019-08-30,Alabama,Mobile,1621 Virginia St,0,6
 1490466,2019-08-29,Maryland,Baltimore,2500 block of E Monument St,1,3
 1487729,2019-08-25,New Mexico,Hobbs,1700 block of E Bond St,3,4
 1487573,2019-08-25,Illinois,Chicago,8200 block of S Maryland Ave,1,3
@@ -1614,6 +1632,7 @@ incident_id,incident_date,state,city_county,address,number_killed,number_injured
 936028,2017-09-17,Michigan,Detroit,5000 block of Stanton Street,1,3
 935928,2017-09-17,Virginia,Petersburg,300 Mistletoe St,1,4
 934036,2017-09-16,South Carolina,Columbia,920 Lady Street,0,8
+933957,2017-09-15,Illinois,Chicago,4700 block of S Fairfield Ave,4,0
 932526,2017-09-13,Tennessee,Memphis,1000 block of Morehead St,1,5
 932181,2017-09-13,Washington,Rockford,14626 S Jackson Rd,1,3
 932906,2017-09-13,Pennsylvania,York,400 block of S Duke St,0,4
@@ -1955,22 +1974,3 @@ incident_id,incident_date,state,city_county,address,number_killed,number_injured
 678438,2016-10-17,Illinois,Chicago (Englewood),6700 block of South Winchester,1,4
 677293,2016-10-15,Alabama,Mobile,1800 block of St Stephens Road,0,5
 676686,2016-10-15,Illinois,Rockford,7801 East State St,1,5
-676663,2016-10-15,California,Los Angeles,2918 Rimpau Blvd,4,11
-676376,2016-10-14,Illinois,Chicago,3300 block of W Maypole Ave,1,6
-675993,2016-10-13,Illinois,Chicago,2700 block of West Lexington,0,4
-672203,2016-10-09,Michigan,Grand Rapids,1850 28th Street SE,1,8
-672217,2016-10-09,California,Sacramento,1696 Arden Way,1,3
-671717,2016-10-08,New York,Brooklyn,7301 3rd Ave,0,4
-669777,2016-10-04,Louisiana,New Orleans,3727 Ulloa Street,3,2
-668407,2016-10-03,Minnesota,Minneapolis,Fourth St and Hennepin Ave,0,4
-667984,2016-10-02,Texas,San Antonio,2600 South Flores Street,1,4
-668279,2016-10-01,Illinois,Pembroke Township,17250E Road,4,0
-668352,2016-10-01,California,Fresno,3200 block of East Clay Avenue,0,4
-665995,2016-09-29,California,San Francisco,400 block of Ellis St,1,3
-663624,2016-09-26,North Carolina,Winston Salem (Winston-salem),100 block of 5 Royales Dr,0,4
-663789,2016-09-26,Texas,Humble,21219 Grand Linden Ct,0,4
-663106,2016-09-26,Texas,Houston,5450 Weslayan St,1,6
-662548,2016-09-25,Illinois,Champaign,300 block of E. Green St,1,3
-662342,2016-09-24,Maryland,Baltimore,Greenmount Ave and Preston St,0,8
-661703,2016-09-23,Washington,Burlington,201 Cascade Mall Dr,5,0
-657854,2016-09-18,Pennsylvania,Philadelphia,3001 Castor Avenue,0,4
