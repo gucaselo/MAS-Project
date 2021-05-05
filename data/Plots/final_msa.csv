@@ -1,0 +1,1973 @@
+,incident_id,incident_date,state,city_county,address,number_killed,number_injured,latitude,longitude
+0,1987241,2021,Louisiana,Houma,656 Corporate Dr,0,5,36.1450958,-96.0023638
+1,1987235,2021,Alabama,Phenix City,1700 Highway 280 Bypass,0,4,37.7640281,-122.1743935
+2,1986593,2021,Arkansas,Little Rock,1900 E 6th St,1,3,37.7194881,-122.425285
+3,1986770,2021,Missouri,Kansas City,E 18th St and Vine St,1,3,41.7718443,-87.672785
+4,1985432,2021,Louisiana,New Orleans,100 block of Bourbon St,0,5,30.7029976,-88.0786828
+5,1984807,2021,California,San Diego,500 block of J St,1,4,42.2699348,-88.9627801
+6,1981805,2021,Texas,Houston,700 E Whitney St,2,4,34.027134,-118.3507829
+7,1982260,2021,Georgia,Atlanta,1191 Oakland Ln SW,0,5,41.883879,-87.7085187
+8,1982020,2021,Alabama,Montgomery,2300 block of Day St,1,4,41.872262,-87.69373
+9,1981521,2021,Michigan,Detroit,Ward Ave and W McNichols Rd,1,5,42.9121115,-85.62301
+10,1981353,2021,Louisiana,Shreveport,3701 Hearne Ave,0,6,38.5979369,-121.4276274
+11,1980689,2021,Wisconsin,Kenosha,1548 Sheridan Rd,3,3,40.6327104,-74.0271053
+12,1980492,2021,Ohio,Columbus,5001 Chatterton Rd,1,5,29.9673972,-90.1018231
+13,1980971,2021,Louisiana,La Place (Laplace),624 Golfview Dr,0,9,44.9884743,-93.2549796
+14,1979684,2021,Michigan,Detroit,Conant St and Minnesota St,0,4,29.3984415,-98.5042924
+15,1978635,2021,Indiana,Indianapolis,8951 Mirabel Rd,9,7,41.0321327,-87.5381426
+16,1978561,2021,District of Columbia,Washington,1800 block of West Virginia Ave NE,0,4,36.7565424,-119.7711186
+17,1979869,2021,Louisiana,Lake Charles,4101 5th Ave,1,3,37.7849319,-122.4129481
+18,1978616,2021,Florida,Pensacola,700 Truman Ave,0,6,36.1144629,-80.2452659
+19,1978652,2021,Illinois,Chicago,600 block of N Sawyer Ave,0,4,30.0216391,-95.3123538
+20,1976538,2021,Maryland,Baltimore,2300 block of Hoffman St,0,4,29.7235827,-95.4421156
+21,1975296,2021,Illinois,Chicago,I-290 and S Damen Ave,1,3,40.110245,-88.2353849
+22,1974943,2021,Kansas,Wichita,200 block of N Battin St,1,3,39.3048255,-76.6081873
+23,1975004,2021,Washington,Seattle,306 23rd Ave S,0,4,48.4616279,-122.3386173
+24,1973809,2021,Michigan,Allendale,4926 Becker Dr,0,4,39.9854586,-75.08589
+0,1974088,2021,Tennessee,Memphis,4315 S 3rd St,1,3,36.1450958,-96.0023638
+1,1973692,2021,Missouri,Koshkonong,US-63 and MO-F,1,3,37.7640281,-122.1743935
+2,1975405,2021,Connecticut,Waterbury,36 Gasparri Ln,0,4,37.7194881,-122.425285
+3,1973844,2021,Texas,Fort Worth,2000 block of SW Loop 820,1,5,41.7718443,-87.672785
+4,1972187,2021,Texas,Bryan,350 Stone City Dr,1,5,30.7029976,-88.0786828
+5,1971410,2021,South Carolina,Rock Hill,4456 Marshall Rd,7,0,42.2699348,-88.9627801
+6,1970937,2021,Wisconsin,Milwaukee,2627 W Capitol Dr,2,3,34.027134,-118.3507829
+7,1973435,2021,Ohio,Dayton,Hoover Ave and Summit Square,0,4,41.883879,-87.7085187
+8,1969899,2021,District of Columbia,Washington,4100 block of Ames St NE,0,4,41.872262,-87.69373
+9,1970245,2021,Michigan,Detroit,6100 block of Lodewyck St,1,3,42.9121115,-85.62301
+10,1970378,2021,Illinois,Chicago,6800 block of S Justine Ave,0,7,38.5979369,-121.4276274
+11,1969065,2021,Maryland,Baltimore,300 block of N Eutaw St,0,5,40.6327104,-74.0271053
+12,1969505,2021,Louisiana,Monroe,207 Sterlington Rd,0,6,29.9673972,-90.1018231
+13,1968887,2021,Alabama,Birmingham,3969 14th Ave N,1,5,44.9884743,-93.2549796
+14,1969633,2021,Texas,Beaumont,6035 S M L King Jr Pkwy,0,4,29.3984415,-98.5042924
+15,1967914,2021,North Carolina,Wilmington,718 Kidder St,3,4,41.0321327,-87.5381426
+16,1967893,2021,Alabama,Tuscaloosa,2314 4th St,0,5,36.7565424,-119.7711186
+17,1969221,2021,Texas,Allen,1517 Pine Bluff Dr,6,0,37.7849319,-122.4129481
+18,1968553,2021,Florida,Quincy,2114 Pat Thomas Parkway,0,7,36.1144629,-80.2452659
+19,1966181,2021,California,Orange,202 West Lincoln Ave,4,2,30.0216391,-95.3123538
+20,1965890,2021,District of Columbia,Washington,1300 block of Congress St SE,2,3,29.7235827,-95.4421156
+21,1963556,2021,Ohio,Cleveland,5100 Pearl Rd,0,7,40.110245,-88.2353849
+22,1964085,2021,Illinois,Chicago,I-57 and W 127th St,0,4,39.3048255,-76.6081873
+23,1963598,2021,Maryland,Essex,1601 Middleborough Rd,5,1,48.4616279,-122.3386173
+24,1964030,2021,Texas,San Antonio,2011 Dollarhide Ave,0,4,39.9854586,-75.08589
+0,1963052,2021,Illinois,Chicago,500 block of N Leamington Ave,0,4,36.1450958,-96.0023638
+1,1962934,2021,Mississippi,Yazoo City,Dr Martin Luther King Jr Dr and Shady Dr,0,6,37.7640281,-122.1743935
+2,1962686,2021,Illinois,River Grove,Belmont Ave,1,3,37.7194881,-122.425285
+3,1962562,2021,Virginia,Virginia Beach,2000 block of Atlantic Ave,0,9,41.7718443,-87.672785
+4,1961753,2021,Illinois,Chicago,2515 W 79th St,1,7,30.7029976,-88.0786828
+5,1964271,2021,Virginia,Norfolk,100 block of W Balview Ave,0,4,42.2699348,-88.9627801
+6,1962890,2021,Tennessee,Memphis,500 block of Arrington Ave,3,2,34.027134,-118.3507829
+7,1962507,2021,Pennsylvania,Philadelphia,1080 N Delaware Ave,0,7,41.883879,-87.7085187
+8,1960283,2021,Alabama,Aliceville,1st Ave SW and 15th St,2,2,41.872262,-87.69373
+9,1958652,2021,Colorado,Boulder,3600 Table Mesa Dr,10,1,42.9121115,-85.62301
+10,1959549,2021,Michigan,Detroit,13300 block of Davidson St,1,3,38.5979369,-121.4276274
+11,1957188,2021,Texas,Houston,10266 North Fwy,0,5,40.6327104,-74.0271053
+12,1957226,2021,Texas,Dallas,10333 Technology Blvd,1,7,29.9673972,-90.1018231
+13,1957252,2021,Pennsylvania,Philadelphia,4234 Germantown Ave,1,5,44.9884743,-93.2549796
+14,1956081,2021,Oregon,Gresham,750 E Powell Blvd,0,4,29.3984415,-98.5042924
+15,1955948,2021,Louisiana,New Orleans,2400 Annette St,0,4,41.0321327,-87.5381426
+16,1956001,2021,California,Stockton,Oro Ave and E Main St,0,5,36.7565424,-119.7711186
+17,1954379,2021,Georgia,Acworth,6468 Hwy 92,8,1,37.7849319,-122.4129481
+18,1954950,2021,Arizona,Phoenix,6215 W Elm St,4,1,36.1144629,-80.2452659
+19,1953309,2021,Indiana,Indianapolis,2300 block of N Harding St,1,4,30.0216391,-95.3123538
+20,1953202,2021,Florida,Tampa,10101 US-92,0,4,29.7235827,-95.4421156
+21,1952662,2021,Illinois,Chicago,2600 block of E 77th St,0,4,40.110245,-88.2353849
+22,1952281,2021,Illinois,Chicago,6798 block of S South Chicago Ave,2,13,39.3048255,-76.6081873
+23,1952151,2021,New York,Brooklyn,917 Flushing Ave,0,5,48.4616279,-122.3386173
+24,1951681,2021,Florida,Orlando,200 block of Ring Rd,1,3,39.9854586,-75.08589
+0,1952161,2021,Indiana,Indianapolis,300 block of N Randolph St,4,1,36.1450958,-96.0023638
+1,1951738,2021,Virginia,Richmond,5100 block of Richmond Henrico Tpke,2,4,37.7640281,-122.1743935
+2,1951476,2021,North Carolina,Greensboro,100 block of Huffman St,1,3,37.7194881,-122.425285
+3,1951383,2021,Texas,Austin,7408 Cameron Rd,0,4,41.7718443,-87.672785
+4,1950346,2021,New Mexico,Ohkay Owingeh (Chamita),89 Rio Arriba Co Rd 56,1,3,30.7029976,-88.0786828
+5,1950471,2021,Pennsylvania,Philadelphia,1400 block of N 76th St,2,2,42.2699348,-88.9627801
+6,1949977,2021,Texas,Houston,6300 Ranchester Dr,3,1,34.027134,-118.3507829
+7,1948233,2021,Florida,Clearwater,US-19 ALT and Drew St,1,3,41.883879,-87.7085187
+8,1948470,2021,Mississippi,Edwards,607 Wallace Dr,0,4,41.872262,-87.69373
+9,1947241,2021,California,Yuba City,Countryside Dr and Littlejohn Dr,2,3,42.9121115,-85.62301
+10,1945999,2021,North Carolina,Fayetteville,200 block of Shads Ford Blvd,1,4,38.5979369,-121.4276274
+11,1946991,2021,California,Compton,600 block of N Long Beach Blvd,1,4,40.6327104,-74.0271053
+12,1944507,2021,District of Columbia,Washington,3900 Martin Luther King Jr Ave SW,0,5,29.9673972,-90.1018231
+13,1943986,2021,Pennsylvania,Erie,2105 Buffalo Rd,2,3,44.9884743,-93.2549796
+14,1941382,2021,Ohio,Cincinnati,3600 block of Idlewild Ave,3,3,29.3984415,-98.5042924
+15,1941669,2021,Indiana,East Chicago,1205 W Chicago Ave,0,4,41.0321327,-87.5381426
+16,1940791,2021,Delaware,Dover,21 S Little Creek Rd,0,4,36.7565424,-119.7711186
+17,1941647,2021,South Carolina,Mccormick,437 Talbert Rd,0,4,37.7849319,-122.4129481
+18,1941444,2021,Louisiana,Shreveport,4914 Mansfield Rd,0,5,36.1144629,-80.2452659
+19,1941210,2021,Texas,Houston,13484 Northwest Fwy,0,4,30.0216391,-95.3123538
+20,1943271,2021,Mississippi,Columbus,1200 block of 7th St S,0,4,29.7235827,-95.4421156
+21,1940190,2021,Mississippi,Pattison,Pattison-Tillman Rd,2,3,40.110245,-88.2353849
+22,1940069,2021,Texas,Houston,8708 Beechnut St,1,5,39.3048255,-76.6081873
+23,1939789,2021,Louisiana,Baton Rouge,4700 block of Paige St,0,4,48.4616279,-122.3386173
+24,1939958,2021,California,San Diego,841 S 45th St,1,3,39.9854586,-75.08589
+0,1934704,2021,Missouri,Kennett,1615 1st St,1,4,36.1450958,-96.0023638
+1,1935235,2021,North Carolina,Teachey,Thomas Smith Ln and Bay Rd,0,4,37.7640281,-122.1743935
+2,1934225,2021,Pennsylvania,Norristown (East Norriton),2912 Swede Rd,1,4,37.7194881,-122.425285
+3,1933975,2021,Colorado,Grand Junction,1000 block of Teller Ave,1,3,41.7718443,-87.672785
+4,1934181,2021,Illinois,Springfield,1100 block of S Grand Ave W,1,4,30.7029976,-88.0786828
+5,1934077,2021,Louisiana,Metairie,6719 Airline Dr,3,2,42.2699348,-88.9627801
+6,1932479,2021,Louisiana,Baton Rouge,2047 N Foster Dr,1,3,34.027134,-118.3507829
+7,1931288,2021,Pennsylvania,Philadelphia,5597 Old York Rd,0,8,41.883879,-87.7085187
+8,1930463,2021,Florida,Saint Petersburg,2968 Emerson Ave S,3,1,41.872262,-87.69373
+9,1928557,2021,California,San Francisco,3rd St and Quesada Ave,0,6,42.9121115,-85.62301
+10,1928594,2021,Indiana,Indianapolis,3800 block of N Sherman Dr,0,4,38.5979369,-121.4276274
+11,1928149,2021,California,Oakland,1000 block of Washington St,0,6,40.6327104,-74.0271053
+12,1928205,2021,North Carolina,Cary,101 Reed St,1,3,29.9673972,-90.1018231
+13,1926742,2021,Georgia,Columbus,2001 South Lumpkin Rd,1,4,44.9884743,-93.2549796
+14,1926701,2021,Georgia,Atlanta,62 Harwell Rd NW,0,4,29.3984415,-98.5042924
+15,1924892,2021,Texas,Houston,945 W Little York Rd,0,4,41.0321327,-87.5381426
+16,1924338,2021,Minnesota,Buffalo,755 Crossroads Campus Dr,1,4,36.7565424,-119.7711186
+17,1921939,2021,Tennessee,Murfreesboro,Ewing Blvd and West St,1,4,37.7849319,-122.4129481
+18,1923786,2021,Louisiana,Thibodaux,1100 block of Tiger Dr,0,4,36.1144629,-80.2452659
+19,1921768,2021,Illinois,Bloomingdale,250 W Schick Rd,1,5,30.0216391,-95.3123538
+20,1922354,2021,Washington,Tacoma,3634 E McKinley Ave,1,3,29.7235827,-95.4421156
+21,1921641,2021,Pennsylvania,Mohnton,360 E Wyomissing Ave,1,3,40.110245,-88.2353849
+22,1924951,2021,Mississippi,Benoit,1017 Lake Bolivar Rd,3,1,39.3048255,-76.6081873
+23,1920771,2021,North Carolina,High Point,2912 W English Rd,2,3,48.4616279,-122.3386173
+24,1919399,2021,Tennessee,Memphis,800 block of Olympic St,1,3,39.9854586,-75.08589
+0,1919696,2021,Colorado,Oak Creek,200 block of Wild Hogg Dr,3,2,36.1450958,-96.0023638
+1,1917918,2021,Florida,Fort Lauderdale (Sunrise),10100 Reflections Blvd W,3,3,37.7640281,-122.1743935
+2,1917909,2021,Oklahoma,Muskogee,903 Indiana St,6,1,37.7194881,-122.425285
+3,1917661,2021,New York,Rochester,400 block of Lyell Avenue,1,3,41.7718443,-87.672785
+4,1916468,2021,Illinois,Chicago,W Congress Pkwy and S Independence Blvd,0,4,30.7029976,-88.0786828
+5,1916374,2021,New York,Albany,200 block of Central Ave,1,4,42.2699348,-88.9627801
+6,1914798,2021,Pennsylvania,Mc Kees Rocks (Mckees Rocks),824 Island Ave,2,3,34.027134,-118.3507829
+7,1914942,2021,Michigan,Flint,1900 block of Tebo St,1,4,41.883879,-87.7085187
+8,1913708,2021,California,Santa Ana,1614 S Standard Ave,0,4,41.872262,-87.69373
+9,1911026,2021,District of Columbia,Washington,1406 Good Hope Rd SE,1,4,42.9121115,-85.62301
+10,1910136,2021,Indiana,Indianapolis,3540 Adams St,5,1,38.5979369,-121.4276274
+11,1910619,2021,Nevada,Las Vegas,W Wilson Ave and H St,0,5,40.6327104,-74.0271053
+12,1909849,2021,Kentucky,Covington,217 E Martin Luther King Jr Blvd,0,5,29.9673972,-90.1018231
+13,1908542,2021,California,Oakland,107th Ave and Apricot St,1,3,44.9884743,-93.2549796
+14,1905423,2021,Pennsylvania,Tobyhanna,960 PA-196,0,4,29.3984415,-98.5042924
+15,1904063,2021,Arizona,Phoenix,2340 W Northern Ave,0,5,41.0321327,-87.5381426
+16,1904036,2021,Arizona,Phoenix,2236 E University Dr,1,6,36.7565424,-119.7711186
+17,1905360,2021,Illinois,Kankakee,600 block of N Evergreen Ave,0,5,37.7849319,-122.4129481
+18,1903058,2021,Pennsylvania,Philadelphia,5000 block of N 10th St,0,4,36.1144629,-80.2452659
+19,1899819,2021,Florida,Miami,2491 NE 58th St,0,4,30.0216391,-95.3123538
+20,1898261,2021,Illinois,Evanston,100 Asbury Ave,6,2,29.7235827,-95.4421156
+21,1897878,2021,Texas,Houston,5828 Martin Luther King Blvd,1,3,40.110245,-88.2353849
+22,1896774,2021,District of Columbia,Washington,1300 block of Columbia Rd NW,0,5,39.3048255,-76.6081873
+23,1896384,2021,Texas,Livingston,201 Maple Ln,2,2,48.4616279,-122.3386173
+24,1896252,2021,Virginia,Manassas,10010 Ellis Rd,3,3,39.9854586,-75.08589
+0,1894822,2021,Louisiana,New Orleans,1600 block of N Galvez St,0,4,36.1450958,-96.0023638
+1,1894979,2021,Florida,Tampa,1225 S 78th St,0,5,37.7640281,-122.1743935
+2,1894941,2021,Florida,Fort Lauderdale (Lauderhill),1828 NW 38th Ave,0,7,37.7194881,-122.425285
+3,1893953,2021,Oregon,Gresham,NE 181st Ave and NE San Rafael St,0,4,41.7718443,-87.672785
+4,1893327,2021,Texas,Houston,2900 Travis St,1,4,30.7029976,-88.0786828
+5,1893754,2021,Florida,Miami,3632 NW 25th Ave,0,6,42.2699348,-88.9627801
+6,1893601,2021,Louisiana,Shreveport,6900 block of Jewella Ave,2,3,34.027134,-118.3507829
+7,1893877,2021,California,Santa Barbara,1200 block of Liberty St,2,2,41.883879,-87.7085187
+8,1893744,2021,Florida,Miami,10525 NW 24th Ave,0,8,41.872262,-87.69373
+9,1892034,2021,Arkansas,Fort Smith,3211 Towson Ave,0,7,42.9121115,-85.62301
+10,1892704,2021,Texas,Amarillo,2650 Dumas Dr,1,3,38.5979369,-121.4276274
+11,1892114,2021,Iowa,Sioux City,2637 S Walker St,1,4,40.6327104,-74.0271053
+12,1891720,2021,Illinois,Galesburg,1000 block of Monroe St,0,4,29.9673972,-90.1018231
+13,1891461,2020,Indiana,Indianapolis,8215 Center Run Road,1,3,44.9884743,-93.2549796
+14,1890946,2020,Oregon,Happy Valley,9200 block of SE Idleman Rd,0,4,29.3984415,-98.5042924
+15,1886974,2020,Illinois,Rockford,4007 E State St,3,3,41.0321327,-87.5381426
+16,1886913,2020,Florida,Tampa,N 20th St and E 7th Ave,2,2,36.7565424,-119.7711186
+17,1887059,2020,Massachusetts,Lynn,Washington St and Quincy Ter,1,5,37.7849319,-122.4129481
+18,1886849,2020,Florida,Miami,NW 61st St and NW 13th Ave,1,3,36.1144629,-80.2452659
+19,1886372,2020,Florida,Boynton Beach,Martin Luther King Jr Blvd and N Seacrest Blvd,1,4,30.0216391,-95.3123538
+20,1886721,2020,Arkansas,Atkins,5180 Pine Ridge Rd,5,0,29.7235827,-95.4421156
+21,1886141,2020,Florida,Lakeland,1500 block of Amos Ave,1,4,40.110245,-88.2353849
+22,1885251,2020,Mississippi,Meridian,Jeffrey Acres Rd,5,0,39.3048255,-76.6081873
+23,1882214,2020,Connecticut,Bridgeport,456 Connecticut Ave,2,2,48.4616279,-122.3386173
+24,1881213,2020,Illinois,Chicago,8936 S Cottage Grove Ave,0,6,39.9854586,-75.08589
+0,1876727,2020,West Virginia,Elkview,1384 Cemetery Hill Dr,4,0,36.1450958,-96.0023638
+1,1877043,2020,California,San Bernardino,900 block of N Sierra Way,1,3,37.7640281,-122.1743935
+2,1876231,2020,New York,Copiague,2336 Great Neck Rd,2,2,37.7194881,-122.425285
+3,1876039,2020,New York,Brooklyn,574 Warren St,0,4,41.7718443,-87.672785
+4,1876552,2020,Maryland,Hyattsville (Landover),8600 block of Old Ardmore Rd,2,2,30.7029976,-88.0786828
+5,1877628,2020,Georgia,Tifton,700 block of 17 1/2 St,0,4,42.2699348,-88.9627801
+6,1877122,2020,Mississippi,Jackson,1805 Hospital Dr,0,5,34.027134,-118.3507829
+7,1908063,2020,West Virginia,Williamsburg,611 Flynns Creek Rd,6,0,41.883879,-87.7085187
+8,1873798,2020,Louisiana,Lacombe,28399 Palmer Dr,2,3,41.872262,-87.69373
+9,1870827,2020,Texas,Venus,6100 N FM 157,0,6,42.9121115,-85.62301
+10,1871627,2020,California,Hayward,25000 block of Eldridge Ave,1,3,38.5979369,-121.4276274
+11,1870840,2020,North Carolina,Autryville,10101 Gip Rd,0,6,40.6327104,-74.0271053
+12,1869748,2020,Illinois,Chicago,4400 block of W Adams St,0,4,29.9673972,-90.1018231
+13,1867006,2020,Pennsylvania,Morrisville,1 Makefield Rd,1,3,44.9884743,-93.2549796
+14,1866100,2020,Alaska,Palmer,335 N Valley Way,4,0,29.3984415,-98.5042924
+15,1864683,2020,Mississippi,Grenada,Highway 8 East,0,11,41.0321327,-87.5381426
+16,1865110,2020,Tennessee,Memphis,3492 W Metropolitan Cir,2,3,36.7565424,-119.7711186
+17,1863726,2020,South Carolina,Aiken,1695 Richland Ave E,1,10,37.7849319,-122.4129481
+18,1864205,2020,South Carolina,Conway,3800 block of Golden Key Rd,0,5,36.1144629,-80.2452659
+19,1864177,2020,Louisiana,New Orleans,7001 Lawrence Rd,0,4,30.0216391,-95.3123538
+20,1862947,2020,Georgia,Macon,425 Cherry St,1,5,29.7235827,-95.4421156
+21,1863099,2020,Ohio,Toledo,3257 Stickney Ave,0,6,40.110245,-88.2353849
+22,1862603,2020,Nevada,Henderson,870 E Lake Mead Pkwy,1,5,39.3048255,-76.6081873
+23,1859110,2020,New Jersey,Trenton,Stuyvesant Ave and Hoffman Ave,0,4,48.4616279,-122.3386173
+24,1859390,2020,New York,Brooklyn,15 Albany Ave,1,6,39.9854586,-75.08589
+0,1858455,2020,Illinois,Chicago,700 block of E 101st St,1,3,36.1450958,-96.0023638
+1,1859186,2020,Louisiana,New Orleans,9232 Chef Menteur Hwy,1,3,37.7640281,-122.1743935
+2,1857439,2020,Illinois,Chicago,W 79th St and S Justine St,0,6,37.7194881,-122.425285
+3,1857947,2020,Arizona,Phoenix,35th Ave and Earll Dr,1,4,41.7718443,-87.672785
+4,1858965,2020,Nebraska,Bellevue,1307 Cornhusker Rd,2,2,30.7029976,-88.0786828
+5,1857040,2020,Wisconsin,Milwaukee (Wauwatosa),2500 N Mayfair Rd,0,8,42.2699348,-88.9627801
+6,1856417,2020,Florida,Haines City,422 N 15th St,1,3,34.027134,-118.3507829
+7,1855276,2020,Texas,Houston,11614 Manor Park Dr,3,2,41.883879,-87.7085187
+8,1856338,2020,South Carolina,Florence,500 block of Gaillard St,0,4,41.872262,-87.69373
+9,1854207,2020,Tennessee,Jackson,Honey Bear Cove,0,4,42.9121115,-85.62301
+10,1854149,2020,Florida,Miami,200 block of S Biscayne River Dr,0,4,38.5979369,-121.4276274
+11,1853615,2020,Illinois,Chicago,700 block of S Pulaski Rd,0,4,40.6327104,-74.0271053
+12,1854076,2020,Illinois,Chicago,2700 block of S State St,0,4,29.9673972,-90.1018231
+13,1852831,2020,Louisiana,Shreveport,300 block of Douglas St,0,5,44.9884743,-93.2549796
+14,1853089,2020,Georgia,Jonesboro,Museum Cir,2,2,29.3984415,-98.5042924
+15,1852604,2020,South Carolina,Sumter,1008 Marilyn Ave,3,1,41.0321327,-87.5381426
+16,1852853,2020,Missouri,Fulton,1915 N Bluff St,0,4,36.7565424,-119.7711186
+17,1852161,2020,Ohio,Cincinnati,400 block of Kings Run Dr,0,4,37.7849319,-122.4129481
+18,1852363,2020,California,Riverside,La Sierra Avenue and Tin Mine Road,2,3,36.1144629,-80.2452659
+19,1850981,2020,Florida,Tampa,1200 block of E Palifox St,2,4,30.0216391,-95.3123538
+20,1850693,2020,North Carolina,Gastonia,1225 Union Rd,0,6,29.7235827,-95.4421156
+21,1849308,2020,Florida,Tampa,N 50th St and Sligh Ave,1,7,40.110245,-88.2353849
+22,1847840,2020,Texas,Fort Worth,5310 E Rosedale St,0,4,39.3048255,-76.6081873
+23,1846712,2020,Virginia,Virginia Beach,3700 block of Whitney Ct,0,4,48.4616279,-122.3386173
+24,1846494,2020,Tennessee,Nashville,2nd Ave N and Commerce St,0,8,39.9854586,-75.08589
+0,1846764,2020,Kansas,Ogden,225 Riley Ave,0,4,36.1450958,-96.0023638
+1,1845690,2020,South Carolina,Rock Hill,241 Albright Rd,1,3,37.7640281,-122.1743935
+2,1845477,2020,Louisiana,New Orleans,8622 Belfast St,2,2,37.7194881,-122.425285
+3,1844573,2020,Ohio,Toledo,2125 Parkwood Ave,3,2,41.7718443,-87.672785
+4,1843360,2020,Missouri,Jefferson City,1299 Lafayette St,0,4,30.7029976,-88.0786828
+5,1842362,2020,Nevada,Henderson,1445 Stonelake Cove Ave,4,1,42.2699348,-88.9627801
+6,1842421,2020,Ohio,Mansfield,136 Sturges Ave,0,5,34.027134,-118.3507829
+7,1840534,2020,South Carolina,Hollywood,7800 block of White Point Rd,0,6,41.883879,-87.7085187
+8,1840265,2020,Indiana,Evansville,664 E Illinois St,0,4,41.872262,-87.69373
+9,1840364,2020,Oklahoma,Oklahoma City,10601 S Western Ave,1,3,42.9121115,-85.62301
+10,1841432,2020,North Carolina,Winston Salem (Winston-salem),3900 block of Glen Hi Rd,1,3,38.5979369,-121.4276274
+11,1840600,2020,Arizona,Tucson,2500 block of E Aerospace Parkway,2,2,40.6327104,-74.0271053
+12,1840310,2020,New Jersey,Atlantic City,2721 Arctic Ave,1,4,29.9673972,-90.1018231
+13,1839628,2020,California,Sacramento,2800 block of Normington Dr,0,4,44.9884743,-93.2549796
+14,1839576,2020,Washington,Sumner,127th Ave E and Valley Ave E,0,5,29.3984415,-98.5042924
+15,1839462,2020,California,Anaheim,1210 S State College Blvd,0,4,41.0321327,-87.5381426
+16,1840544,2020,Nevada,North Las Vegas,3700 block of Iverson Ln,0,4,36.7565424,-119.7711186
+17,1840041,2020,Maryland,College Park,7700 Baltimore Ave,0,7,37.7849319,-122.4129481
+18,1839112,2020,Maryland,Waldorf,2177 Crain Hwy,1,3,36.1144629,-80.2452659
+19,1839065,2020,Illinois,Chicago,11613 S Vincennes Ave,1,3,30.0216391,-95.3123538
+20,1838368,2020,Florida,Winter Garden,Center St and 11th St,0,4,29.7235827,-95.4421156
+21,1837146,2020,Virginia,Roanoke,1400 block of Rorer Ave SW,0,4,40.110245,-88.2353849
+22,1837429,2020,New Jersey,Newark,381 S 6th St,1,3,39.3048255,-76.6081873
+23,1834216,2020,Texas,Fort Worth,1900 block of Carver Ave,2,3,48.4616279,-122.3386173
+24,1835030,2020,Texas,San Antonio,2800 block of W Hutchins Pl,1,3,39.9854586,-75.08589
+0,1834280,2020,North Carolina,Raleigh,1731 Trawick Rd,1,3,36.1450958,-96.0023638
+1,1834617,2020,Mississippi,Greenwood,W Martin Luther King Dr,2,8,37.7640281,-122.1743935
+2,1832014,2020,Florida,Miami,1830 NW 50 St,1,3,37.7194881,-122.425285
+3,1832977,2020,Louisiana,Rayne,I-10,0,5,41.7718443,-87.672785
+4,1831995,2020,Massachusetts,Boston,Columbia Rd and Stanwood St,0,4,30.7029976,-88.0786828
+5,1831091,2020,Maryland,Baltimore,500 block of W Franklin St,0,4,42.2699348,-88.9627801
+6,1830875,2020,New York,Brooklyn,Nostrand Ave and Hawthorne St,1,5,34.027134,-118.3507829
+7,1830822,2020,Mississippi,Canton,1427 W Peace St,2,2,41.883879,-87.7085187
+8,1830092,2020,Texas,Houston,2117 Chenevert St,3,1,41.872262,-87.69373
+9,1829132,2020,Ohio,Mansfield,136 Sturges Ave,0,5,42.9121115,-85.62301
+10,1828796,2020,Louisiana,New Orleans,2599 N Prieur St,1,3,38.5979369,-121.4276274
+11,1827437,2020,Maryland,Annapolis,100 block of Clay St,1,3,40.6327104,-74.0271053
+12,1828080,2020,Illinois,Chicago,200 block of N Sacramento Blvd,1,4,29.9673972,-90.1018231
+13,1828019,2020,Tennessee,Nashville,1100 block of W Grove Ave,0,4,44.9884743,-93.2549796
+14,1826680,2020,New York,Lockport,43 S Niagara St,1,5,29.3984415,-98.5042924
+15,1826613,2020,South Carolina,Rock Hill,524 N Anderson Rd,0,5,41.0321327,-87.5381426
+16,1826444,2020,California,San Jose,175 S Capitol Ave,2,4,36.7565424,-119.7711186
+17,1825525,2020,Florida,Orlando,2000 block of N Forsyth Rd,3,1,37.7849319,-122.4129481
+18,1826655,2020,Arizona,Mesa,2115 Guadalupe Rd,1,6,36.1144629,-80.2452659
+19,1826675,2020,California,San Francisco,200 block of Scherwin St,1,3,30.0216391,-95.3123538
+20,1824979,2020,Louisiana,Lafayette,100 block of Laser Ln,2,2,29.7235827,-95.4421156
+21,1825896,2020,Maryland,Baltimore,2900 block of Westwood Ave,0,7,40.110245,-88.2353849
+22,1824073,2020,Pennsylvania,Philadelphia,3900 block of Buist Ave,0,4,39.3048255,-76.6081873
+23,1821574,2020,South Carolina,Myrtle Beach,1012 US-501,2,3,48.4616279,-122.3386173
+24,1821496,2020,Georgia,Atlanta,330 W Peachtree St NW,0,4,39.9854586,-75.08589
+0,1820156,2020,Illinois,Chicago,100 block of S Keeler Ave,1,3,36.1450958,-96.0023638
+1,1823101,2020,South Carolina,Kingstree,55 Williamsburg County Hwy,0,8,37.7640281,-122.1743935
+2,1819955,2020,Missouri,Saint Louis (Jennings),8800 block of Shannon Fox Cir,2,2,37.7194881,-122.425285
+3,1818055,2020,Pennsylvania,Philadelphia,4935 Frankford Ave,1,6,41.7718443,-87.672785
+4,1816799,2020,Alaska,Anchorage,200 block of McCarrey St,1,4,30.7029976,-88.0786828
+5,1817184,2020,New York,Brooklyn,181 Hegeman Ave,1,3,42.2699348,-88.9627801
+6,1815308,2020,District of Columbia,Washington,400 block of Orange St SE,1,3,34.027134,-118.3507829
+7,1813872,2020,Indiana,Indianapolis,5462 Massachusetts Ave,3,4,41.883879,-87.7085187
+8,1814148,2020,Georgia,Atlanta,1570 Joseph E Boone Blvd NW,1,5,41.872262,-87.69373
+9,1813306,2020,Tennessee,Clarksville,100 block of Tiny Town Rd,0,5,42.9121115,-85.62301
+10,1813583,2020,California,Sacramento,Roanoke Ave and Haywood St,1,3,38.5979369,-121.4276274
+11,1812972,2020,California,Los Angeles,51st St and Hoover St,0,4,40.6327104,-74.0271053
+12,1812838,2020,Washington,Seattle,9700 block of 59th Ave S,0,4,29.9673972,-90.1018231
+13,1812049,2020,Michigan,Detroit,15018 Houston Whittier St,0,5,44.9884743,-93.2549796
+14,1810696,2020,North Carolina,Greensboro,700 block of Milton St,0,4,29.3984415,-98.5042924
+15,1810881,2020,Florida,Jacksonville,12517 Beach Blvd,0,4,41.0321327,-87.5381426
+16,1810358,2020,Wisconsin,Milwaukee,4217 W Fond du Lac Ave,0,7,36.7565424,-119.7711186
+17,1809910,2020,Pennsylvania,Philadelphia,4500 block of N 19th St,0,5,37.7849319,-122.4129481
+18,1809484,2020,Ohio,Painesville,100 block of Morse Ave,2,2,36.1144629,-80.2452659
+19,1807325,2020,Michigan,Detroit,6609 Michigan Ave,0,6,30.0216391,-95.3123538
+20,1806806,2020,Ohio,Sandusky,Hancock St and Neil St,1,3,29.7235827,-95.4421156
+21,1808628,2020,California,San Bernardino,900 block of N Sierra Way,1,3,40.110245,-88.2353849
+22,1807096,2020,Tennessee,Nashville,619 Millwood Dr,0,4,39.3048255,-76.6081873
+23,1807046,2020,Pennsylvania,Philadelphia,100 block of N Lindenwood St,0,4,48.4616279,-122.3386173
+24,1806035,2020,Alabama,Enterprise,507 Glover Ave,1,3,39.9854586,-75.08589
+0,1806002,2020,Iowa,Waterloo,501 W 4th St,2,6,36.1450958,-96.0023638
+1,1805722,2020,Illinois,Chicago,2400 block of W Lithuanian Plaza Ct,0,4,37.7640281,-122.1743935
+2,1806368,2020,Missouri,Saint Louis,4700 block of Vernon Ave,0,5,37.7194881,-122.425285
+3,1806500,2020,Pennsylvania,Philadelphia,1300 block of Sanger St,0,4,41.7718443,-87.672785
+4,1804511,2020,Georgia,Hampton,1577 Glynn Ct,1,3,30.7029976,-88.0786828
+5,1802862,2020,Minnesota,Minneapolis,200 W Broadway Ave,0,5,42.2699348,-88.9627801
+6,1800886,2020,Ohio,Struthers,111 Perry St,1,4,34.027134,-118.3507829
+7,1800549,2020,New York,Corona (Queens),Merrick Blvd and Foch Blvd,0,4,41.883879,-87.7085187
+8,1800514,2020,Connecticut,Stamford,Ursula Pl and Dale St,1,3,41.872262,-87.69373
+9,1800026,2020,New York,Buffalo,Glenwood Ave and Jefferson Ave,1,4,42.9121115,-85.62301
+10,1799748,2020,Illinois,Chicago,12200 block of S May St,0,4,38.5979369,-121.4276274
+11,1799703,2020,Illinois,Chicago,6900 block of S Claremont Ave,0,4,40.6327104,-74.0271053
+12,1800188,2020,New Jersey,Plainfield,523 W 3rd St,0,4,29.9673972,-90.1018231
+13,1799307,2020,New York,Rochester,278 Pennsylvania Ave,2,14,44.9884743,-93.2549796
+14,1800192,2020,New Jersey,Paterson,Elizabeth St and Getty Ave,0,5,29.3984415,-98.5042924
+15,1800779,2020,Arkansas,West Memphis,900 block of Winchell St,0,5,41.0321327,-87.5381426
+16,1799160,2020,Arkansas,Little Rock,5311 Mabelvale Pike,0,4,36.7565424,-119.7711186
+17,1797620,2020,Pennsylvania,Philadelphia,1800 Wallace St,2,3,37.7849319,-122.4129481
+18,1796684,2020,California,San Jose,600 block of S 8th St,2,4,36.1144629,-80.2452659
+19,1796638,2020,Illinois,Chicago,3500 block of W Lawrence Ave,0,5,30.0216391,-95.3123538
+20,1795391,2020,Louisiana,Baker,Burgess Dr,0,4,29.7235827,-95.4421156
+21,1794138,2020,Tennessee,Manchester,I-24 and McMinnville Hwy,3,3,40.110245,-88.2353849
+22,1793826,2020,Michigan,Grand Rapids,3950 Stahl Dr SE,0,7,39.3048255,-76.6081873
+23,1793559,2020,Florida,Tampa,5110 N 40th St,0,4,48.4616279,-122.3386173
+24,1794086,2020,Illinois,Chicago,6100 block of S Throop St,1,3,39.9854586,-75.08589
+0,1793521,2020,New Jersey,New Brunswick,32 Delafield St,2,7,36.1450958,-96.0023638
+1,1792650,2020,Illinois,Chicago,100 block of N Pine Ave,2,4,37.7640281,-122.1743935
+2,1793680,2020,North Carolina,Wilson,200 block of Dewey St,0,5,37.7194881,-122.425285
+3,1793771,2020,Pennsylvania,Philadelphia,N 18th St and Dauphin St,0,4,41.7718443,-87.672785
+4,1792624,2020,Louisiana,Donaldsonville,St Elizabeth St and Front St,0,5,30.7029976,-88.0786828
+5,1791482,2020,Louisiana,New Orleans,4100 block of Rayne Dr,3,2,42.2699348,-88.9627801
+6,1788401,2020,Maryland,Baltimore,2300 block of Greenmount Ave,0,5,34.027134,-118.3507829
+7,1788168,2020,Louisiana,New Orleans,1500 block of Freret St,0,4,41.883879,-87.7085187
+8,1787655,2020,New York,Brooklyn,Norstrand Ave and Crown St,0,5,41.872262,-87.69373
+9,1788352,2020,California,Aguanga,45125 Highway 371,7,0,42.9121115,-85.62301
+10,1787222,2020,Indiana,Indianapolis,W 38th St and Graceland Ave,1,4,38.5979369,-121.4276274
+11,1786855,2020,Georgia,Sparta,Faye St and Lee St,1,6,40.6327104,-74.0271053
+12,1786920,2020,Illinois,Chicago,S Kingston Ave and E 77th St,0,4,29.9673972,-90.1018231
+13,1787977,2020,Tennessee,Memphis,6555 Lost Oak Dr,0,4,44.9884743,-93.2549796
+14,1786829,2020,Colorado,Commerce City,6700 block of Birch St,0,4,29.3984415,-98.5042924
+15,1787286,2020,Missouri,Kansas City,3999 Swope Pkwy,0,6,41.0321327,-87.5381426
+16,1786890,2020,Missouri,Saint Louis,5700 block of Minerva Ave,1,3,36.7565424,-119.7711186
+17,1787006,2020,Louisiana,New Iberia,1752 Center St,0,5,37.7849319,-122.4129481
+18,1787387,2020,Maryland,Baltimore,4900 block of Reisterstown Rd,0,4,36.1144629,-80.2452659
+19,1786488,2020,Texas,Houston,9940 Fondren Rd,0,4,30.0216391,-95.3123538
+20,1786449,2020,Maryland,Baltimore,2000 block of W Lexington St,1,3,29.7235827,-95.4421156
+21,1785713,2020,Florida,Williston,Co Rd 318 and US-27 Alt,0,6,40.110245,-88.2353849
+22,1786806,2020,Arkansas,Little Rock,400 President Clinton Ave,0,4,39.3048255,-76.6081873
+23,1805455,2020,South Carolina,Anderson,R St and Chase Ave,1,3,48.4616279,-122.3386173
+24,1785358,2020,Florida,Miami,2000 block of NW 71st St,1,3,39.9854586,-75.08589
+0,1784570,2020,Arkansas,Hensley,Woodson Lateral Rd and I-530,1,3,36.1450958,-96.0023638
+1,1785108,2020,Pennsylvania,Philadelphia,700 block of E Chelten Ave,0,6,37.7640281,-122.1743935
+2,1785593,2020,Arkansas,Little Rock,19 Nandina Cir,0,4,37.7194881,-122.425285
+3,1783582,2020,Pennsylvania,Philadelphia,1800 block of Moore St,2,2,41.7718443,-87.672785
+4,1784141,2020,Georgia,Albany,1400 block of E Residence Ave,1,3,30.7029976,-88.0786828
+5,1783928,2020,California,Oakland,Kerwin Ave and 105th Ave,0,4,42.2699348,-88.9627801
+6,1825993,2020,Pennsylvania,Philadelphia,1500 block of W Clearfield St,0,5,34.027134,-118.3507829
+7,1782962,2020,Florida,Tallahassee,2660 Old Bainbridge Rd,0,4,41.883879,-87.7085187
+8,1780301,2020,Kentucky,Lexington,545 N Upper St,0,7,41.872262,-87.69373
+9,1780199,2020,Illinois,Zion,2300 block of Joppa Ave,1,3,42.9121115,-85.62301
+10,1780266,2020,Texas,San Antonio,S Olive St and Aransas Ave,2,2,38.5979369,-121.4276274
+11,1779981,2020,New York,Buffalo,500 block of Fillmore Ave,1,4,40.6327104,-74.0271053
+12,1784122,2020,Pennsylvania,Philadelphia,5317 Oxford Ave,0,4,29.9673972,-90.1018231
+13,1779718,2020,Illinois,Chicago,11601 S Western Ave,1,4,44.9884743,-93.2549796
+14,1780091,2020,Kentucky,Madisonville,400 block of Elm St,0,5,29.3984415,-98.5042924
+15,1780228,2020,Nevada,Las Vegas,777 E Twain Ave,2,2,41.0321327,-87.5381426
+16,1778571,2020,Illinois,Rock Island,1800 2nd Ave,1,5,36.7565424,-119.7711186
+17,1778435,2020,Minnesota,Minneapolis,2400 block of Irving Ave N,0,4,37.7849319,-122.4129481
+18,1778542,2020,Pennsylvania,Chester,2900 block of W 2nd St,1,3,36.1144629,-80.2452659
+19,1779023,2020,Texas,Dallas,2600 block of Elm St,1,4,30.0216391,-95.3123538
+20,1777607,2020,Oregon,Portland,10500 block of NE Halsey St,1,3,29.7235827,-95.4421156
+21,1777180,2020,Michigan,Pontiac,252 Carriage Circle Dr,3,1,40.110245,-88.2353849
+22,1776905,2020,South Carolina,Hilton Head Island,Muddy Creek Rd and Spanish Wells Rd,0,4,39.3048255,-76.6081873
+23,1777400,2020,Pennsylvania,Philadelphia,5500 block of Chew Ave,0,4,48.4616279,-122.3386173
+24,1776189,2020,Virginia,Norfolk,800 block of E Princess Anne Rd,0,5,39.9854586,-75.08589
+0,1775249,2020,New York,Rochester,70 block of Flower St,0,4,36.1450958,-96.0023638
+1,1774123,2020,Michigan,Detroit,11938 E McNichols Rd,0,4,37.7640281,-122.1743935
+2,1773194,2020,California,Sacramento,1200 block of Helena Ave,1,3,37.7194881,-122.425285
+3,1774138,2020,Florida,West Palm Beach,1000 block of 18th St,0,4,41.7718443,-87.672785
+4,1773996,2020,Virginia,Richmond,2300 block of Bethel St,1,4,30.7029976,-88.0786828
+5,1772623,2020,Arkansas,Pine Bluff,2901 W 28th Ave,0,7,42.2699348,-88.9627801
+6,1772513,2020,New York,Brooklyn,2946 W 23rd St,1,3,34.027134,-118.3507829
+7,1772680,2020,Tennessee,Somerville,1100 block of Brewer Rd,1,4,41.883879,-87.7085187
+8,1772934,2020,Colorado,Pueblo,2000 block of Longhorn Point,0,6,41.872262,-87.69373
+9,1772438,2020,Illinois,Champaign,100 block of Kenwood Rd,0,4,42.9121115,-85.62301
+10,1773006,2020,Illinois,Chicago,6600 S Halsted St,0,4,38.5979369,-121.4276274
+11,1772764,2020,Illinois,Rockford,1300 block of 10th St,1,3,40.6327104,-74.0271053
+12,1772174,2020,Alabama,Bessemer (Hueytown),Allison Bonnet Memorial Dr and Rutledge Dr,1,3,29.9673972,-90.1018231
+13,1769444,2020,Pennsylvania,Philadelphia,700 block of S 55th St,0,4,44.9884743,-93.2549796
+14,1769489,2020,Illinois,Chicago,8500 block of S Parnell Ave,0,6,29.3984415,-98.5042924
+15,1768125,2020,Pennsylvania,Philadelphia,30th St and Cumberland St,1,4,41.0321327,-87.5381426
+16,1767851,2020,New York,Corona (Queens),35-35 21st St,0,4,36.7565424,-119.7711186
+17,1767747,2020,Illinois,Rockford,3001 Harney Ct,0,4,37.7849319,-122.4129481
+18,1768683,2020,Ohio,Cleveland,Dove Ave and E 102nd St,0,5,36.1144629,-80.2452659
+19,1766574,2020,New York,Brooklyn,Atlantic Ave and Hinsdale St,0,4,30.0216391,-95.3123538
+20,1767402,2020,Texas,Dayton,County Rd 4901,3,2,29.7235827,-95.4421156
+21,1765624,2020,Ohio,Cincinnati,700 block of Chalfonte Pl,1,3,40.110245,-88.2353849
+22,1765636,2020,Ohio,Cincinnati,70 E McMicken Ave,2,9,39.3048255,-76.6081873
+23,1765658,2020,Kentucky,Lexington,1000 block of Newtown Ct,1,3,48.4616279,-122.3386173
+24,1766423,2020,Ohio,Cincinnati,700 block of Chalfonte Pl,1,3,39.9854586,-75.08589
+0,1766380,2020,Colorado,Denver,W Alameda Ave and S Federal Blvd,2,4,36.1450958,-96.0023638
+1,1765920,2020,Oklahoma,Oklahoma City,SW 59th St and Agnew Ave,0,4,37.7640281,-122.1743935
+2,1765336,2020,Michigan,Belleville,24914 Martinsville Rd,4,0,37.7194881,-122.425285
+3,1765499,2020,Pennsylvania,Philadelphia,N 10th St and Brown St,0,5,41.7718443,-87.672785
+4,1765890,2020,New York,Rochester,501 Thurston Rd,0,5,30.7029976,-88.0786828
+5,1765705,2020,Connecticut,New Haven,Rosette St and Hurlburt St,1,5,42.2699348,-88.9627801
+6,1764756,2020,Alabama,Troy,4100 US-231 S,2,3,34.027134,-118.3507829
+7,1764619,2020,New York,New York (Manhattan),111 Lenox Ave,0,4,41.883879,-87.7085187
+8,1762951,2020,New Jersey,Newark,N 12th St,1,4,41.872262,-87.69373
+9,1762997,2020,Ohio,Dayton,2049 Catalpa Dr,1,3,42.9121115,-85.62301
+10,1761557,2020,California,Torrance,22904 Lockness Ave,0,5,38.5979369,-121.4276274
+11,1759873,2020,Colorado,Denver,1400 block of W Byers Pl,0,9,40.6327104,-74.0271053
+12,1759779,2020,Ohio,Toledo,Monroe St and N Detroit Ave,0,6,29.9673972,-90.1018231
+13,1758966,2020,District of Columbia,Washington,3300 block of Dubois Pl SE,1,21,44.9884743,-93.2549796
+14,1760207,2020,Mississippi,Jackson,3600 block of Cromwell St,0,4,29.3984415,-98.5042924
+15,1760261,2020,Texas,Houston,9700 Homestead Rd,0,4,41.0321327,-87.5381426
+16,1759425,2020,Kentucky,Paducah,900 block of Boyd St,1,4,36.7565424,-119.7711186
+17,1758838,2020,Pennsylvania,Philadelphia,1101 N 38th St,0,6,37.7849319,-122.4129481
+18,1759439,2020,Massachusetts,Brockton,124 Laureston St,0,5,36.1144629,-80.2452659
+19,1759237,2020,Alabama,Birmingham (Ensley),426 18th St,1,5,30.0216391,-95.3123538
+20,1758774,2020,New York,Albany,First St and Quail St,1,3,29.7235827,-95.4421156
+21,1757380,2020,California,Oakland,4500 block of Fairfax Ave,1,3,40.110245,-88.2353849
+22,1756248,2020,Illinois,Chicago,700 block of S Karlov Ave,0,4,39.3048255,-76.6081873
+23,1755566,2020,Wisconsin,Madison,333 S Rosa Rd,0,4,48.4616279,-122.3386173
+24,1755297,2020,District of Columbia,Washington,5400 block of Georgia Ave NW,0,4,39.9854586,-75.08589
+0,1754613,2020,California,Beverly Hills,13200 Mulholland Dr,1,4,36.1450958,-96.0023638
+1,1754640,2020,Missouri,Saint Louis,5300 block of Bircher Blvd,1,3,37.7640281,-122.1743935
+2,1754672,2020,Connecticut,Hartford,818 Windsor St,1,5,37.7194881,-122.425285
+3,1754363,2020,New York,Bronx,450 St Ann's Ave,0,4,41.7718443,-87.672785
+4,1753320,2020,Pennsylvania,Philadelphia,3100 block of Weymouth St,0,4,30.7029976,-88.0786828
+5,1753561,2020,New Jersey,Newark,200 block of 6th Ave,0,5,42.2699348,-88.9627801
+6,1752100,2020,Illinois,Chicago,100 block of N Laporte Ave,1,4,34.027134,-118.3507829
+7,1753235,2020,Texas,Pointblank,4411 Counts Rd,2,3,41.883879,-87.7085187
+8,1751949,2020,Colorado,Denver,3000 block of W Virginia Ave,1,4,41.872262,-87.69373
+9,1752790,2020,Alabama,Montgomery,1100 block of Eastern Blvd,0,4,42.9121115,-85.62301
+10,1752019,2020,Pennsylvania,Philadelphia,2500 block of Ingersoll St,2,2,38.5979369,-121.4276274
+11,1750548,2020,Florida,Miami Gardens,16701 NW 42 Ave,0,5,40.6327104,-74.0271053
+12,1750611,2020,Florida,Tampa,I-275 and Westshore Blvd,0,5,29.9673972,-90.1018231
+13,1750250,2020,Michigan,Detroit,5200 block of Canton St,0,4,44.9884743,-93.2549796
+14,1749873,2020,Ohio,Elyria,537 Willow Park Rd,5,0,29.3984415,-98.5042924
+15,1749746,2020,Missouri,Saint Louis,5500 block of Floy Ave,3,2,41.0321327,-87.5381426
+16,1749281,2020,Delaware,Wilmington,1100 block of Beech St,2,2,36.7565424,-119.7711186
+17,1749535,2020,Wisconsin,Milwaukee,2600 block of W Atkinson Ave,0,4,37.7849319,-122.4129481
+18,1748134,2020,Washington,Federal Way,2410 S 312th St,1,3,36.1144629,-80.2452659
+19,1747700,2020,Illinois,Chicago,705 E 92nd Pl,1,4,30.0216391,-95.3123538
+20,1746441,2020,Michigan,Flint,4462 Corunna Rd,1,3,29.7235827,-95.4421156
+21,1746658,2020,Texas,Mount Enterprise,1039 FM 1798,0,4,40.110245,-88.2353849
+22,1746282,2020,Kentucky,Louisville,I-64,1,3,39.3048255,-76.6081873
+23,1746417,2020,Colorado,Commerce City,6300 block of Ivanhoe St,1,3,48.4616279,-122.3386173
+24,1748023,2020,Arkansas,Magnolia,1000 block of W Monroe St,0,4,39.9854586,-75.08589
+0,1746582,2020,Michigan,Flint,4813 Clio Rd,0,6,36.1450958,-96.0023638
+1,1745903,2020,North Carolina,Raleigh,503 Bragg St,0,4,37.7640281,-122.1743935
+2,1746160,2020,Florida,Miami,2900 block of Northwest 51st St,1,3,37.7194881,-122.425285
+3,1746430,2020,Colorado,Denver,East 33rd Ave and Hudson St,2,3,41.7718443,-87.672785
+4,1746674,2020,Texas,Dallas,525 S Riverfront Blvd,0,4,30.7029976,-88.0786828
+5,1745737,2020,California,Manteca,4447 Woodward Ave,0,7,42.2699348,-88.9627801
+6,1744407,2020,Georgia,Atlanta,Sunset Ave NW and Lester St NW,2,2,34.027134,-118.3507829
+7,1743168,2020,Virginia,Fairfield,3700 block of Meadowbridge Rd,1,3,41.883879,-87.7085187
+8,1743488,2020,Virginia,Petersburg,Wesley St,0,4,41.872262,-87.69373
+9,1744332,2020,Illinois,Chicago,120th St and Prairie Ave,2,4,42.9121115,-85.62301
+10,1743108,2020,Michigan,Warren,28200 block of Lawson St,0,4,38.5979369,-121.4276274
+11,1741838,2020,Illinois,Chicago,1018 W 79th St,0,15,40.6327104,-74.0271053
+12,1740533,2020,Virginia,Richmond,6850 Forest Hill Ave,1,4,29.9673972,-90.1018231
+13,1740615,2020,Illinois,Chicago,S Lawndale Ave and W Douglas Blvd,0,5,44.9884743,-93.2549796
+14,1739920,2020,Michigan,Detroit,McKinney St and Meuse St,1,3,29.3984415,-98.5042924
+15,1739434,2020,Illinois,Peoria,NE Water St and Hamilton Blvd,0,13,41.0321327,-87.5381426
+16,1739571,2020,Nebraska,Omaha,28th St and T Ave,0,8,36.7565424,-119.7711186
+17,1740013,2020,Illinois,Chicago,11300 block of South Carpenter St,2,3,37.7849319,-122.4129481
+18,1739658,2020,District of Columbia,Washington,3600 block of 14th St NW,1,8,36.1144629,-80.2452659
+19,1739917,2020,Michigan,Detroit,9122 Dexter Ave,4,0,30.0216391,-95.3123538
+20,1738635,2020,Illinois,Chicago,1600 block of S Keeler Ave,1,4,29.7235827,-95.4421156
+21,1739097,2020,Ohio,Columbus,E 6th Ave and Summit St,0,4,40.110245,-88.2353849
+22,1739413,2020,Florida,Madison,SW Louisiana Terrace,0,4,39.3048255,-76.6081873
+23,1736508,2020,Tennessee,Nashville,S 7th St and Sylvan St,0,5,48.4616279,-122.3386173
+24,1736383,2020,Louisiana,Shreveport,6725 Buncombe Rd,1,3,39.9854586,-75.08589
+0,1735326,2020,New York,Brooklyn,President St and Franklin Ave,1,5,36.1450958,-96.0023638
+1,1735573,2020,Missouri,Saint Joseph,S 18th St and Charles St,0,5,37.7640281,-122.1743935
+2,1735470,2020,North Carolina,Durham,200 Block of S Benjamine St,0,8,37.7194881,-122.425285
+3,1733702,2020,New York,Brooklyn,Remsen Ave,0,6,41.7718443,-87.672785
+4,1734064,2020,Kentucky,Louisville,1200 block of W Hill St,1,3,30.7029976,-88.0786828
+5,1734058,2020,Washington,Kent,23201 Pacific Hwy South,0,6,42.2699348,-88.9627801
+6,1732485,2020,Louisiana,Baton Rouge,4718 Plank Rd,1,7,34.027134,-118.3507829
+7,1732993,2020,New York,Brooklyn,Madison St and Marcus Garvey Blvd,1,3,41.883879,-87.7085187
+8,1732688,2020,Michigan,Lansing,3029 BeauJardin Dr,0,5,41.872262,-87.69373
+9,1732365,2020,Florida,Fort Lauderdale,3000 block of NW 12th Ct,2,2,42.9121115,-85.62301
+10,1733188,2020,Illinois,Chicago,700 block of W 66th Pl,1,3,38.5979369,-121.4276274
+11,1732229,2020,Illinois,Chicago,1100 block of N Lawndale Ave,1,4,40.6327104,-74.0271053
+12,1732532,2020,Mississippi,Como,2965 Hunter Chapel Road,2,4,29.9673972,-90.1018231
+13,1731349,2020,New York,Rochester,485 N Clinton Ave,0,6,44.9884743,-93.2549796
+14,1732321,2020,Delaware,Wilmington,600 block of N Pine St,0,5,29.3984415,-98.5042924
+15,1727743,2020,Virginia,Alexandria,7900 block of Janna Lee Ave,0,5,41.0321327,-87.5381426
+16,1728683,2020,New Jersey,Paterson,Harrison St and Carroll St,4,3,36.7565424,-119.7711186
+17,1727567,2020,Illinois,Chicago,1305 W 76th St,0,6,37.7849319,-122.4129481
+18,1725883,2020,Illinois,Chicago,3700 block of W Jackson Blvd,0,4,36.1144629,-80.2452659
+19,1725802,2020,Iowa,Davenport,1000 block of W 3rd St,1,3,30.0216391,-95.3123538
+20,1725167,2020,New York,New York (Manhattan),549 Academy St,0,5,29.7235827,-95.4421156
+21,1725108,2020,South Carolina,Greenville,1701 White Horse Rd,2,8,40.110245,-88.2353849
+22,1726770,2020,Arkansas,Helena,1317 Perry St,1,3,39.3048255,-76.6081873
+23,1725690,2020,Georgia,Atlanta,200 block of Auburn Ave,2,13,48.4616279,-122.3386173
+24,1725946,2020,Missouri,Columbia,Volunteer Dr and Grace Ln,2,3,39.9854586,-75.08589
+0,1725379,2020,Wisconsin,Milwaukee,5800 block of W Hope Ave,0,4,36.1450958,-96.0023638
+1,1726446,2020,Texas,Houston,Service Rd and Holcombe Blvd,0,4,37.7640281,-122.1743935
+2,1725327,2020,Maryland,Cambridge,700 block of Weaver Ave,0,4,37.7194881,-122.425285
+3,1725145,2020,Illinois,Chicago,1500 block of S Millard Ave,1,5,41.7718443,-87.672785
+4,1725635,2020,Pennsylvania,Ephrata,6 Blackberry Ln,0,4,30.7029976,-88.0786828
+5,1726034,2020,Illinois,Freeport,900 block of S Carroll Ave,1,5,42.2699348,-88.9627801
+6,1727515,2020,Mississippi,Greenville,Union St,0,4,34.027134,-118.3507829
+7,1725571,2020,Michigan,Detroit,San Juan Dr and W McNichols Rd,2,4,41.883879,-87.7085187
+9,1725025,2020,Maryland,Temple Hills (Marlow Heights),4600 Dallas Pl,1,3,42.9121115,-85.62301
+10,1725670,2020,Georgia,Atlanta,1600 block of Lakewood Ave,0,5,38.5979369,-121.4276274
+11,1725407,2020,Massachusetts,Lynn,134 Fayette St,1,4,40.6327104,-74.0271053
+12,1725098,2020,Illinois,Chicago,8300 block of S Kingston Ave,1,3,29.9673972,-90.1018231
+13,1725081,2020,Illinois,Chicago,6100 block of S Carpenter St,4,4,44.9884743,-93.2549796
+14,1724887,2020,Louisiana,Baton Rouge,11300 block of Greenwell Springs Rd,0,4,29.3984415,-98.5042924
+15,1724219,2020,Mississippi,Jackson,6340 Ridgewood Ct Dr,1,3,41.0321327,-87.5381426
+16,1723897,2020,Alabama,Birmingham (Hoover),2000 Riverchase Galleria,1,3,36.7565424,-119.7711186
+17,1724273,2020,Maryland,Baltimore,700 block of S Woodington Rd,0,4,37.7849319,-122.4129481
+18,1723184,2020,California,Delano,2100 block of Oleander St,2,3,36.1144629,-80.2452659
+19,1723352,2020,Massachusetts,Somerville,5 River Rd,0,4,30.0216391,-95.3123538
+20,1722839,2020,New Jersey,Paterson,N Main St and Jefferson St,1,4,29.7235827,-95.4421156
+21,1722142,2020,California,Oakland,MacArthur Fwy and 106th Ave,0,4,40.110245,-88.2353849
+22,1729506,2020,Louisiana,Lake Charles,1600 block of Moss St,0,4,39.3048255,-76.6081873
+23,1721964,2020,Iowa,Davenport,1400 block of Pershing Ave,0,5,48.4616279,-122.3386173
+24,1720781,2020,Georgia,Atlanta,Parkway Dr,1,4,39.9854586,-75.08589
+0,1721669,2020,Massachusetts,Boston,14 Circuit St,1,3,36.1450958,-96.0023638
+1,1720761,2020,Illinois,Chicago,350 W Chicago Ave,0,4,37.7640281,-122.1743935
+2,1721572,2020,Ohio,Dayton,3500 block of Stanford Pl,0,4,37.7194881,-122.425285
+3,1722317,2020,Arkansas,Greenbrier,123 Laramie Rd,0,4,41.7718443,-87.672785
+4,1720834,2020,California,Sylmar,Osborne St and Foothill Blvd,0,4,30.7029976,-88.0786828
+5,1720655,2020,South Dakota,Sioux Falls,902 N Prairie Ave,1,3,42.2699348,-88.9627801
+6,1719693,2020,Pennsylvania,Philadelphia,1900 block of E Somerset St,2,2,34.027134,-118.3507829
+7,1719668,2020,Alabama,Akron,Co Rd 21,0,7,41.883879,-87.7085187
+8,1718966,2020,Illinois,Chicago,3100 block of S Rhodes Ave,2,2,41.872262,-87.69373
+9,1718847,2020,California,Red Bluff,10815 State Hwy 99W,3,4,42.9121115,-85.62301
+10,1718463,2020,Illinois,Peoria,1400 block of SW Jefferson St,0,4,38.5979369,-121.4276274
+11,1718238,2020,New York,Brooklyn,Rockaway Pkwy and Ave B,0,4,40.6327104,-74.0271053
+12,1719645,2020,Arkansas,Blytheville,600 block of Parkway Dr,3,1,29.9673972,-90.1018231
+13,1717828,2020,Colorado,Aurora,698 Peoria St,0,5,44.9884743,-93.2549796
+14,1718292,2020,California,Fresno,Pico Ave,0,4,29.3984415,-98.5042924
+15,1717173,2020,Arizona,Phoenix,5035 W McDowell Rd,0,4,41.0321327,-87.5381426
+16,1717543,2020,Pennsylvania,Philadelphia,Emerald St and E Atlantic St,0,4,36.7565424,-119.7711186
+17,1716944,2020,Connecticut,Bridgeport,527 Huntington Rd,1,3,37.7849319,-122.4129481
+18,1715616,2020,Tennessee,Jackson,Melwood St,0,4,36.1144629,-80.2452659
+19,1714504,2020,Illinois,Chicago,9100 block of South Ellis Ave,0,4,30.0216391,-95.3123538
+20,1715231,2020,Florida,Lake Worth,Lantana Rd and Edgecliff Ave,0,5,29.7235827,-95.4421156
+21,1712342,2020,North Carolina,Charlotte,1800 block of Beatties Ford Rd,4,5,40.110245,-88.2353849
+22,1713075,2020,California,San Francisco,200 block of Leavenworth St,0,5,39.3048255,-76.6081873
+23,1713790,2020,New York,Brooklyn,Sterling St and Brooklyn Ave,0,5,48.4616279,-122.3386173
+24,1712876,2020,Minnesota,Minneapolis,N Morgan Ave and N 16th Ave,0,4,39.9854586,-75.08589
+0,1712898,2020,Minnesota,Minneapolis,627 W Broadway,0,4,36.1450958,-96.0023638
+1,1712408,2020,Illinois,Chicago,200 S Central Park Blvd,0,5,37.7640281,-122.1743935
+2,1712386,2020,Illinois,Chicago,5200 block of S Lowe Ave,0,4,37.7194881,-122.425285
+3,1713668,2020,Ohio,Columbus,1910 Fountainview Ct,1,4,41.7718443,-87.672785
+4,1711747,2020,New York,Buffalo,W Ferry St and Niagara St,0,4,30.7029976,-88.0786828
+5,1711626,2020,Texas,Austin,500 block of E 7th St,0,5,42.2699348,-88.9627801
+6,1711410,2020,Minnesota,Minneapolis,2939 Hennepin Ave S,0,11,34.027134,-118.3507829
+7,1711690,2020,Alabama,Auburn,600 block of Railroad Ave,0,4,41.883879,-87.7085187
+8,1713493,2020,Texas,Corpus Christi,5802 Everhart Rd,1,3,41.872262,-87.69373
+9,1711605,2020,Wisconsin,Milwaukee,North 28th St and West Ruby Ave,0,5,42.9121115,-85.62301
+10,1711487,2020,Illinois,Chicago,2600 block of W Potomac Ave,1,3,38.5979369,-121.4276274
+11,1710537,2020,New York,Bronx,Mount Eden Pkwy and Monroe Ave,0,4,40.6327104,-74.0271053
+12,1711285,2020,New York,Syracuse,Marcellus St and Wyoming St,1,8,29.9673972,-90.1018231
+13,1711876,2020,Michigan,Detroit,Appoline St and Puritan Ave,0,4,44.9884743,-93.2549796
+14,1711272,2020,Michigan,Saginaw,Livingston Dr and Tausend St,1,3,29.3984415,-98.5042924
+15,1710849,2020,Wisconsin,Janesville,6530 S US-51,0,5,41.0321327,-87.5381426
+16,1710920,2020,North Carolina,Pinetops,715 E Lashley St,2,2,36.7565424,-119.7711186
+17,1710680,2020,New Jersey,Jersey City,Union St and Ocean Ave,1,4,37.7849319,-122.4129481
+18,1711397,2020,Kansas,Wichita,3741 N Rock Rd,0,5,36.1144629,-80.2452659
+19,1711134,2020,New York,Bronx,Mapes Ave,0,4,30.0216391,-95.3123538
+20,1708889,2020,New York,Albany,8 Albany St,0,7,29.7235827,-95.4421156
+21,1708432,2020,Illinois,Chicago,1323 W 76th St,0,4,40.110245,-88.2353849
+22,1706994,2020,Iowa,Fort Dodge,900 block of 10th Ave SW,2,2,39.3048255,-76.6081873
+23,1706710,2020,Illinois,Chicago,W Diversey Ave,0,4,48.4616279,-122.3386173
+24,1704879,2020,Minnesota,Minneapolis,328 W Broadway Ave,1,6,39.9854586,-75.08589
+0,1704862,2020,Kentucky,Louisville,531 Franklin St,1,4,36.1450958,-96.0023638
+1,1704873,2020,Louisiana,Lafayette,400 block of Jefferson St,0,5,37.7640281,-122.1743935
+2,1705050,2020,Louisiana,Lake Charles,3945 US-90,0,4,37.7194881,-122.425285
+3,1705346,2020,Louisiana,New Orleans,600 block of S Lopez St,2,2,41.7718443,-87.672785
+4,1705355,2020,Arkansas,Rison,Carver St and Center St,0,4,30.7029976,-88.0786828
+5,1705440,2020,California,Hesperia,8100 block of Julie Ct,0,5,42.2699348,-88.9627801
+6,1704116,2020,Missouri,Saint Louis,3103 N Grand Blvd,2,4,34.027134,-118.3507829
+7,1704415,2020,New York,Wyandanch,76 Grand Blvd,1,7,41.883879,-87.7085187
+8,1704176,2020,Maryland,Baltimore,700 block of S Broadway St,0,5,41.872262,-87.69373
+9,1704580,2020,Georgia,Atlanta,69 Mason Ave NE,2,5,42.9121115,-85.62301
+10,1704727,2020,District of Columbia,Washington,3100 block of Waclark Pl SE,2,5,38.5979369,-121.4276274
+11,1703509,2020,Pennsylvania,Philadelphia,N Broad St and Colwyn St,0,6,40.6327104,-74.0271053
+12,1704217,2020,New York,Bronx,E 233rd St and Bronx River Pkwy,1,3,29.9673972,-90.1018231
+13,1703985,2020,Texas,San Antonio,8134 Broadway St,0,8,44.9884743,-93.2549796
+14,1702276,2020,Virginia,Richmond,800 block of N 1st St,0,4,29.3984415,-98.5042924
+15,1702172,2020,District of Columbia,Washington,1200 block of Mt Olivet Rd NE,0,7,41.0321327,-87.5381426
+16,1703044,2020,Louisiana,Monroe,1101 Richwood Road 2,6,0,36.7565424,-119.7711186
+17,1703055,2020,Texas,Houston,5840 Glenmont Dr,2,4,37.7849319,-122.4129481
+18,1702372,2020,California,Sacramento,68th Avenue and Della Circle,1,4,36.1144629,-80.2452659
+19,1701382,2020,Ohio,Toledo,1100 block of Baker St,1,3,30.0216391,-95.3123538
+20,1701714,2020,California,Paso Robles,900 Park St,2,4,29.7235827,-95.4421156
+21,1700864,2020,North Carolina,Scotland Neck,E 13th St and Greenwood St,0,5,40.110245,-88.2353849
+22,1701426,2020,Pennsylvania,Philadelphia,600 block N 8th St,1,6,39.3048255,-76.6081873
+23,1701491,2020,California,Vallejo,100 block of Cynthia Ave,2,3,48.4616279,-122.3386173
+24,1700371,2020,New York,Brooklyn,512 Bristol St,0,4,39.9854586,-75.08589
+0,1700250,2020,Tennessee,Memphis,1525 E McLemore Ave,0,4,36.1450958,-96.0023638
+1,1699577,2020,Arkansas,Hope,1400 block of East Hickory St,0,5,37.7640281,-122.1743935
+2,1700234,2020,Illinois,Robbins,13600 block of Central Park Ave,1,3,37.7194881,-122.425285
+3,1699211,2020,Missouri,Sikeston,915 Plantation Blvd,2,7,41.7718443,-87.672785
+4,1699193,2020,Tennessee,Dyersburg,1305 Grant St,0,5,30.7029976,-88.0786828
+5,1698987,2020,Illinois,Chicago,50 block of S Seeley Ave,1,3,42.2699348,-88.9627801
+6,1699667,2020,Illinois,Chicago,3700 block of S State St,0,6,34.027134,-118.3507829
+7,1698306,2020,Missouri,Kansas City,E 18th St and Vine St,1,4,41.883879,-87.7085187
+8,1700812,2020,Mississippi,Drew,Wilson Ave,0,5,41.872262,-87.69373
+9,1698868,2020,California,Sacramento,Gardendale Rd and 29th St,1,4,42.9121115,-85.62301
+10,1698276,2020,Ohio,Ironton,1305 S 3rd St,0,4,38.5979369,-121.4276274
+11,1697541,2020,Colorado,Denver,4900 block of Wheeling St,0,4,40.6327104,-74.0271053
+12,1697453,2020,Alabama,Valhermoso Springs,522 Talucah Rd,7,0,29.9673972,-90.1018231
+13,1695998,2020,Texas,Dallas,7460 S Westmoreland Rd,1,3,44.9884743,-93.2549796
+14,1695586,2020,Wisconsin,Racine,Kewaunee St and Michigan Blvd,0,5,29.3984415,-98.5042924
+15,1695645,2020,Illinois,Chicago,8404 S Colfax Ave,0,4,41.0321327,-87.5381426
+16,1694735,2020,Missouri,Saint Louis,1915 Olive St,0,4,36.7565424,-119.7711186
+17,1693340,2020,Mississippi,Gulfport,S Carolina Ave and Polk St,1,5,37.7849319,-122.4129481
+18,1693580,2020,Pennsylvania,Philadelphia,700 block of E Clearfield St,0,4,36.1144629,-80.2452659
+19,1692513,2020,New Jersey,Paterson,E 23rd St and 10th Ave,0,4,30.0216391,-95.3123538
+20,1692912,2020,District of Columbia,Washington,300 block of 37th St SE,0,4,29.7235827,-95.4421156
+21,1693064,2020,Texas,Houston,9635 Scott St,1,4,40.110245,-88.2353849
+22,1693246,2020,Florida,Altha,21281 Apachee Rd,2,4,39.3048255,-76.6081873
+23,1692496,2020,North Carolina,Gastonia,3000 block of Earl Ln,1,5,48.4616279,-122.3386173
+24,1692102,2020,Virginia,Portsmouth,500 block of Edwards St,0,5,39.9854586,-75.08589
+0,1691221,2020,Kentucky,Louisville,601 W Jefferson St,0,7,36.1450958,-96.0023638
+1,1690922,2020,Tennessee,Memphis,TN 385 and Kirby Pkwy,0,4,37.7640281,-122.1743935
+2,1691440,2020,Pennsylvania,Philadelphia,300 block of N 55th St,1,3,37.7194881,-122.425285
+3,1690369,2020,Massachusetts,Boston,5 Ames St,1,4,41.7718443,-87.672785
+4,1690524,2020,Ohio,Cleveland,12800 Euclid Ave,1,3,30.7029976,-88.0786828
+5,1690439,2020,California,San Jose,1100 block of William Ct,0,5,42.2699348,-88.9627801
+6,1689419,2020,Pennsylvania,Philadelphia,1800 block of Hart Ln,0,4,34.027134,-118.3507829
+7,1688610,2020,Mississippi,Vicksburg,4045 Clay St,0,4,41.883879,-87.7085187
+8,1689252,2020,Pennsylvania,Philadelphia,2700 block of N Darian St,0,4,41.872262,-87.69373
+9,1688917,2020,Illinois,Chicago,W Washington Blvd and N Hamlin Blvd,2,2,42.9121115,-85.62301
+10,1689555,2020,California,Los Angeles,119th St and Berendo Ave,0,5,38.5979369,-121.4276274
+11,1688753,2020,South Carolina,Bowman,Dibble St and Rail St,3,5,40.6327104,-74.0271053
+12,1687999,2020,Louisiana,Lake Charles,6780 US-90,0,6,29.9673972,-90.1018231
+13,1687219,2020,Missouri,Saint Louis,Union Boulevard and Cote Brilliante Ave,0,4,44.9884743,-93.2549796
+14,1687414,2020,Alabama,Danville,70 Flint Creek Pvt Dr,3,1,29.3984415,-98.5042924
+15,1687037,2020,South Carolina,Myrtle Beach,12th Ave N and Ocean Blvd,0,4,41.0321327,-87.5381426
+16,1686222,2020,Texas,Houston,2900 Travis St,0,4,36.7565424,-119.7711186
+17,1686615,2020,Illinois,Rock Island,800 14 1/2 St,1,4,37.7849319,-122.4129481
+18,1687027,2020,South Carolina,Jonesville,100 block of Dover Rd,2,5,36.1144629,-80.2452659
+19,1687108,2020,North Carolina,Charlotte,4900 Block of Albemarle Rd,0,6,30.0216391,-95.3123538
+20,1687097,2020,Michigan,Flint,4100 block of Minerva St,1,3,29.7235827,-95.4421156
+21,1686414,2020,Florida,Fort Lauderdale (Lauderhill),7776 NW 44th St,0,5,40.110245,-88.2353849
+22,1686747,2020,Florida,Daytona Beach,13 S Atlantic Ave,0,6,39.3048255,-76.6081873
+23,1686685,2020,Illinois,Chicago,3911 W Grenshaw St,1,3,48.4616279,-122.3386173
+24,1687381,2020,Mississippi,Jackson,2300 block of Oakhurst Dr,1,4,39.9854586,-75.08589
+0,1686015,2020,Ohio,Cleveland,11921 Miles Ave,1,3,36.1450958,-96.0023638
+1,1683810,2020,Texas,Houston,6918 Landor St,2,3,37.7640281,-122.1743935
+2,1683653,2020,Illinois,Decatur,300 block of West Leafland Ave,0,5,37.7194881,-122.425285
+3,1682322,2020,California,Bakersfield,901 W Columbus St,0,5,41.7718443,-87.672785
+4,1681602,2020,South Carolina,Charleston,23 Cannon St,0,4,30.7029976,-88.0786828
+5,1681887,2020,Maryland,District Heights,6800 block of Atwood St,1,3,42.2699348,-88.9627801
+6,1682233,2020,South Carolina,Saint Matthews,100 block of Bugleflower Ln,4,1,34.027134,-118.3507829
+7,1681588,2020,Louisiana,Bogalusa,Martin Luther King Dr and E 4th St,0,13,41.883879,-87.7085187
+8,1686369,2020,Florida,Gainesville,2305 SE Hawthorne Rd,0,5,41.872262,-87.69373
+9,1850080,2020,Pennsylvania,Philadelphia,4300 block of Germantown Ave,0,4,42.9121115,-85.62301
+10,1680027,2020,New Mexico,Albuquerque,820 Louisiana SE,0,5,38.5979369,-121.4276274
+11,1679086,2020,Illinois,Rockford,2914 W State St,1,4,40.6327104,-74.0271053
+12,1678589,2020,Kentucky,Garrison,6151 Kinney Rd,1,4,29.9673972,-90.1018231
+13,1679356,2020,Tennessee,Memphis,3500 block of Commerce Cir,0,4,44.9884743,-93.2549796
+14,1677566,2020,Alabama,Montgomery,Rosa Parks Ave and Courtland Dr,0,4,29.3984415,-98.5042924
+15,1676515,2020,Louisiana,Baton Rouge,2944 Plank Rd,0,5,41.0321327,-87.5381426
+16,1676579,2020,Texas,Fort Worth,4750 Wilbarger St,0,5,36.7565424,-119.7711186
+17,1676746,2020,Texas,Katy,18000 block of Bonners Park Cir,0,6,37.7849319,-122.4129481
+18,1676121,2020,Missouri,Saint Louis,3500 block of Arkansas Ave,0,4,36.1144629,-80.2452659
+19,1674802,2020,Maryland,Baltimore,5100 block of Stafford Rd,0,4,30.0216391,-95.3123538
+20,1673989,2020,Texas,Houston,14200 block of Bridgeport Rd,3,1,29.7235827,-95.4421156
+21,1673633,2020,Georgia,Albany,1900 block of Meadow Dr,1,3,40.110245,-88.2353849
+22,1674299,2020,Tennessee,Memphis,Barron Ave and Dogwood Dr,2,2,39.3048255,-76.6081873
+23,1671289,2020,Ohio,Columbus,300 block of S Ashburton Rd,0,4,48.4616279,-122.3386173
+24,1671624,2020,Florida,Jacksonville,2100 block of Brooklyn Rd,1,3,39.9854586,-75.08589
+0,1671078,2020,Illinois,Chicago,3700 W 13th St,0,5,36.1450958,-96.0023638
+1,1670970,2020,Pennsylvania,Philadelphia,200 block of S Cecil St,0,4,37.7640281,-122.1743935
+2,1668470,2020,Indiana,Indianapolis,451 E Stop 11 Rd,0,4,37.7194881,-122.425285
+3,1666945,2020,Wisconsin,Milwaukee,2800 block of N 12th St,5,0,41.7718443,-87.672785
+4,1666461,2020,New York,Troy,Jefferson St and 3rd St,0,4,30.7029976,-88.0786828
+5,1666600,2020,North Carolina,Salisbury,900 block of E Lafayette St,1,4,42.2699348,-88.9627801
+6,1666327,2020,Florida,Orlando,Elese St and Deerock Dr,1,4,34.027134,-118.3507829
+7,1665834,2020,Tennessee,Memphis,500 block of Josephine St,0,7,41.883879,-87.7085187
+8,1664933,2020,Texas,Houston,4714 Ward St,3,1,41.872262,-87.69373
+9,1665735,2020,Indiana,Fort Wayne,3233 Diplomat Dr,0,4,42.9121115,-85.62301
+10,1661537,2020,Maryland,Hyattsville,7500 block of Courtney Pl,2,2,38.5979369,-121.4276274
+11,1660797,2020,North Carolina,Greensboro,4400 block of Beckford Dr,1,3,40.6327104,-74.0271053
+12,1661218,2020,Massachusetts,Springfield,College St,1,4,29.9673972,-90.1018231
+13,1659862,2020,Pennsylvania,Philadelphia,Bustleton Ave and St Vincent St,0,4,44.9884743,-93.2549796
+14,1659966,2020,Mississippi,Jackson,1200 block of Wood Village Dr,1,3,29.3984415,-98.5042924
+15,1656873,2020,California,Bakersfield,Pioneer Rd and Sterling Rd,0,6,41.0321327,-87.5381426
+16,1656265,2020,Michigan,Muskegon,800 block of Oak St,0,4,36.7565424,-119.7711186
+17,1655674,2020,Michigan,Detroit,1200 block of Payton St,0,4,37.7849319,-122.4129481
+18,1654971,2020,South Carolina,Greenwood,1522 Parkway,1,3,36.1144629,-80.2452659
+19,1656373,2020,Alaska,Anchorage,10600 block of Elmore Rd,0,4,30.0216391,-95.3123538
+20,1654341,2020,Illinois,Chicago,86th Street and Damen Avenue,1,3,29.7235827,-95.4421156
+21,1652642,2020,New York,Brooklyn,181 Rockaway Pky,0,4,40.110245,-88.2353849
+22,1652734,2020,California,Los Angeles,89th St and Hobart Ave,1,3,39.3048255,-76.6081873
+23,1653012,2020,South Carolina,Lancaster,Mahaffey Line Dr,1,4,48.4616279,-122.3386173
+24,1652601,2020,Texas,Vidor,100 block of Hebert St,0,4,39.9854586,-75.08589
+0,1652073,2020,Texas,Lubbock,2107 49th St,2,2,36.1450958,-96.0023638
+1,1652328,2020,Florida,Hialeah,W 69th St and 24th Ave,1,4,37.7640281,-122.1743935
+2,1651742,2020,Kentucky,Louisville,1000 block of Cecil Ave,0,4,37.7194881,-122.425285
+3,1649473,2020,Georgia,Macon,571 Moreland Ave,3,1,41.7718443,-87.672785
+4,1648832,2020,Pennsylvania,Philadelphia,2000 block of W Harold St,0,5,30.7029976,-88.0786828
+5,1648205,2020,Georgia,Atlanta,Ponce de Leon Ave and Parkway Dr,0,4,42.2699348,-88.9627801
+6,1647661,2020,Maryland,Baltimore,1100 block of Washington Blvd,1,3,34.027134,-118.3507829
+7,1644111,2020,Texas,San Antonio,6700 block of Hickory Springs Dr,0,4,41.883879,-87.7085187
+8,1643775,2020,South Carolina,Hanahan,Edinburgh Drive,0,4,41.872262,-87.69373
+9,1643157,2020,Virginia,Norfolk,800 block of Lincoln St,0,4,42.9121115,-85.62301
+10,1642826,2020,Missouri,Saint Louis,1923 Prairie Ave,0,4,38.5979369,-121.4276274
+11,1641923,2020,Florida,Jacksonville,11501 Harts Rd,1,4,40.6327104,-74.0271053
+12,1641216,2020,Maryland,Baltimore,300 block of McMechen St,0,7,29.9673972,-90.1018231
+13,1640295,2020,North Carolina,Moncure,842 Moncure Flatwood Rd,7,0,44.9884743,-93.2549796
+14,1640317,2020,Missouri,Springfield,3264 E Battlefield Rd,5,2,29.3984415,-98.5042924
+15,1640007,2020,Michigan,Saginaw,4100 block of Gallagher St,2,2,41.0321327,-87.5381426
+16,1639542,2020,New Mexico,Albuquerque,620 block of Arno SE,1,3,36.7565424,-119.7711186
+17,1639413,2020,Illinois,Rockford,4104 Auburn St,0,4,37.7849319,-122.4129481
+18,1640278,2020,Louisiana,New Orleans (Algiers),Wagner St and Hero Blvd,0,5,36.1144629,-80.2452659
+19,1637520,2020,Pennsylvania,Chester,200 block of Broomall Street,2,2,30.0216391,-95.3123538
+20,1635796,2020,Maryland,Rosedale,6247 Kenwood Ave,1,5,29.7235827,-95.4421156
+21,1636471,2020,Illinois,South Holland,I 94 and E 162nd St,0,4,40.110245,-88.2353849
+22,1636564,2020,California,Ceres,3600 block of Spruce Ave,1,3,39.3048255,-76.6081873
+23,1635750,2020,Ohio,Cleveland,3804 E 93rd St,1,18,48.4616279,-122.3386173
+24,1635570,2020,New Mexico,Albuquerque,1700 block of Rayo Del Sol Dr SW,0,4,39.9854586,-75.08589
+0,1635411,2020,Illinois,Chicago,900 block of E 79th St,0,7,36.1450958,-96.0023638
+1,1635118,2020,District of Columbia,Washington,6219 Dix St NE,0,6,37.7640281,-122.1743935
+2,1634128,2020,California,Tulare,111 W Tulare Ave,1,5,37.7194881,-122.425285
+3,1631040,2020,Missouri,Kansas City,510 Westport Rd,1,4,41.7718443,-87.672785
+4,1631831,2020,Colorado,Brighton,Starr Ln and County Rd 2,0,5,30.7029976,-88.0786828
+5,1629488,2020,Wisconsin,Milwaukee,3939 W Highland Blvd,6,0,42.2699348,-88.9627801
+6,1629042,2020,Illinois,Chicago,1238 E 79th St,1,4,34.027134,-118.3507829
+7,1627335,2020,North Carolina,Clarkton,71 Tina Ln,3,1,41.883879,-87.7085187
+8,1627713,2020,Texas,Houston,8712 Airline Dr,0,7,41.872262,-87.69373
+9,1625553,2020,Idaho,Caldwell,4321 S 10th Ave,2,3,42.9121115,-85.62301
+10,1625787,2020,North Carolina,Greensboro,Martin Luther King Jr Ave and Randolph Dr,0,4,38.5979369,-121.4276274
+11,1623696,2020,Mississippi,Port Gibson,8027 Hwy 61,2,2,40.6327104,-74.0271053
+12,1622406,2020,Connecticut,Hartford,451 Franklin Ave,1,5,29.9673972,-90.1018231
+13,1622962,2020,Florida,Pensacola,517 W Gadsden St,1,4,44.9884743,-93.2549796
+14,1622340,2020,Louisiana,New Orleans,Dryades St and 2nd St,0,4,29.3984415,-98.5042924
+15,1622233,2020,Tennessee,Memphis,2800 block of Riverport Rd,0,7,41.0321327,-87.5381426
+16,1621821,2020,Illinois,Chicago,6500 block of S King Dr,0,6,36.7565424,-119.7711186
+17,1619064,2020,Delaware,Dover,200 block of W Reed St,1,4,37.7849319,-122.4129481
+18,1616964,2020,Texas,Houston,1000 block of Calvin St,1,3,36.1144629,-80.2452659
+19,1615155,2020,Indiana,Indianapolis,4100 block of Shady Oak Dr,4,0,30.0216391,-95.3123538
+20,1613020,2020,Maine,Machias,323 Kennebec Rd,3,1,29.7235827,-95.4421156
+21,1612716,2020,California,Lebec,8968 Grapevine Rd,1,5,40.110245,-88.2353849
+22,1612597,2020,Mississippi,Philadelphia,257 W Beacon St,0,4,39.3048255,-76.6081873
+23,1611563,2020,California,Delano,Hiett Ave and County Line Rd,1,4,48.4616279,-122.3386173
+24,1610782,2020,Louisiana,Shreveport,2000 Grimmett Dr,0,4,39.9854586,-75.08589
+0,1611037,2020,Florida,Boynton Beach,200 block of NE 1st Ct,1,3,36.1450958,-96.0023638
+1,1610240,2020,California,Merced,100 block of W 18th St,0,4,37.7640281,-122.1743935
+2,1606554,2020,Connecticut,Bridgeport,172 Golden Hill St,0,4,37.7194881,-122.425285
+3,1605948,2020,Missouri,Cape Girardeau,631 S Sprigg St,0,5,41.7718443,-87.672785
+4,1605798,2020,New York,Newburgh,1571 NY-300,3,1,30.7029976,-88.0786828
+5,1605770,2020,North Carolina,Salisbury,1935 Jake Alexander Blvd,0,6,42.2699348,-88.9627801
+6,1605752,2020,South Carolina,Hartsville,115 W Camden Ave,3,3,34.027134,-118.3507829
+7,1606476,2020,North Carolina,Vanceboro,107 Kinshaw Ct,5,0,41.883879,-87.7085187
+8,1603241,2020,Washington,Seattle,1530 3rd Ave,1,7,41.872262,-87.69373
+9,1600787,2020,Missouri,Kansas City,4802 Noland Rd,2,15,42.9121115,-85.62301
+10,1600221,2020,Tennessee,Memphis,6761 Winchester Rd,1,4,38.5979369,-121.4276274
+11,1600522,2020,Texas,San Antonio,1011 Avenue B,2,5,40.6327104,-74.0271053
+12,1600350,2020,Texas,South Houston,700 block of Virginia St,2,2,29.9673972,-90.1018231
+13,1599331,2020,Utah,Grantsville,93 Eastmoor Dr,4,1,44.9884743,-93.2549796
+14,1598447,2020,Illinois,Chicago,234 N Pulaski Rd,0,5,29.3984415,-98.5042924
+15,1594173,2020,Colorado,Aurora,17158 E Adriatic Place,0,5,41.0321327,-87.5381426
+16,1592655,2020,Mississippi,Bay Saint Louis,10 Bay Park Way,2,2,36.7565424,-119.7711186
+17,1588919,2020,Georgia,Atlanta,1008 Brady Ave NW,0,4,37.7849319,-122.4129481
+18,1588308,2020,Florida,Ocala,800 block of NW 6th Ter,1,3,36.1144629,-80.2452659
+19,1586839,2020,New York,Brooklyn,6120 3rd Ave,0,4,30.0216391,-95.3123538
+20,1585746,2020,Ohio,Cleveland,1437 St Clair Ave NE,0,4,29.7235827,-95.4421156
+21,1585394,2020,West Virginia,Huntington,1113 4th Ave,0,7,40.110245,-88.2353849
+22,1585894,2020,Missouri,Saint Louis,3000 block of S Jefferson Ave,3,2,39.3048255,-76.6081873
+23,1582816,2019,Illinois,Danville,1803 block of Westview Ave,0,5,48.4616279,-122.3386173
+24,1582197,2019,New York,Buffalo,50 block of Henrietta Ave,1,3,39.9854586,-75.08589
+0,1583444,2019,California,Ceres,800 block of Allacante Dr,0,5,36.1450958,-96.0023638
+1,1581590,2019,California,Modesto,1900 block of Vernon Ave,1,3,37.7640281,-122.1743935
+2,1581476,2019,Georgia,Kennesaw,1575 Ridenour Pkwy NW,0,4,37.7194881,-122.425285
+3,1581103,2019,Texas,Houston,500 block of Smart St,2,7,41.7718443,-87.672785
+4,1580308,2019,Florida,Saint Petersburg,4300 6th St S,0,5,30.7029976,-88.0786828
+5,1579889,2019,California,Oakland,2100 block of 34th Ave,0,4,42.2699348,-88.9627801
+6,1579970,2019,Iowa,Coralville,954 Boston Way,1,3,34.027134,-118.3507829
+7,1579856,2019,Virginia,Richmond,1800 E Main St,1,3,41.883879,-87.7085187
+8,1579266,2019,Louisiana,New Orleans,6400 block of General Meyer Ave,0,4,41.872262,-87.69373
+9,1594317,2019,Illinois,Joliet,1200 block of Cutter Ave,0,5,42.9121115,-85.62301
+10,1579220,2019,North Carolina,High Point,1226 Montlieu Ave,0,6,38.5979369,-121.4276274
+11,1577577,2019,Maryland,Baltimore,225 Park Ave,0,7,40.6327104,-74.0271053
+12,1577688,2019,Minnesota,Minneapolis (Spring Lake Park),8407 Plaza Blvd NE,1,7,29.9673972,-90.1018231
+13,1577518,2019,Illinois,Chicago,5700 block of S May St,0,13,44.9884743,-93.2549796
+14,1578711,2019,Louisiana,Edgard,2555 LA-18,0,4,29.3984415,-98.5042924
+15,1577046,2019,Mississippi,Waynesboro,Turner St,1,6,41.0321327,-87.5381426
+16,1577438,2019,Alabama,Tuskegee,2900 block of Davison St,2,2,36.7565424,-119.7711186
+17,1575175,2019,Texas,San Antonio,2418 SW Military Dr,0,4,37.7849319,-122.4129481
+18,1573754,2019,Montana,Great Falls,1701 10th Ave S,4,1,36.1144629,-80.2452659
+19,1572275,2019,Georgia,Columbus,600 block of 32nd St,1,4,30.0216391,-95.3123538
+20,1573471,2019,California,Ivanhoe,15700 block of Paradise Ave,0,4,29.7235827,-95.4421156
+21,1571348,2019,Missouri,Saint Louis (Moline Acres),9900 block of Lewis and Clark Blvd,1,3,40.110245,-88.2353849
+22,1568230,2019,New Jersey,Jersey City,223 Martin Luther King Dr,6,3,39.3048255,-76.6081873
+23,1567932,2019,Texas,Desoto,200 block of W Wintergreen Rd,2,3,48.4616279,-122.3386173
+24,1567231,2019,Louisiana,New Orleans,3801 Washington Ave,1,4,39.9854586,-75.08589
+0,1565216,2019,Florida,Pensacola,280 Taylor Rd,4,8,36.1450958,-96.0023638
+1,1564524,2019,Alabama,Montgomery,500 Eastdale Rd S,2,2,37.7640281,-122.1743935
+2,1562043,2019,Louisiana,Cotton Valley,116 Hawthorne Loop,2,3,37.7194881,-122.425285
+3,1561966,2019,Louisiana,New Orleans,2000 block of N Dorgenois St,2,2,41.7718443,-87.672785
+4,1561813,2019,Illinois,Aurora,700 block of S 5th St,1,4,30.7029976,-88.0786828
+5,1562685,2019,Michigan,Kalamazoo,6300 block of Proctor St,1,3,42.2699348,-88.9627801
+6,1561734,2019,Louisiana,New Orleans,700 block of Canal St,0,12,34.027134,-118.3507829
+7,1561398,2019,Arkansas,Hensley,6500 block of E Sardis Rd,0,5,41.883879,-87.7085187
+8,1560645,2019,Texas,Amarillo,2650 Dumas Dr,0,7,41.872262,-87.69373
+9,1559257,2019,New York,Bronx,E 153rd St and Courtlandt Ave,0,5,42.9121115,-85.62301
+10,1558067,2019,Florida,Brownsville,NW 29th Ave and 44th St,2,2,38.5979369,-121.4276274
+11,1557006,2019,Alabama,Birmingham,7 15th St W,1,4,40.6327104,-74.0271053
+12,1556633,2019,California,Los Angeles,100 block of E 11th St,0,6,29.9673972,-90.1018231
+13,1556984,2019,Louisiana,Cottonport,3846 LA-29,2,2,44.9884743,-93.2549796
+14,1555879,2019,California,Los Angeles,833 S Spring St,0,4,29.3984415,-98.5042924
+15,1556002,2019,Louisiana,Tallulah,Depot St,1,6,41.0321327,-87.5381426
+16,1555135,2019,California,Long Beach,1100 block of 10th St,0,5,36.7565424,-119.7711186
+17,1554807,2019,Washington,Everett,120 West Casino Rd,0,4,37.7849319,-122.4129481
+18,1554446,2019,California,Richmond,20th St and Roosevelt Ave,0,4,36.1144629,-80.2452659
+19,1552068,2019,New Jersey,Newark,139 S 8th St,1,4,30.0216391,-95.3123538
+20,1551531,2019,California,Fresno,5361 E Lamona Ave,4,6,29.7235827,-95.4421156
+21,1551162,2019,Ohio,Cleveland,7100 block of Lawn Ave,0,4,40.110245,-88.2353849
+22,1550546,2019,California,San Diego,2152 Flintridge Dr,6,0,39.3048255,-76.6081873
+23,1548689,2019,California,Santa Clarita,21900 Centurion Way,3,3,48.4616279,-122.3386173
+24,1547021,2019,Florida,Belle Glade,SW 7th St,0,4,39.9854586,-75.08589
+0,1546102,2019,Missouri,Kansas City,4704 Independence Ave,0,4,36.1450958,-96.0023638
+1,1546038,2019,Tennessee,Memphis,2080 E. Brooks Rd,1,4,37.7640281,-122.1743935
+2,1546155,2019,Arkansas,Little Rock,3000 block of W 12th St,0,4,37.7194881,-122.425285
+3,1545955,2019,Michigan,Detroit,3800 block of E McNichols Rd,0,4,41.7718443,-87.672785
+4,1546508,2019,Georgia,Vidalia,Wiggins St,0,4,30.7029976,-88.0786828
+5,1545027,2019,North Carolina,Raleigh,503 Bragg St,1,3,42.2699348,-88.9627801
+6,1543835,2019,Georgia,Conyers,1800 block of Green St,2,3,34.027134,-118.3507829
+7,1541774,2019,Texas,Houston,5000 block of Northridge Dr,1,4,41.883879,-87.7085187
+8,1540863,2019,Ohio,Toledo,600 block of Magnolia St,0,4,41.872262,-87.69373
+9,1540841,2019,Texas,Nacogdoches,Sandyland Cir and CR 823,1,3,42.9121115,-85.62301
+10,1540280,2019,Louisiana,Baton Rouge,137 Taylor St,0,4,38.5979369,-121.4276274
+11,1540240,2019,Michigan,Detroit,7000 block of E. Kirby,1,4,40.6327104,-74.0271053
+12,1539572,2019,Arizona,Tolleson,2434 S 86th Ln,0,5,29.9673972,-90.1018231
+13,1539557,2019,Texas,San Angelo,1616 S Chadbourne St,0,4,44.9884743,-93.2549796
+14,1539347,2019,California,Orinda,114 Lucille Way,5,3,29.3984415,-98.5042924
+15,1537992,2019,Pennsylvania,Philadelphia,5026 Walton Ave,4,0,41.0321327,-87.5381426
+16,1537044,2019,Maryland,Baltimore,4700 block of Liberty Heights Ave,1,3,36.7565424,-119.7711186
+17,1537672,2019,California,Long Beach,2709 E 7th St,3,9,37.7849319,-122.4129481
+18,1536787,2019,Maryland,Baltimore,4160 Pimlico Rd,1,3,36.1144629,-80.2452659
+19,1536706,2019,Michigan,Detroit,East Outer Dr and Helen St,0,4,30.0216391,-95.3123538
+20,1535629,2019,Michigan,Lansing,Balfour Dr and W Miller Rd,1,4,29.7235827,-95.4421156
+21,1535478,2019,Texas,Greenville,2275 US-380,2,6,40.110245,-88.2353849
+22,1534704,2019,Oklahoma,Oklahoma City,1900 block of NW 12th St,2,2,39.3048255,-76.6081873
+23,1533166,2019,Oklahoma,Oklahoma City (Midwest City),7020 E Green Ave,1,3,48.4616279,-122.3386173
+24,1531326,2019,South Carolina,Sumter,29 Wesmark Blvd,0,4,39.9854586,-75.08589
+0,1530965,2019,Texas,Port Arthur,1100 block of Vicksburg Ave,1,3,36.1450958,-96.0023638
+1,1530407,2019,Pennsylvania,Duquesne,600 block of Priscilla Ave,0,4,37.7640281,-122.1743935
+2,1530276,2019,Texas,El Paso,3812 Truman Ave,1,4,37.7194881,-122.425285
+3,1527528,2019,Ohio,Columbus,1600 block of Manchester Ave,0,4,41.7718443,-87.672785
+4,1525999,2019,Pennsylvania,Philadelphia,W Clearfield St and N 8th St,0,6,30.7029976,-88.0786828
+5,1526952,2019,Ohio,Akron,Main St,0,4,42.2699348,-88.9627801
+6,1525062,2019,New York,Brooklyn,75 Utica Ave,4,3,34.027134,-118.3507829
+7,1525476,2019,Illinois,Chicago,6733 W Irving Park Rd,5,0,41.883879,-87.7085187
+8,1525408,2019,Pennsylvania,Philadelphia,700 block of W Russell St,1,3,41.872262,-87.69373
+9,1525628,2019,Maryland,Baltimore,800 block of W Lexington St,1,3,42.9121115,-85.62301
+10,1525265,2019,Michigan,Eastpointe,15163 E 10 Mile Rd,1,5,38.5979369,-121.4276274
+11,1523606,2019,Florida,Tampa,5410 N Falkenburg Rd,2,2,40.6327104,-74.0271053
+12,1524264,2019,Pennsylvania,Philadelphia,900 block of S 5th St,0,5,29.9673972,-90.1018231
+13,1522979,2019,Massachusetts,Lowell,149 Ennell Street,0,5,44.9884743,-93.2549796
+14,1523204,2019,Maryland,Baltimore,1600 block of W North Ave,1,3,29.3984415,-98.5042924
+15,1521226,2019,Massachusetts,Abington,135 Centre Ave,5,0,41.0321327,-87.5381426
+16,1520425,2019,Indiana,Evansville,1127 Chestnut St,0,5,36.7565424,-119.7711186
+17,1520499,2019,Colorado,Denver,7100 block of Ruth Way,0,4,37.7849319,-122.4129481
+18,1520330,2019,Kansas,Kansas City,1013 Central Ave,4,5,36.1144629,-80.2452659
+19,1520547,2019,Missouri,Saint Louis,10035 Crown Point Dr,0,5,30.0216391,-95.3123538
+20,1519090,2019,North Carolina,Roxboro,700 South Foushee St,1,3,29.7235827,-95.4421156
+21,1518859,2019,Missouri,Marshall,S Olson Ave,1,3,40.110245,-88.2353849
+22,1517804,2019,Missouri,Saint Louis,Leonor K. Sullivan Blvd and Poplar St,0,4,39.3048255,-76.6081873
+23,1515312,2019,Illinois,Round Lake (Round Lake Park),500 block of Fairlawn Ave,1,3,48.4616279,-122.3386173
+24,1515242,2019,Wisconsin,Milwaukee,1500 block of N 29th St,0,4,39.9854586,-75.08589
+0,1515128,2019,Florida,Jacksonville,2200 block of Clemente Dr,0,4,36.1450958,-96.0023638
+1,1517360,2019,Kansas,Claflin,1500 block of NE 100th Rd,0,4,37.7640281,-122.1743935
+2,1515327,2019,Texas,Beaumont,4100 block of Highland Ave,4,0,37.7194881,-122.425285
+3,1511999,2019,Illinois,Chicago,2000 block of South Hoyne Ave,1,3,41.7718443,-87.672785
+4,1510411,2019,Indiana,Gary,1600 block of Connecticut St,2,2,30.7029976,-88.0786828
+5,1509721,2019,Missouri,Kansas City,2111 Television Plaza,0,5,42.2699348,-88.9627801
+6,1509411,2019,Louisiana,New Orleans,Poland Ave and St. Claude Ave,0,4,34.027134,-118.3507829
+7,1508804,2019,South Carolina,Lancaster,1399 Old Charlotte Rd,2,8,41.883879,-87.7085187
+8,1509510,2019,Indiana,Indianapolis,101 W Maryland St,0,6,41.872262,-87.69373
+9,1512486,2019,Ohio,Cleveland,3616 East 144th St,4,0,42.9121115,-85.62301
+10,1508859,2019,Louisiana,New Orleans,Canal Blvd and City Park Ave,1,5,38.5979369,-121.4276274
+11,1507939,2019,District of Columbia,Washington,1300 block of Columbia Rd NW,1,5,40.6327104,-74.0271053
+12,1507156,2019,Illinois,Chicago,4200 block of W Madison St,3,1,29.9673972,-90.1018231
+13,1507092,2019,California,Wilmington,800 block of Bayview Ave,2,2,44.9884743,-93.2549796
+14,1505354,2019,Wyoming,Cheyenne,3436 E 11th St,2,2,29.3984415,-98.5042924
+15,1504030,2019,Missouri,Saint Louis,5200 block of Tennessee Ave,1,3,41.0321327,-87.5381426
+16,1504012,2019,California,Oakland,38th Ave and MacArthur Blvd,1,4,36.7565424,-119.7711186
+17,1504387,2019,Georgia,Lagrange,1400 block of Elm St,0,4,37.7849319,-122.4129481
+18,1503207,2019,New Mexico,Albuquerque,1919 Ladera Dr NW,1,4,36.1144629,-80.2452659
+19,1503192,2019,New Mexico,Albuquerque,1028 Lura Pl SW,4,2,30.0216391,-95.3123538
+20,1501350,2019,Illinois,Chicago,2200 block of W Maypole Ave,0,4,29.7235827,-95.4421156
+21,1499460,2019,South Carolina,Sumter,1083 Broad St,2,2,40.110245,-88.2353849
+22,1500098,2019,Louisiana,Alexandria,2900 block of Cypress St,1,3,39.3048255,-76.6081873
+23,1499300,2019,North Carolina,Whiteville,Brittany Ln,3,1,48.4616279,-122.3386173
+24,1497702,2019,Louisiana,Marrero,3044 Sorbonne Dr,2,2,39.9854586,-75.08589
+0,1497180,2019,Florida,Jacksonville,400 W 62nd St,0,4,36.1450958,-96.0023638
+1,1494697,2019,North Carolina,Greensboro,5528 W Market St,2,2,37.7640281,-122.1743935
+2,1495141,2019,Illinois,Chicago,6200 block of S King Dr,0,4,37.7194881,-122.425285
+3,1495192,2019,Alabama,Elkmont,25019 Ridge Road,5,0,41.7718443,-87.672785
+4,1494113,2019,Connecticut,Hartford,80 Edgewood St,1,3,30.7029976,-88.0786828
+5,1494669,2019,North Carolina,Rocky Mount,521 Country Club Road,0,4,42.2699348,-88.9627801
+6,1494548,2019,Alabama,Valley,502 Boulevard,0,7,34.027134,-118.3507829
+7,1493374,2019,Ohio,Toledo,3257 Stickney Ave,0,4,41.883879,-87.7085187
+8,1492778,2019,North Carolina,Charlotte,10035 Dabney Dr,1,3,41.872262,-87.69373
+9,1492377,2019,South Carolina,Moncks Corner,336 Maplewood Rd,0,4,42.9121115,-85.62301
+10,1492441,2019,Texas,Odessa,8250 TX 191,8,23,38.5979369,-121.4276274
+11,1492264,2019,Pennsylvania,Philadelphia,4600 block of 4th St,2,2,40.6327104,-74.0271053
+12,1493429,2019,Maryland,Baltimore,900 block of N Monroe St,0,4,29.9673972,-90.1018231
+13,1492297,2019,Maryland,Frederick,600 block of N Market St,0,4,44.9884743,-93.2549796
+14,1493038,2019,Illinois,Chicago,7100 block of S Paulina St,2,3,29.3984415,-98.5042924
+15,1492087,2019,Alabama,Mobile,1621 Virginia St,0,6,41.0321327,-87.5381426
+16,1491495,2019,Maryland,Baltimore,1600 block of E 29th St,1,3,36.7565424,-119.7711186
+17,1490466,2019,Maryland,Baltimore,2500 block of E Monument St,1,3,37.7849319,-122.4129481
+18,1487729,2019,New Mexico,Hobbs,1700 block of E Bond St,3,4,36.1144629,-80.2452659
+19,1487573,2019,Illinois,Chicago,8200 block of S Maryland Ave,1,3,30.0216391,-95.3123538
+20,1487356,2019,Maryland,Temple Hills (Camp Springs),6200 block of Maxwell Dr,0,7,29.7235827,-95.4421156
+21,1487224,2019,Massachusetts,Lynn,Warren Street,1,3,40.110245,-88.2353849
+22,1486232,2019,Texas,Houston,4900 block of Southwind St,3,2,39.3048255,-76.6081873
+23,1489373,2019,Georgia,Dublin,200 Riverview Park Dr,0,4,48.4616279,-122.3386173
+24,1486675,2019,Missouri,Saint Louis,1122 Union Blvd,1,3,39.9854586,-75.08589
+0,1485340,2019,South Carolina,Columbia,851 Bush River Rd,2,2,36.1450958,-96.0023638
+1,1485548,2019,California,Los Angeles,300 block of West Fifth St,0,4,37.7640281,-122.1743935
+2,1484335,2019,Georgia,Atlanta,111 James P Brawley Dr SW,0,4,37.7194881,-122.425285
+3,1482199,2019,Missouri,Kansas City,770 W 47th St,0,4,41.7718443,-87.672785
+4,1481989,2019,Texas,Houston,12500 block of Mylla St,0,6,30.7029976,-88.0786828
+5,1480326,2019,Alabama,Montgomery,847 N University Dr,2,3,42.2699348,-88.9627801
+6,1479894,2019,Pennsylvania,Philadelphia,1400 block of W Conlyn St,0,5,34.027134,-118.3507829
+7,1478869,2019,Pennsylvania,Philadelphia,3716 N 15th St,0,6,41.883879,-87.7085187
+8,1479395,2019,Washington,Tacoma,E 38th St and E Roosevelt Ave,2,3,41.872262,-87.69373
+9,1478480,2019,Mississippi,Greenwood,200 Young St,0,4,42.9121115,-85.62301
+10,1475924,2019,Illinois,Chicago,3500 block of W Lake St,0,6,38.5979369,-121.4276274
+11,1475361,2019,Virginia,Richmond,6346 Midlothian Turnpike,0,4,40.6327104,-74.0271053
+12,1476271,2019,California,San Francisco,1100 Fillmore St,0,4,29.9673972,-90.1018231
+13,1475208,2019,Illinois,Chicago,7300 block of S Artesian Ave,0,4,44.9884743,-93.2549796
+14,1472641,2019,Missouri,Saint Louis,4900 block of Plover Ave,3,1,29.3984415,-98.5042924
+15,1469344,2019,New York,Brooklyn,216 Buffalo Ave,0,4,41.0321327,-87.5381426
+16,1527721,2019,Louisiana,Lake Charles,110 Pryce St,0,4,36.7565424,-119.7711186
+17,1468190,2019,Illinois,Chicago,1800 S Kildare Ave,1,7,37.7849319,-122.4129481
+18,1468799,2019,Tennessee,Memphis,443 E Shelby Dr,1,3,36.1144629,-80.2452659
+19,1468091,2019,Illinois,Chicago,2900 block of W Roosevelt Rd,0,7,30.0216391,-95.3123538
+20,1467828,2019,Ohio,Dayton,419 E 5th St,10,17,29.7235827,-95.4421156
+21,1466705,2019,Texas,El Paso,7101 Gateway Blvd,23,23,40.110245,-88.2353849
+22,1467157,2019,Virginia,Suffolk,200 block of N Broad St,2,3,39.3048255,-76.6081873
+23,1462317,2019,Ohio,Columbus,1280 E Long St,0,5,48.4616279,-122.3386173
+24,1460630,2019,Pennsylvania,Philadelphia,2600 block of Carroll St,1,5,39.9854586,-75.08589
+0,1460448,2019,California,Gilroy,7050 Miller Ave,4,17,36.1450958,-96.0023638
+1,1461352,2019,Wisconsin,Chippewa Falls,16964 54th Ave,5,2,37.7640281,-122.1743935
+2,1459941,2019,District of Columbia,Washington,637 T St NW,0,4,37.7194881,-122.425285
+3,1460726,2019,Illinois,Chicago,3938 W Roosevelt Rd,0,4,41.7718443,-87.672785
+4,1459389,2019,Kansas,Wichita,505 N Rock Rd,1,3,30.7029976,-88.0786828
+5,1459718,2019,New York,Brooklyn,1555 Linden Blvd,1,11,42.2699348,-88.9627801
+6,1459201,2019,Washington,Kennewick,E 10th Ave,1,3,34.027134,-118.3507829
+7,1457165,2019,California,Canoga Park,21901 Roscoe Boulevard,4,2,41.883879,-87.7085187
+8,1453327,2019,Illinois,Chicago,3900 block of Roosevelt Rd,0,4,41.872262,-87.69373
+9,1453884,2019,District of Columbia,Washington,2300 block of 15th St NE,0,4,42.9121115,-85.62301
+10,1452654,2019,Pennsylvania,Clairton,501 Waddell Ave,0,4,38.5979369,-121.4276274
+11,1453350,2019,Maryland,Baltimore,2800 block of Boarman Ave,1,3,40.6327104,-74.0271053
+12,1452617,2019,Illinois,Chicago,2401 N Lake Shore Dr,0,7,29.9673972,-90.1018231
+13,1450767,2019,Illinois,Chicago,3427 W Fulton Blvd,1,3,44.9884743,-93.2549796
+14,1450124,2019,Texas,Lubbock,N Elder Ave and E Colgate St,1,3,29.3984415,-98.5042924
+15,1449602,2019,Texas,San Antonio,6989 San Pedro Ave,0,4,41.0321327,-87.5381426
+16,1448578,2019,Georgia,Atlanta,1572 Hardee St NE,0,4,36.7565424,-119.7711186
+17,1447456,2019,Illinois,Chicago,4600 block of W Erie St,0,4,37.7849319,-122.4129481
+18,1446611,2019,Illinois,Chicago,7900 block of S Loomis Blvd,1,4,36.1144629,-80.2452659
+19,1447057,2019,Pennsylvania,Philadelphia,5433 Lansdowne Ave,0,7,30.0216391,-95.3123538
+20,1445066,2019,Texas,Houston,5901 Royal Palms St,0,4,29.7235827,-95.4421156
+21,1441967,2019,District of Columbia,Washington,3900 Martin Luther King Jr Ave SW,2,2,40.110245,-88.2353849
+22,1441565,2019,Michigan,Flint,Clio Rd and Myrtle St,0,6,39.3048255,-76.6081873
+23,1441613,2019,Missouri,Saint Louis,N Tucker Blvd and Convention Plaza,0,5,48.4616279,-122.3386173
+24,1441396,2019,Illinois,Chicago,5600 block of S Paulina St,0,4,39.9854586,-75.08589
+0,1441296,2019,Illinois,Chicago,600 block of W 61st Pl,0,4,36.1450958,-96.0023638
+1,1441317,2019,New Mexico,Albuquerque,211 Gold Ave SW,0,4,37.7640281,-122.1743935
+2,1441427,2019,California,San Jose,3036 Quinto Way,0,4,37.7194881,-122.425285
+3,1441721,2019,Missouri,Saint Louis,1921 Chambers Rd,5,0,41.7718443,-87.672785
+4,1440510,2019,Massachusetts,Boston,Maple St,0,6,30.7029976,-88.0786828
+5,1440879,2019,Nevada,Reno,600 block of Spokane St,1,5,42.2699348,-88.9627801
+6,1439593,2019,Illinois,Chicago,1600 block of E 67th St,0,5,34.027134,-118.3507829
+7,1440257,2019,New York,Brooklyn,Elton St and Belmont Ave,0,4,41.883879,-87.7085187
+8,1440765,2019,Illinois,Rockford,1100 block of Preston St,0,4,41.872262,-87.69373
+9,1439737,2019,California,Los Angeles,1900 block of Adair St,0,4,42.9121115,-85.62301
+10,1438971,2019,Illinois,Chicago,800 block of N Homan Ave,1,3,38.5979369,-121.4276274
+11,1439765,2019,California,Fresno,4700 block of E Hamilton Ave,1,3,40.6327104,-74.0271053
+12,1439042,2019,Texas,Katy,5507 Everhart Manor Ln,2,3,29.9673972,-90.1018231
+13,1438602,2019,Missouri,Saint Louis (Wellston),6250 Page Ave,0,4,44.9884743,-93.2549796
+14,1437094,2019,Maryland,Baltimore,1200 block of N Luzerne Ave,0,4,29.3984415,-98.5042924
+15,1435804,2019,California,Oakland,3000 block of Brookdale Ave,0,4,41.0321327,-87.5381426
+16,1436545,2019,California,Yucaipa,12700 block of California St,0,5,36.7565424,-119.7711186
+17,1436254,2019,Texas,Dallas,3535 Munger Ave,2,2,37.7849319,-122.4129481
+18,1435578,2019,New York,Bay Shore,Farragut Ave,0,6,36.1144629,-80.2452659
+19,1435041,2019,Connecticut,Hartford,Judson St and Martin St,0,4,30.0216391,-95.3123538
+20,1435297,2019,Louisiana,Gray,2700 block of W Park Ave,0,4,29.7235827,-95.4421156
+21,1434931,2019,Illinois,Chicago,2400 block of W Jackson Blvd,0,5,40.110245,-88.2353849
+22,1435028,2019,Louisiana,Baton Rouge,7132 Florida Blvd,0,7,39.3048255,-76.6081873
+23,1434882,2019,New Jersey,Paterson,50 block of Jefferson St,0,4,48.4616279,-122.3386173
+24,1434602,2019,Connecticut,Hamden,937 Choate Ave,0,5,39.9854586,-75.08589
+0,1434971,2019,Georgia,Atlanta,Ira St and Bass St SW,0,7,36.1450958,-96.0023638
+1,1434893,2019,New Jersey,Jersey City,167 Armstrong Ave,0,4,37.7640281,-122.1743935
+2,1435217,2019,Minnesota,Saint Paul,909 Desoto St,0,5,37.7194881,-122.425285
+3,1432989,2019,Georgia,Atlanta,600 block of Parkway Dr,0,7,41.7718443,-87.672785
+4,1432930,2019,Ohio,Akron,900 block of Rowe St,1,3,30.7029976,-88.0786828
+5,1433857,2019,Wisconsin,Milwaukee,2800 block of N 34th St,0,4,42.2699348,-88.9627801
+6,1429475,2019,California,La Jolla,7500 block of Draper Ave,1,3,34.027134,-118.3507829
+7,1429810,2019,California,San Jose,568 Habbitts Court,5,0,41.883879,-87.7085187
+8,1429047,2019,Indiana,South Bend,1150 E Mishawaka Ave,1,10,41.872262,-87.69373
+9,1429480,2019,Ohio,Columbus,1767 Genessee Ave,0,5,42.9121115,-85.62301
+10,1429338,2019,South Carolina,Abbeville,1108 Cambridge St,3,1,38.5979369,-121.4276274
+11,1429399,2019,Virginia,Hampton,1st St and E Pembroke Ave,0,4,40.6327104,-74.0271053
+12,1429022,2019,Pennsylvania,Philadelphia,2400 block of Moore St,0,4,29.9673972,-90.1018231
+13,1428595,2019,Maryland,Baltimore,800 block of N Port St,1,4,44.9884743,-93.2549796
+14,1428788,2019,Michigan,Saginaw,1506 N Charles St,1,3,29.3984415,-98.5042924
+15,1427483,2019,Illinois,Chicago,6300 block of S King Dr,0,4,41.0321327,-87.5381426
+16,1428047,2019,California,Santa Maria,519 West Taylor St,5,0,36.7565424,-119.7711186
+17,1428229,2019,California,Richmond,700 block of 14th St,0,5,37.7849319,-122.4129481
+18,1426537,2019,Pennsylvania,Allentown,343 Hamilton St,0,10,36.1144629,-80.2452659
+19,1425193,2019,New Jersey,Newark,700 block of Dr Martin Luther King Jr Blvd,1,4,30.0216391,-95.3123538
+20,1425161,2019,Texas,San Antonio,E Market St and Tower of the Americas Way,0,4,29.7235827,-95.4421156
+21,1424957,2019,Tennessee,Memphis,2872 Coach Dr,0,5,40.110245,-88.2353849
+22,1423697,2019,Pennsylvania,Philadelphia,6900 block of Reedbird Pl,1,5,39.3048255,-76.6081873
+23,1423330,2019,Kentucky,Louisville,Dixie Highway and Ormsby Ave,1,6,48.4616279,-122.3386173
+24,1423435,2019,Iowa,Des Moines,1200 block of Sampson St,0,6,39.9854586,-75.08589
+0,1422981,2019,Louisiana,Shreveport,2500 block of Hollywood Ave,0,4,36.1450958,-96.0023638
+1,1420933,2019,North Carolina,Charlotte,305 N Graham St,1,3,37.7640281,-122.1743935
+2,1419305,2019,Colorado,Aurora,12500 block of E Kansas Pl,0,4,37.7194881,-122.425285
+3,1420432,2019,Georgia,Savannah,6900 Block of Damascus Rd,2,2,41.7718443,-87.672785
+4,1418533,2019,Ohio,Cleveland,17218 Tarkington Ave,1,3,30.7029976,-88.0786828
+5,1418548,2019,New York,Buffalo,2081 Niagara St,0,4,42.2699348,-88.9627801
+6,1418457,2019,Tennessee,Henning,265 N Main St,1,3,34.027134,-118.3507829
+7,1418180,2019,Washington,White Swan,5151 Medicine Valley Rd,5,2,41.883879,-87.7085187
+8,1417570,2019,Illinois,Chicago,3500 block of W North Ave,0,4,41.872262,-87.69373
+9,1417716,2019,Texas,Austin,8220 TX-71,0,5,42.9121115,-85.62301
+10,1416374,2019,Illinois,Chicago,2500 block of N Lake Shore Dr,1,3,38.5979369,-121.4276274
+11,1415399,2019,California,Santa Rosa,828 W 9th Street,0,4,40.6327104,-74.0271053
+12,1412419,2019,South Carolina,Allendale,473 Main St S,0,5,29.9673972,-90.1018231
+13,1411598,2019,Illinois,Chicago,300 block of East Chicago Ave,0,4,44.9884743,-93.2549796
+14,1411408,2019,Virginia,Portsmouth,1100 block of Mt Vernon Ave,1,3,29.3984415,-98.5042924
+15,1412243,2019,Illinois,Chicago,5600 block of West Madison St,0,4,41.0321327,-87.5381426
+16,1411963,2019,Georgia,Atlanta,12 Broad Street,0,5,36.7565424,-119.7711186
+17,1412430,2019,Georgia,Macon,Suzanne Dr and Robinson Dr,2,4,37.7849319,-122.4129481
+18,1410442,2019,Virginia,Virginia Beach,2405 Courthouse Drive,13,4,36.1144629,-80.2452659
+19,1411661,2019,California,West Covina,306 N Hollow Ave,1,3,30.0216391,-95.3123538
+20,1410329,2019,Illinois,Robbins,14000 block of Grace Ave,0,5,29.7235827,-95.4421156
+21,1408289,2019,Texas,Cleveland,26311 TX-321,3,2,40.110245,-88.2353849
+22,1409255,2019,Louisiana,Reserve,300 block of Homewood Place,1,3,39.3048255,-76.6081873
+23,1407941,2019,Missouri,Saint Louis,5900 block of Goodfellow Blvd,2,2,48.4616279,-122.3386173
+24,1406330,2019,District of Columbia,Washington,1200 block of Sumner Rd SE,0,5,39.9854586,-75.08589
+0,1407189,2019,New Jersey,Trenton,100 block of Walnut St,1,5,36.1450958,-96.0023638
+1,1405445,2019,District of Columbia,Washington,3509 Wheeler Rd SE,1,3,37.7640281,-122.1743935
+2,1405749,2019,Virginia,La Crosse,800 block of Alvis Road,0,5,37.7194881,-122.425285
+3,1406070,2019,California,Stockton,600 block of E Oak St,1,3,41.7718443,-87.672785
+4,1404417,2019,New Jersey,Trenton,225 Brunswick Ave,0,9,30.7029976,-88.0786828
+5,1404580,2019,Michigan,Detroit,3400 block of Devonshire,3,2,42.2699348,-88.9627801
+6,1405196,2019,Virginia,Chesapeake,Holly Cove Dr and Schooner Trail,1,9,34.027134,-118.3507829
+7,1405317,2019,Maryland,Baltimore,500 block of N Belnord Ave,0,4,41.883879,-87.7085187
+8,1405221,2019,Oklahoma,Oklahoma City,N Kelley Ave and NE 26th St,0,5,41.872262,-87.69373
+9,1400095,2019,Oklahoma,Tulsa,8118 E 16th St,2,2,42.9121115,-85.62301
+10,1400146,2019,Louisiana,Alexandria,1900 block of Bacon Street,1,4,38.5979369,-121.4276274
+11,1400561,2019,Ohio,Columbus,2424 Sullivant Ave,0,4,40.6327104,-74.0271053
+12,1399820,2019,Oregon,Portland,226 SE Madison St,0,5,29.9673972,-90.1018231
+13,1399017,2019,Mississippi,Cascilla,700 Leverette Ln,1,4,44.9884743,-93.2549796
+14,1398553,2019,Alabama,Atmore,100 Martin Luther King Avenue,1,8,29.3984415,-98.5042924
+15,1398538,2019,Indiana,Muncie,2410 W. Euclid Ave,1,6,41.0321327,-87.5381426
+16,1398593,2019,California,Long Beach,1616 West Pacific Coast Highway,1,4,36.7565424,-119.7711186
+17,1398584,2019,Iowa,Cedar Rapids,70 Kirkwood Ct SW,2,2,37.7849319,-122.4129481
+18,1400934,2019,Nebraska,Omaha,2825 Y St,0,4,36.1144629,-80.2452659
+19,1399346,2019,North Carolina,Winston Salem (Winston-salem),4252 Cody Drive,2,4,30.0216391,-95.3123538
+20,1398876,2019,California,Sacramento,7326 Stockton Blvd,1,3,29.7235827,-95.4421156
+21,1397521,2019,Ohio,Cleveland,9500 Cardwell Ave,0,4,40.110245,-88.2353849
+22,1396491,2019,Louisiana,Saint Rose,100 block of St. Rose Ave,0,4,39.3048255,-76.6081873
+23,1395560,2019,California,Los Angeles,1248 W 47th St,0,4,48.4616279,-122.3386173
+24,1393960,2019,Louisiana,New Orleans,2100 block of 4th St,0,4,39.9854586,-75.08589
+0,1394330,2019,Missouri,Saint Louis,4047 Shreve Ave,4,1,36.1450958,-96.0023638
+1,1392923,2019,Pennsylvania,Effort,Toll Rd and Bayberry Rd,0,4,37.7640281,-122.1743935
+2,1391971,2019,Pennsylvania,Philadelphia,1900 block of N Croskey St,0,5,37.7194881,-122.425285
+3,1392313,2019,Missouri,Saint Louis,4000 block of Ashland Ave,0,6,41.7718443,-87.672785
+4,1390764,2019,Indiana,Indianapolis,Roache St and Rader St,0,4,30.7029976,-88.0786828
+5,1389220,2019,Colorado,Littleton (Highlands Ranch),8773 S Ridgeline Blvd,1,8,42.2699348,-88.9627801
+6,1386962,2019,New Jersey,North Bergen,2033 45th Street,1,4,34.027134,-118.3507829
+7,1387170,2019,California,Oceano,1001 Cabrillo Hwy,0,6,41.883879,-87.7085187
+8,1386510,2019,Missouri,Saint Louis,Union Blvd and Northland Ave,1,4,41.872262,-87.69373
+9,1386929,2019,Indiana,Indianapolis,101 W Maryland St,0,4,42.9121115,-85.62301
+10,1387245,2019,California,Stockton,5105 Holiday Dr,1,4,38.5979369,-121.4276274
+11,1386575,2019,Delaware,Wilmington,W 27th St and Tatnall St,0,4,40.6327104,-74.0271053
+12,1386481,2019,Texas,Dallas,5400 Cedar Springs Rd,1,3,29.9673972,-90.1018231
+13,1386085,2019,Maryland,Baltimore,1900 block of Ramsay St,0,5,44.9884743,-93.2549796
+14,1385642,2019,Maryland,Baltimore,2500 block of E Biddle St,0,4,29.3984415,-98.5042924
+15,1384553,2019,Massachusetts,Boston,32 Windermere Rd,1,3,41.0321327,-87.5381426
+16,1383752,2019,North Carolina,Charlotte,9214 South Library Ln,2,4,36.7565424,-119.7711186
+17,1381857,2019,Tennessee,Nashville,1407 Dr DB Todd Jr Blvd,0,7,37.7849319,-122.4129481
+18,1382099,2019,Alabama,Birmingham,514 19th St Ensley,0,4,36.1144629,-80.2452659
+19,1381979,2019,Maryland,Baltimore,2544 Edmondson Ave,1,7,30.0216391,-95.3123538
+20,1382711,2019,Ohio,West Chester,4637 Wyndtree Dr,4,0,29.7235827,-95.4421156
+21,1381771,2019,Mississippi,Jackson,700 block of Monterey St,1,3,40.110245,-88.2353849
+22,1381273,2019,California,Poway,16934 Chabad Way,1,3,39.3048255,-76.6081873
+23,1381734,2019,California,Los Angeles,700 N San Fernando Rd,0,6,48.4616279,-122.3386173
+24,1377519,2019,Pennsylvania,Philadelphia,1500 block of South 31st St,0,4,39.9854586,-75.08589
+0,1376873,2019,Tennessee,Memphis,761 Chestnut Ave,0,6,36.1450958,-96.0023638
+1,1376883,2019,Kansas,Wichita,1628 S George Washington Blvd,0,4,37.7640281,-122.1743935
+2,1375235,2019,Kentucky,Louisville,4000 block of Bells Ln,0,4,37.7194881,-122.425285
+3,1373557,2019,Maryland,Germantown,18700 block of Curry Powder Ln,1,3,41.7718443,-87.672785
+4,1370795,2019,Florida,Miami,NW 19th Ave and 60th St,2,2,30.7029976,-88.0786828
+5,1371024,2019,California,Vallejo,100 block of Princeton Ave,1,3,42.2699348,-88.9627801
+6,1371065,2019,California,Stockton,2539 E Main St,0,4,34.027134,-118.3507829
+7,1374920,2019,California,Moreno Valley,23500 block of Alessandro Blvd,0,4,41.883879,-87.7085187
+8,1370269,2019,Illinois,Carbondale,119 N Washington St,0,4,41.872262,-87.69373
+9,1368597,2019,Maryland,Baltimore,2200 block of Ruskin Ave,1,3,42.9121115,-85.62301
+10,1369109,2019,California,Los Angeles,E 103rd St and S Main St,1,4,38.5979369,-121.4276274
+11,1369148,2019,Arizona,Phoenix,7112 W Minnezona Ave,3,2,40.6327104,-74.0271053
+12,1367011,2019,Missouri,Kansas City,5339 Michigan Ave,1,3,29.9673972,-90.1018231
+13,1365052,2019,North Carolina,Winston Salem (Winston-salem),515 N Cherry St,0,7,44.9884743,-93.2549796
+14,1365077,2019,Indiana,Indianapolis,3600 block of Roosevelt Ave,2,2,29.3984415,-98.5042924
+15,1365173,2019,Delaware,Wilmington,940 N Pine St,0,6,41.0321327,-87.5381426
+16,1365100,2019,Louisiana,Shreveport,433 Flournoy Lucas Rd,0,4,36.7565424,-119.7711186
+17,1364443,2019,Florida,Tallahassee,500 block of Kissimmee St,0,4,37.7849319,-122.4129481
+18,1364540,2019,Illinois,Chicago,6300 block of S Seeley Ave,0,6,36.1144629,-80.2452659
+19,1363737,2019,Florida,Panama City,100 block of Allen Ave,1,3,30.0216391,-95.3123538
+20,1362715,2019,Georgia,Stockbridge,300 block of Eagle Ct,3,2,29.7235827,-95.4421156
+21,1362364,2019,Mississippi,Hermanville,13195 MS 18,0,4,40.110245,-88.2353849
+22,1362182,2019,Kentucky,Covington,337 E 13th St,0,5,39.3048255,-76.6081873
+23,1360333,2019,Georgia,Atlanta,3041 Landrum Dr SW,1,4,48.4616279,-122.3386173
+24,1359599,2019,South Carolina,North Charleston,1900 block of Jacksonville Rd,0,7,39.9854586,-75.08589
+0,1359455,2019,Illinois,Chicago,500 block of N Hamlin Ave,1,4,36.1450958,-96.0023638
+1,1357591,2019,Maryland,Baltimore,6200 block of Boston St,0,4,37.7640281,-122.1743935
+2,1355275,2019,Nevada,North Las Vegas,2400 block of W San Miguel St,0,5,37.7194881,-122.425285
+3,1353714,2019,California,San Francisco,1300 Fillmore St,1,5,41.7718443,-87.672785
+4,1354049,2019,Arizona,Phoenix,2202 W McDowell Rd,0,7,30.7029976,-88.0786828
+5,1350494,2019,Arizona,Phoenix,8526 N 27th Ave,2,4,42.2699348,-88.9627801
+6,1348844,2019,Georgia,Augusta,900 block of Broad St,0,4,34.027134,-118.3507829
+7,1349256,2019,Georgia,Rochelle,Dennis St,1,3,41.883879,-87.7085187
+8,1348793,2019,Nevada,Las Vegas,600 E Fremont St,0,4,41.872262,-87.69373
+9,1347974,2019,New Jersey,Camden,619 Ferry Ave,1,3,42.9121115,-85.62301
+10,1348291,2019,Alabama,Mobile,515 Dauphin Island Pkwy,2,4,38.5979369,-121.4276274
+11,1347894,2019,Montana,Missoula,5145 Airway Blvd,1,3,40.6327104,-74.0271053
+12,1344488,2019,New Jersey,Paterson,291 12th Ave,0,4,29.9673972,-90.1018231
+13,1343330,2019,Louisiana,Shreveport,2700 block of San Jacinto Ave,0,4,44.9884743,-93.2549796
+14,1343274,2019,Colorado,Denver,15th St and Market St,1,4,29.3984415,-98.5042924
+15,1338860,2019,California,Oakland,316 14th St,0,4,41.0321327,-87.5381426
+16,1338765,2019,Illinois,Chicago,2900 block of E 79th St,0,6,36.7565424,-119.7711186
+17,1338790,2019,Arkansas,Pine Bluff,723 East 25th Ave,1,4,37.7849319,-122.4129481
+18,1337498,2019,California,Oakland,9755 Edes Ave,1,3,36.1144629,-80.2452659
+19,1333480,2019,Alabama,Birmingham,1100 block of Carnation Dr,2,2,30.0216391,-95.3123538
+20,1331974,2019,Maryland,Baltimore,500 block of Bloom St,1,4,29.7235827,-95.4421156
+21,1332507,2019,Kentucky,Elizabethtown,600 N Miles St,2,2,40.110245,-88.2353849
+22,1332429,2019,Texas,Houston,12800 block of Eastbrook Dr,2,2,39.3048255,-76.6081873
+23,1332181,2019,Tennessee,Covington,529 N College St,0,4,48.4616279,-122.3386173
+24,1329144,2019,Texas,Henderson,504 S Van Buren St,2,2,39.9854586,-75.08589
+0,1328792,2019,Indiana,Evansville,664 E Illinois St,0,5,36.1450958,-96.0023638
+1,1329075,2019,Louisiana,New Orleans,Tulane Ave and Elk Pl,1,5,37.7640281,-122.1743935
+2,1328562,2019,Mississippi,Clinton,1214 Foxhill Dr,5,0,37.7194881,-122.425285
+3,1327321,2019,Illinois,Aurora,641 Archer Ave,6,6,41.7718443,-87.672785
+4,1324279,2019,Texas,Livingston,3628 FM 3126,5,0,30.7029976,-88.0786828
+5,1323448,2019,Virginia,Petersburg,109 Perry St,0,4,42.2699348,-88.9627801
+6,1321021,2019,New York,Brooklyn,1778 Fulton St,1,3,34.027134,-118.3507829
+7,1321093,2019,Texas,San Antonio,538 Hot Wells Blvd,2,2,41.883879,-87.7085187
+8,1319333,2019,District of Columbia,Washington,2341 Pennsylvania Ave SE,0,5,41.872262,-87.69373
+9,1319325,2019,Louisiana,Baton Rouge,4000 block of Topeka St,0,4,42.9121115,-85.62301
+10,1318391,2019,Illinois,Chicago,938 E 75th St,2,5,38.5979369,-121.4276274
+11,1320286,2019,California,Palm Springs,E Sunny Dunes Rd and El Placer Rd,4,0,40.6327104,-74.0271053
+12,1318187,2019,California,San Diego,6800 block of Springfield St,0,4,29.9673972,-90.1018231
+13,1314289,2019,Texas,Houston,7815 Harding St,2,5,44.9884743,-93.2549796
+14,1314253,2019,Alabama,Birmingham,Avenue O and Warrior Rd,0,5,29.3984415,-98.5042924
+15,1312391,2019,Georgia,Albany,300 block of W Roosevelt,0,4,41.0321327,-87.5381426
+16,1312284,2019,Louisiana,Gonzales,42350 Church Point Rd,5,0,36.7565424,-119.7711186
+17,1312463,2019,Indiana,Indianapolis,2957 N Sherman Dr,0,5,37.7849319,-122.4129481
+18,1313291,2019,New Jersey,Newark,612 Bergen St,1,3,36.1144629,-80.2452659
+19,1310775,2019,Pennsylvania,State College,1450 S Atherton St,4,1,30.0216391,-95.3123538
+20,1310397,2019,Georgia,Rockmart,319 Williamson St,4,1,29.7235827,-95.4421156
+21,1309114,2019,Florida,Sebring,1901 US 27 S,5,0,40.110245,-88.2353849
+22,1306920,2019,Florida,Miami,26133 SW 139th Ave,0,4,39.3048255,-76.6081873
+23,1305563,2019,Pennsylvania,Lebanon,1140 Church St,0,4,48.4616279,-122.3386173
+24,1305679,2019,South Carolina,Gaffney,1435 Wilcox Ave,1,4,39.9854586,-75.08589
+0,1305516,2019,Illinois,Chicago,4400 block of W Madison St,0,4,36.1450958,-96.0023638
+1,1305538,2019,Florida,Jacksonville,11445 Brian Lakes Drive,3,2,37.7640281,-122.1743935
+2,1305294,2019,Texas,Houston,7041 Sherman St,3,2,37.7194881,-122.425285
+3,1303486,2019,Kentucky,Owensboro,940 Audubon Ave,3,1,41.7718443,-87.672785
+4,1302060,2019,Florida,Jacksonville,Emerson St and Spring Park Rd,1,5,30.7029976,-88.0786828
+5,1303303,2019,California,Palmdale,Ranch Center Dr and 40th St W,3,1,42.2699348,-88.9627801
+6,1301778,2019,Arkansas,Little Rock,5420 Baseline Rd,1,4,34.027134,-118.3507829
+7,1299680,2019,Arizona,Phoenix,2445 E Van Buren St,1,5,41.883879,-87.7085187
+8,1295294,2019,New Mexico,Roswell,1300 block of W College Blvd,0,4,41.872262,-87.69373
+9,1292684,2019,Virginia,Hurt,3197 Shula Dr,3,2,42.9121115,-85.62301
+10,1293054,2019,California,Torrance,22501 Hawthorne Blvd,3,4,38.5979369,-121.4276274
+11,1292941,2019,Arizona,Yuma,3800 block of E County 18½ St,1,3,40.6327104,-74.0271053
+12,1291779,2019,Arkansas,Jonesboro,3516 Galaxy St,1,3,29.9673972,-90.1018231
+13,1289877,2019,South Carolina,Columbia,1709 Decker Blvd,0,5,44.9884743,-93.2549796
+14,1289618,2019,Florida,Tallahassee,2020 W Pensacola St,0,5,29.3984415,-98.5042924
+15,1289686,2018,Ohio,Cleveland,4462 Denison Ave,3,2,41.0321327,-87.5381426
+16,1288376,2018,Ohio,Lima,904 S Main St,1,3,36.7565424,-119.7711186
+17,1287286,2018,Missouri,Saint Charles,150 Whetstone Dr,4,1,37.7849319,-122.4129481
+18,1284586,2018,Louisiana,Lutcher,2176 Main St,2,2,36.1144629,-80.2452659
+19,1283229,2018,Missouri,Springfield,1042 W College St,1,6,30.0216391,-95.3123538
+20,1282704,2018,Nevada,Las Vegas,3528 S Maryland Pkwy,0,4,29.7235827,-95.4421156
+21,1279617,2018,Maryland,Baltimore,3942 Park Heights Ave,0,5,40.110245,-88.2353849
+22,1277327,2018,Florida,Miami,239 NW 16th St,0,5,39.3048255,-76.6081873
+23,1277411,2018,Colorado,Colorado Springs,700 block of Geiger Ct,1,3,48.4616279,-122.3386173
+24,1276091,2018,Pennsylvania,Philadelphia,4505 N Broad St,0,4,39.9854586,-75.08589
+0,1276298,2018,Louisiana,Natchitoches,Caspari St and University Pkwy,1,3,36.1450958,-96.0023638
+1,1272855,2018,Wisconsin,Madison,3554 E Washington Ave,0,4,37.7640281,-122.1743935
+2,1273161,2018,California,Inglewood,801 S Inglewood Ave,0,5,37.7194881,-122.425285
+3,1272106,2018,New York,Corona (Queens),89-25 130th St,0,5,41.7718443,-87.672785
+4,1267682,2018,Florida,Miami,NW Fifth Ave and NW Eighth St,0,5,30.7029976,-88.0786828
+5,1266937,2018,Tennessee,Powell,Tammy Dr,0,4,42.2699348,-88.9627801
+6,1262814,2018,Alabama,Demopolis,Floyd St and Field St,2,2,34.027134,-118.3507829
+7,1263332,2018,California,Oakland,1000 block of 24th St,0,4,41.883879,-87.7085187
+8,1263086,2018,Texas,Houston,4500 block of Yale St,1,3,41.872262,-87.69373
+9,1262013,2018,Florida,Miami,5801 NW 27th Ave,2,5,42.9121115,-85.62301
+10,1261351,2018,Indiana,Fort Wayne,6100 block of Downingtown Dr,3,2,38.5979369,-121.4276274
+11,1260525,2018,Missouri,Saint Louis,4200 block of Shreve Ave,0,4,40.6327104,-74.0271053
+12,1258777,2018,Colorado,Denver,1200 21st Street,1,4,29.9673972,-90.1018231
+13,1258804,2018,Pennsylvania,Philadelphia,5100 block of Malcolm St,4,0,44.9884743,-93.2549796
+14,1258009,2018,California,Los Angeles (Watts),95th St and Defiance Ave,1,4,29.3984415,-98.5042924
+15,1257508,2018,Arkansas,Little Rock,4405 W 14th St,3,1,41.0321327,-87.5381426
+16,1256435,2018,Louisiana,Baton Rouge,4896 Gus Young Ave,3,1,36.7565424,-119.7711186
+17,1254225,2018,New Mexico,Gallup,CR 1 and Defiance Draw Rd,4,1,37.7849319,-122.4129481
+18,1254084,2018,North Carolina,Dunn,4640 Woods Crossroads Rd,3,1,36.1144629,-80.2452659
+19,1253361,2018,Arizona,Globe,598 N Broad St,3,1,30.0216391,-95.3123538
+20,1249561,2018,California,Thousand Oaks,99 Rolling Oaks Dr,13,2,29.7235827,-95.4421156
+21,1246727,2018,New York,Watertown,136 Franklin St,0,5,40.110245,-88.2353849
+22,1247019,2018,California,Long Beach (North Long Beach),5800 block of Brayton Ave,0,4,39.3048255,-76.6081873
+23,1246489,2018,Florida,Tallahassee,1950 Thomasville Rd,3,4,48.4616279,-122.3386173
+24,1245703,2018,Minnesota,Minneapolis,3400 block of Girard Ave N,0,5,39.9854586,-75.08589
+0,1245274,2018,Missouri,Springfield,906 E Locust St,3,2,36.1450958,-96.0023638
+1,1244754,2018,Michigan,Detroit,19000 block of Langholm St,1,3,37.7640281,-122.1743935
+2,1246059,2018,California,Vallejo,Woodrow Ave and Reis Ave,2,3,37.7194881,-122.425285
+3,1244424,2018,California,Los Angeles,65th Place and Vermont Avenue,0,5,41.7718443,-87.672785
+4,1243331,2018,California,Riverside,3252 Mission Inn Ave,0,7,30.7029976,-88.0786828
+5,1243010,2018,Arkansas,El Dorado,2 Whites Quarters,2,2,42.2699348,-88.9627801
+6,1242807,2018,Tennessee,Memphis,4275 Lady Slipper Ln,0,5,34.027134,-118.3507829
+7,1241819,2018,Pennsylvania,Pittsburgh,5898 Wilkins Ave,11,7,41.883879,-87.7085187
+8,1242443,2018,New Jersey,Jersey City,77 Brinkerhoff St,1,3,41.872262,-87.69373
+9,1240751,2018,Illinois,Chicago,6200 block of S King Dr,0,5,42.9121115,-85.62301
+10,1238603,2018,Illinois,Chicago,9231 S Cottage Grove Av,0,6,38.5979369,-121.4276274
+11,1237930,2018,Florida,Jacksonville,900 block of A Philip Randolph Blvd,1,5,40.6327104,-74.0271053
+12,1238052,2018,Washington,Lakewood,8722 S Tacoma Way,1,3,29.9673972,-90.1018231
+13,1234087,2018,Georgia,Atlanta,Broad St,0,4,44.9884743,-93.2549796
+14,1233663,2018,Tennessee,Columbia,1075 Carters Creek Pike,5,0,29.3984415,-98.5042924
+15,1232554,2018,Texas,Fort Worth,5310 E Rosedale St,0,4,41.0321327,-87.5381426
+16,1233563,2018,Nevada,Las Vegas,2815 W Lake Mead Blvd,3,1,36.7565424,-119.7711186
+17,1233068,2018,California,Palo Alto (East Palo Alto),2500 block of Pulgas Ave,2,2,37.7849319,-122.4129481
+18,1232288,2018,Texas,Taft,511 Wilburn St,4,1,36.1144629,-80.2452659
+19,1232018,2018,Missouri,Saint Louis,400 block of Midlothian Road,0,4,30.0216391,-95.3123538
+20,1232044,2018,South Carolina,Spartanburg,1620 John B White Sr Blvd,0,6,29.7235827,-95.4421156
+21,1231385,2018,Nevada,Las Vegas,6500 block of W Charleston Blvd,0,4,40.110245,-88.2353849
+22,1229738,2018,Alabama,Birmingham,Joppa Ave,0,4,39.3048255,-76.6081873
+23,1226923,2018,Oklahoma,Tulsa,9453 E 31st St,0,4,48.4616279,-122.3386173
+24,1226853,2018,Texas,Houston,6802 Cullen Blvd,1,3,39.9854586,-75.08589
+0,1226384,2018,California,Oakland,Williams St and Telegraph Ave,0,6,36.1450958,-96.0023638
+1,1225631,2018,Georgia,Swainsboro,Lucky St,0,4,37.7640281,-122.1743935
+2,1226179,2018,New Mexico,Espanola (Española),1813 N Riverside Dr,1,3,37.7194881,-122.425285
+3,1223865,2018,South Carolina,Florence,932 Ashton Dr,2,6,41.7718443,-87.672785
+4,1223755,2018,Pennsylvania,Philadelphia,5101 Germantown Ave,1,4,30.7029976,-88.0786828
+5,1221758,2018,Illinois,Chicago,500 block of S Michigan Ave,2,2,42.2699348,-88.9627801
+6,1221794,2018,California,Compton,1300 E Palmer St,1,3,34.027134,-118.3507829
+7,1220912,2018,Florida,Orlando,1700 block of 24th St,1,4,41.883879,-87.7085187
+8,1220331,2018,Pennsylvania,Philadelphia,5100 block of Haverford Ave,2,2,41.872262,-87.69373
+9,1217150,2018,Tennessee,Memphis,1528 Ragan St,3,2,42.9121115,-85.62301
+10,1215987,2018,California,Bakersfield,2600 block of Chandler Court,1,4,38.5979369,-121.4276274
+11,1215954,2018,California,Baldwin Park,3700 block of Loma Lane,0,4,40.6327104,-74.0271053
+12,1215904,2018,New York,Hempstead,Dolan St,0,4,29.9673972,-90.1018231
+13,1215739,2018,District of Columbia,Washington,1800 block of Benning Rd NE,0,4,44.9884743,-93.2549796
+14,1213926,2018,Maryland,Aberdeen,1501 Perryman Rd,4,3,29.3984415,-98.5042924
+15,1214298,2018,New York,Syracuse,1317 Midland Ave,0,5,41.0321327,-87.5381426
+16,1213223,2018,Wisconsin,Middleton,1850 Deming Way,1,4,36.7565424,-119.7711186
+17,1213293,2018,Pennsylvania,Masontown,1 E Church St,1,4,37.7849319,-122.4129481
+18,1213836,2018,Illinois,Chicago,W Cermak Rd and S State St,0,4,36.1144629,-80.2452659
+19,1212984,2018,Louisiana,New Orleans (Algiers),1100 block of Sumner St,0,4,30.0216391,-95.3123538
+20,1212567,2018,Tennessee,Memphis,4622 Faronia Rd,0,4,29.7235827,-95.4421156
+21,1211659,2018,Maryland,Silver Spring,123 Amberleigh Dr,4,1,40.110245,-88.2353849
+22,1210742,2018,Wisconsin,Milwaukee,820 S 21st St,0,4,39.3048255,-76.6081873
+23,1209006,2018,California,Bakersfield,660 Manwell Blvd,6,0,48.4616279,-122.3386173
+24,1208397,2018,Illinois,Chicago,10600 block of S Bensley Avenue,0,4,39.9854586,-75.08589
+0,1206828,2018,Tennessee,Memphis,140 Lt George W Lee Ave,0,5,36.1450958,-96.0023638
+1,1206409,2018,Illinois,Elgin,550 S McLean Blvd,1,3,37.7640281,-122.1743935
+2,1206375,2018,Alabama,Auburn,224 W Magnolia St,1,4,37.7194881,-122.425285
+4,1206050,2018,Minnesota,Minneapolis,2024 N Washington Ave,1,3,30.7029976,-88.0786828
+5,1204538,2018,Ohio,Cincinnati,511 Walnut St,4,2,42.2699348,-88.9627801
+6,1204486,2018,Georgia,Albany,1200 block of Gillespie Ave,0,4,34.027134,-118.3507829
+7,1202134,2018,Texas,San Antonio,600 block of Morningview St,0,4,41.883879,-87.7085187
+8,1202274,2018,New Jersey,Paterson,43 12th Ave,2,2,41.872262,-87.69373
+9,1202318,2018,Alabama,Birmingham,500 23rd St S,0,7,42.9121115,-85.62301
+10,1201885,2018,Arkansas,Fort Smith,801 Garrison Ave,0,4,38.5979369,-121.4276274
+11,1202332,2018,California,San Bernardino,1277 East Lynwood Drive,0,8,40.6327104,-74.0271053
+12,1202437,2018,New Jersey,Trenton,Stuyvesant Ave and Bryn Mawr Ave,0,4,29.9673972,-90.1018231
+13,1201973,2018,Florida,Fort Lauderdale (Lauderhill),5225 NW 24th Ct,1,3,44.9884743,-93.2549796
+14,1201135,2018,Ohio,Cleveland,3232 Lakeside Ave East,1,7,29.3984415,-98.5042924
+15,1200904,2018,Colorado,Aurora,1900 block of Peoria St,2,3,41.0321327,-87.5381426
+16,1197278,2018,Arkansas,Pine Bluff,2600 block of W 34th Ave,1,3,36.7565424,-119.7711186
+17,1196028,2018,Florida,Jacksonville,2 Independent Dr,3,9,37.7849319,-122.4129481
+18,1195537,2018,Virginia,Richmond,4 N 18th St,0,5,36.1144629,-80.2452659
+19,1196051,2018,Tennessee,Nashville,1564 9th Ave N,1,4,30.0216391,-95.3123538
+20,1194315,2018,Pennsylvania,Philadelphia,5800 block of Oakland St,0,4,29.7235827,-95.4421156
+21,1194598,2018,Maryland,Baltimore,1700 block of Homestead St,0,4,40.110245,-88.2353849
+22,1194057,2018,Missouri,Saint Louis,I-64 and Jefferson Ave,0,4,39.3048255,-76.6081873
+23,1192788,2018,Tennessee,Memphis,2119 E Alcy Rd,0,4,48.4616279,-122.3386173
+24,1191368,2018,Tennessee,Jackson,60 Heritage Square,1,4,39.9854586,-75.08589
+0,1192036,2018,Ohio,Cleveland,E 94th St and Kinsman Rd,1,3,36.1450958,-96.0023638
+1,1191279,2018,Illinois,Chicago,7400 block of S Dante Ave,0,5,37.7640281,-122.1743935
+2,1190035,2018,New York,Bronx,925 Allerton Ave,0,4,37.7194881,-122.425285
+3,1189717,2018,Illinois,Chicago,1600 block of W 65th St,0,7,41.7718443,-87.672785
+4,1188597,2018,South Carolina,Greenwood,104 Mimosa Ct,0,5,30.7029976,-88.0786828
+5,1186888,2018,Pennsylvania,Wyncote,1000 S Easton Rd,0,5,42.2699348,-88.9627801
+6,1185520,2018,California,Clearlake,4786 Yarrington Ct,4,1,34.027134,-118.3507829
+7,1185622,2018,Pennsylvania,Pittsburgh (East Liberty),5600 block of Broad St,0,4,41.883879,-87.7085187
+8,1186061,2018,California,San Francisco,Geneva St and Mission St,1,4,41.872262,-87.69373
+9,1184607,2018,Colorado,Thornton,4050 E 100th Ave,1,3,42.9121115,-85.62301
+10,1185040,2018,Ohio,Columbus,1280 Summit St,0,4,38.5979369,-121.4276274
+11,1184992,2018,Missouri,Saint Louis,1515 N 13th St,0,4,40.6327104,-74.0271053
+12,1184206,2018,Michigan,Detroit,6300 block of Vinewood St,0,4,29.9673972,-90.1018231
+13,1182893,2018,New Jersey,Paterson,Mercer St and Franklin St,0,4,44.9884743,-93.2549796
+14,1182717,2018,Pennsylvania,Philadelphia,North 12th Street and West Huntingdon Street,2,4,29.3984415,-98.5042924
+15,1179935,2018,Illinois,Chicago,50 block of N Leclaire Ave,1,4,41.0321327,-87.5381426
+16,1179619,2018,Illinois,Chicago,1300 block of S Millard Ave,1,5,36.7565424,-119.7711186
+17,1179607,2018,Illinois,Chicago,1300 block of W 76th St,0,8,37.7849319,-122.4129481
+18,1179677,2018,Illinois,Chicago,900 block of S Karlov Ave,0,4,36.1144629,-80.2452659
+19,1179644,2018,Illinois,Chicago,1600 block of S Avers Ave,0,4,30.0216391,-95.3123538
+20,1179810,2018,Nevada,Las Vegas,3400 block of Coran Ln,0,6,29.7235827,-95.4421156
+21,1180161,2018,Missouri,Kansas City,E 18th St and Highland Ave,0,6,40.110245,-88.2353849
+22,1179805,2018,Illinois,Chicago,1600 block of N Leclaire Ave,1,3,39.3048255,-76.6081873
+23,1179589,2018,Wisconsin,Milwaukee,40th St and Vliet St,0,4,48.4616279,-122.3386173
+24,1176169,2018,California,Gardena,1212 West 135th Street,2,3,39.9854586,-75.08589
+0,1177024,2018,Georgia,Savannah,12328 Largo Dr,0,4,36.1450958,-96.0023638
+1,1175571,2018,Illinois,Chicago,1200 block of S Avers Ave,0,4,37.7640281,-122.1743935
+2,1174423,2018,Pennsylvania,York,100 block of E Maple St,0,4,37.7194881,-122.425285
+3,1174960,2018,Arizona,Phoenix,2501 E Van Buren St,1,4,41.7718443,-87.672785
+4,1174990,2018,Michigan,Lansing,Spring and River Street,0,4,30.7029976,-88.0786828
+5,1174190,2018,Louisiana,New Orleans,3400 S Claiborne Ave,3,7,42.2699348,-88.9627801
+6,1174527,2018,California,Los Angeles,8801 S Vermont Ave,2,4,34.027134,-118.3507829
+7,1173476,2018,Texas,Robstown,603 East Ave J,5,0,41.883879,-87.7085187
+8,1173637,2018,Illinois,Chicago,1100 block of S Troy St,0,4,41.872262,-87.69373
+9,1172224,2018,Ohio,Cleveland,18416 St Clair Ave,1,6,42.9121115,-85.62301
+10,1173069,2018,California,Oakland,73rd Ave and Bancroft Ave,2,2,38.5979369,-121.4276274
+11,1172403,2018,Texas,Dallas,3019 South Blvd,0,6,40.6327104,-74.0271053
+12,1172333,2018,Louisiana,New Orleans,7000 block of Bullard Ave,0,4,29.9673972,-90.1018231
+13,1170482,2018,Illinois,Chicago,6400 block of S May St,0,5,44.9884743,-93.2549796
+14,1168828,2018,Maryland,Baltimore,1000 block of Dundalk Ave,0,4,29.3984415,-98.5042924
+15,1169103,2018,Illinois,Chicago,3100 block of W Fulton St,2,5,41.0321327,-87.5381426
+16,1169656,2018,Washington,Sunnyside,500 block of S 15th St,1,4,36.7565424,-119.7711186
+17,1167806,2018,New Jersey,Elizabeth,323 Irvington Ave,0,4,37.7849319,-122.4129481
+18,1166302,2018,Oklahoma,Oklahoma City,7201 Melrose Ln,0,4,36.1144629,-80.2452659
+19,1165214,2018,Florida,Palm Beach Gardens (Riviera Beach),2100 block of W 28th St,2,4,30.0216391,-95.3123538
+20,1165183,2018,District of Columbia,Washington,300 block of 53rd St NE,1,4,29.7235827,-95.4421156
+21,1165299,2018,Pennsylvania,Philadelphia,2100 block of N 4th St,1,4,40.110245,-88.2353849
+22,1164167,2018,Colorado,Denver,50th Ave and Grant St,0,4,39.3048255,-76.6081873
+23,1164110,2018,Tennessee,Chattanooga,1400 Cowart St,0,5,48.4616279,-122.3386173
+24,1163947,2018,Maryland,Fort Washington,9500 block of Fort Foote Rd,0,4,39.9854586,-75.08589
+0,1162785,2018,Virginia,Richmond,1401 Roseneath Rd,1,3,36.1450958,-96.0023638
+1,1162687,2018,Tennessee,Memphis,3678 Powers Rd,0,5,37.7640281,-122.1743935
+2,1162437,2018,Texas,Houston,9550 Bissonnet St,0,4,37.7194881,-122.425285
+3,1161230,2018,Florida,Reddick,16300 block of NW Gainesville Rd,0,4,41.7718443,-87.672785
+4,1159820,2018,Florida,Orlando,Southland Blvd and Orange Blossom Trail,1,4,30.7029976,-88.0786828
+5,1160253,2018,Delaware,Wilmington,2709 Ferris Rd,5,0,42.2699348,-88.9627801
+6,1160418,2018,Alabama,Brandon,565 US-80,0,6,34.027134,-118.3507829
+7,1159528,2018,Tennessee,Memphis,Mount Moriah Rd and Mendenhall Rd,0,4,41.883879,-87.7085187
+8,1158826,2018,Alabama,Wetumpka,135 Granite Way,3,2,41.872262,-87.69373
+9,1156480,2018,New York,Brooklyn,280 Herkimer St,0,4,42.9121115,-85.62301
+10,1157073,2018,New York,Albany,First St and Lexington Ave,0,4,38.5979369,-121.4276274
+11,1156528,2018,California,Los Angeles,1600 block of W. 2nd Street,3,3,40.6327104,-74.0271053
+12,1156638,2018,Virginia,Virginia Beach,1800 block of Atlantic Ave,0,6,29.9673972,-90.1018231
+13,1157733,2018,Ohio,Lima,1440 Bellefontaine Ave,1,5,44.9884743,-93.2549796
+14,1155906,2018,Georgia,Atlanta,5456 E Fayetteville Rd,1,3,29.3984415,-98.5042924
+15,1155567,2018,Missouri,Saint Louis,1700 block of Billups Ave,1,5,41.0321327,-87.5381426
+16,1154998,2018,District of Columbia,Washington,1700 block of Benning Rd NE,0,4,36.7565424,-119.7711186
+17,1154558,2018,New York,Buffalo,Grape St,2,2,37.7849319,-122.4129481
+18,1153997,2018,Illinois,Chicago,3400 block of W Walnut Ave,0,6,36.1144629,-80.2452659
+19,1153531,2018,Maryland,Baltimore,4000 block of Penhurst Ave,0,6,30.0216391,-95.3123538
+20,1153134,2018,Georgia,Ashburn,800 Block of W. Washington,1,6,29.7235827,-95.4421156
+21,1153471,2018,New Jersey,Jersey City,Lexington Ave and John F Kennedy Blvd,0,5,40.110245,-88.2353849
+22,1151584,2018,Maryland,Annapolis,888 Bestgate Rd,5,0,39.3048255,-76.6081873
+23,1151355,2018,California,Oakland,8901 MacArthur Boulevard,1,3,48.4616279,-122.3386173
+24,1151527,2018,Texas,San Antonio,100 block of Holly Street,0,4,39.9854586,-75.08589
+0,1151373,2018,Connecticut,Hartford,124 Hillside Ave,0,4,36.1450958,-96.0023638
+1,1149910,2018,Illinois,Chicago,3900 block of S Vincennes Ave,0,6,37.7640281,-122.1743935
+2,1148468,2018,North Carolina,Sanford,109 S Steele St,1,6,37.7194881,-122.425285
+3,1148678,2018,Florida,Punta Gorda,2450 Harbour Dr,0,4,41.7718443,-87.672785
+4,1148647,2018,Florida,Indiantown,17068 SW Palm Beach St,0,4,30.7029976,-88.0786828
+5,1149173,2018,Florida,Palm Beach Gardens (Riviera Beach),1200 block of W 35th St,1,3,42.2699348,-88.9627801
+6,1149463,2018,Indiana,Gary,2500 block of Harrison Street,1,3,34.027134,-118.3507829
+7,1148596,2018,Ohio,Sandusky,1504 Milan Rd,0,5,41.883879,-87.7085187
+8,1148042,2018,Kansas,Wichita,1403 Harding St,0,4,41.872262,-87.69373
+9,1147720,2018,Illinois,Chicago,100 block of East 51st St,1,4,42.9121115,-85.62301
+10,1161366,2018,Tennessee,Covington,319 N High St,0,4,38.5979369,-121.4276274
+11,1147323,2018,Pennsylvania,Homestead (Munhall),1324 Margaret St,1,3,40.6327104,-74.0271053
+12,1146968,2018,California,San Bernardino,279 W Base Line,1,3,29.9673972,-90.1018231
+13,1146760,2018,Louisiana,Morganza,Deaton Ln,0,4,44.9884743,-93.2549796
+14,1146547,2018,Illinois,Chicago,6500 block of S Claremont Ave,0,4,29.3984415,-98.5042924
+15,1145709,2018,California,Modesto,2300 block of West Hatch Road,0,5,41.0321327,-87.5381426
+16,1145881,2018,Alabama,Huntsville,905 Lee Dr NW,0,4,36.7565424,-119.7711186
+17,1144852,2018,Illinois,Bloomington,311 Riley Dr,3,1,37.7849319,-122.4129481
+18,1143558,2018,Illinois,Chicago,1300 block of S Loomis St,2,3,36.1144629,-80.2452659
+19,1143135,2018,North Carolina,Charlotte,3215 Queen City Dr,0,4,30.0216391,-95.3123538
+20,1142789,2018,New Jersey,Trenton,635 S Clinton Ave,1,19,29.7235827,-95.4421156
+21,1143081,2018,Georgia,Macon,325 Edgewood Ln,1,3,40.110245,-88.2353849
+22,1143524,2018,Illinois,Chicago,2200 block of S Sacramento Ave,0,4,39.3048255,-76.6081873
+23,1141645,2018,California,Union City,32992 Mission Blvd,0,5,48.4616279,-122.3386173
+24,1141745,2018,New York,Buffalo,Marigold Ave,1,4,39.9854586,-75.08589
+0,1141943,2018,California,Tracy,West 6th Street,1,4,36.1450958,-96.0023638
+1,1141108,2018,Colorado,Westminster,5150 W 80th Ave,1,3,37.7640281,-122.1743935
+2,1142145,2018,Pennsylvania,Philadelphia,400 block of Penn St,0,4,37.7194881,-122.425285
+3,1139320,2018,New York,Bronx,W 166th St and Summit Ave,0,4,41.7718443,-87.672785
+4,1139176,2018,Alabama,Montgomery,3220 block of Virginia Pines Ln,0,4,30.7029976,-88.0786828
+5,1138324,2018,Florida,Orlando,4932 Eaglesmere Dr,6,0,42.2699348,-88.9627801
+6,1137435,2018,California,Valley Village,12719 Tiara St,0,6,34.027134,-118.3507829
+7,1137586,2018,Indiana,Indianapolis (Lawrence),4745 N Richardt Ave,1,4,41.883879,-87.7085187
+8,1137547,2018,Illinois,Aurora,300 block of W Park Ave,0,7,41.872262,-87.69373
+9,1137600,2018,Florida,Bradenton,5627 14th St W,1,5,42.9121115,-85.62301
+10,1137473,2018,Illinois,Chicago,6400 block of S Eberhart Ave,1,5,38.5979369,-121.4276274
+11,1137848,2018,Illinois,Bloomington,1200 block of Orchard Rd,2,2,40.6327104,-74.0271053
+12,1137737,2018,North Carolina,Kannapolis,1709 S Cannon Blvd,0,4,29.9673972,-90.1018231
+13,1136928,2018,Massachusetts,Boston,14 Copeland St,0,4,44.9884743,-93.2549796
+14,1137402,2018,Pennsylvania,Philadelphia,2000 block of 20th St,1,4,29.3984415,-98.5042924
+15,1134378,2018,Florida,Jacksonville,Town Center Pkwy,3,1,41.0321327,-87.5381426
+16,1132408,2018,Texas,Dallas,4500 Spring Ave,0,5,36.7565424,-119.7711186
+17,1131909,2018,Illinois,Chicago,1200 block of W 73rd Pl,1,3,37.7849319,-122.4129481
+18,1131855,2018,Nebraska,Omaha,S 11th St and Farnam St,1,6,36.1144629,-80.2452659
+19,1132050,2018,New York,Buffalo,Strauss Street,0,5,30.0216391,-95.3123538
+20,1129432,2018,South Carolina,Timmonsville,544 Chaney Grove Rd,3,2,29.7235827,-95.4421156
+21,1126712,2018,Louisiana,Shreveport,857 E Stoner Ave,0,4,40.110245,-88.2353849
+22,1126434,2018,Colorado,Aurora,15373 E 6th Ave,1,3,39.3048255,-76.6081873
+23,1124777,2018,Ohio,Cincinnati,1000 block of Ross Avenue,0,4,48.4616279,-122.3386173
+24,1122728,2018,Indiana,Anderson,1604 Madison Ave,0,4,39.9854586,-75.08589
+0,1121111,2018,Mississippi,Hazlehurst,513 Monticello St,1,7,36.1450958,-96.0023638
+1,1118785,2018,Texas,Santa Fe,16000 Hwy 6,10,13,37.7640281,-122.1743935
+2,1116705,2018,Texas,Ponder,610 Lone Star Park Ln,5,1,37.7194881,-122.425285
+3,1115110,2018,Maryland,Baltimore,2020 Etting St,0,4,41.7718443,-87.672785
+4,1114725,2018,California,Los Angeles,365 W Manchester Avenue,2,2,30.7029976,-88.0786828
+5,1115051,2018,California,Stockton,2436 Belleview St,3,2,42.2699348,-88.9627801
+6,1114402,2018,Mississippi,Byhalia,French Rd and Berta Rd,0,4,34.027134,-118.3507829
+7,1114276,2018,Nebraska,Omaha,3201 Decatur St,0,6,41.883879,-87.7085187
+8,1113538,2018,New Jersey,Paulsboro,275 W Buck St,0,4,41.872262,-87.69373
+9,1113737,2018,Missouri,Saint Louis,4800 block of Farlin Ave,0,4,42.9121115,-85.62301
+10,1112948,2018,Oklahoma,Talihina,2nd St and Dallas St,1,4,38.5979369,-121.4276274
+11,1111950,2018,Missouri,Saint Louis,5200 block of Minerva Avenue,0,4,40.6327104,-74.0271053
+12,1111649,2018,Nebraska,Omaha,Sahler St and N 48th St,0,4,29.9673972,-90.1018231
+13,1110399,2018,California,San Diego,15th St and J St,0,5,44.9884743,-93.2549796
+14,1108856,2018,Oklahoma,Stillwater,2020 East Lakeview Road,0,4,29.3984415,-98.5042924
+15,1109322,2018,Tennessee,Memphis,499 N Watkins St,2,4,41.0321327,-87.5381426
+16,1108879,2018,Georgia,Columbus,4944 Sentry Street,0,5,36.7565424,-119.7711186
+17,1110773,2018,North Carolina,Henderson,519 Hilliard St,0,4,37.7849319,-122.4129481
+18,1109928,2018,Illinois,Chicago Heights,200 block of E 23rd St,0,4,36.1144629,-80.2452659
+19,1106451,2018,Illinois,Chicago,3500 block of W Grenshaw St,1,4,30.0216391,-95.3123538
+20,1106557,2018,Minnesota,Minneapolis,2400 block of Ogema Place,0,5,29.7235827,-95.4421156
+21,1106432,2018,New York,Brooklyn,333 Bristol St,1,4,40.110245,-88.2353849
+22,1105061,2018,Louisiana,New Orleans,3200 block of Saint Claude Ave,0,5,39.3048255,-76.6081873
+23,1103454,2018,Florida,Pompano Beach,4251 N Dixie Hwy,0,4,48.4616279,-122.3386173
+24,1103465,2018,District of Columbia,Washington,3600 block of New York Ave NE,0,4,39.9854586,-75.08589
+0,1103423,2018,Tennessee,Wartburg,519 South Kingston St,0,4,36.1450958,-96.0023638
+1,1102808,2018,Washington,Seattle (Skyway),12603 Renton Ave S,2,2,37.7640281,-122.1743935
+2,1103045,2018,North Carolina,Monroe,1500 block of Massey St,1,3,37.7194881,-122.425285
+3,1102900,2018,Florida,West Palm Beach,1969 S Military Trail,1,3,41.7718443,-87.672785
+4,1102559,2018,North Carolina,Maxton,Modest Rd,0,5,30.7029976,-88.0786828
+5,1100691,2018,Arkansas,Pine Bluff,300 block of West 24th Street,0,4,42.2699348,-88.9627801
+6,1100852,2018,Missouri,Saint Louis,1151 Northdale Dr,3,1,34.027134,-118.3507829
+7,1099516,2018,Michigan,Flint,2200 block of Ave A,0,4,41.883879,-87.7085187
+8,1096826,2018,Tennessee,Antioch,3571 Murfreesboro Pike,4,3,41.872262,-87.69373
+9,1097700,2018,Louisiana,New Orleans,1900 block of St Roch Ave,2,4,42.9121115,-85.62301
+10,1096232,2018,Pennsylvania,Philadelphia,1800 block of W Diamond St,2,2,38.5979369,-121.4276274
+11,1096388,2018,California,San Francisco,3rd Street and Quesada Ave,1,5,40.6327104,-74.0271053
+12,1095043,2018,North Carolina,Asheville,73 Hansel Ave,4,3,29.9673972,-90.1018231
+13,1092279,2018,Louisiana,Shreveport,6956 Jewella Ave,0,6,44.9884743,-93.2549796
+14,1088778,2018,California,Vallejo,201 Maine St,0,4,29.3984415,-98.5042924
+15,1087153,2018,North Carolina,Hickory,247 1st Ave NW,1,3,41.0321327,-87.5381426
+16,1087021,2018,Florida,Miami,1300 block of NW 63rd Terrace,2,2,36.7565424,-119.7711186
+17,1086773,2018,Florida,Jacksonville,6100 block of Transylvania Ave,0,4,37.7849319,-122.4129481
+18,1086966,2018,Virginia,Virginia Beach,5800 block of Pickering St,1,3,36.1144629,-80.2452659
+19,1084847,2018,Louisiana,New Orleans,3300 Garden Oaks Drive,2,2,30.0216391,-95.3123538
+20,1083552,2018,Texas,Houston,8500 block of Redcliff Rd,1,3,29.7235827,-95.4421156
+21,1083011,2018,Alabama,Mobile,3556 Halls Mill Rd,1,4,40.110245,-88.2353849
+22,1082835,2018,Michigan,Saginaw,600 block of Yale St,0,5,39.3048255,-76.6081873
+23,1082273,2018,New Jersey,Asbury Park,Atlantic Ave and Monmouth Ave,0,5,48.4616279,-122.3386173
+24,1080234,2018,Texas,Plano,7401 Alma Dr,1,3,39.9854586,-75.08589
+0,1080442,2018,New Jersey,Camden,Kaighn Ave and Haddon Ave,0,4,36.1450958,-96.0023638
+1,1077180,2018,Utah,Salt Lake City (West Valley City),3180 South 5600 West,0,4,37.7640281,-122.1743935
+2,1074886,2018,California,San Francisco,949 Geneva Ave,1,5,37.7194881,-122.425285
+3,1071427,2018,Kentucky,Louisville,2928 W Kentucky St,0,7,41.7718443,-87.672785
+4,1071381,2018,Illinois,Harvey,16700 S Halsted St,0,4,30.7029976,-88.0786828
+5,1078612,2018,Florida,Macclenny,South Blvd,0,4,42.2699348,-88.9627801
+6,1068615,2018,California,Modesto,2000 block of Robertson Rd,0,4,34.027134,-118.3507829
+7,1067061,2018,Indiana,South Bend,800 block of E Dayton St,0,6,41.883879,-87.7085187
+8,1067264,2018,Illinois,Champaign,700 block of N Hickory St,1,3,41.872262,-87.69373
+9,1067296,2018,Michigan,Saginaw,Cumberland Ave and Hess St,1,4,42.9121115,-85.62301
+10,1066594,2018,North Carolina,Wadesboro,1300 E Caswell St,3,1,38.5979369,-121.4276274
+11,1064514,2018,Alabama,Hurtsboro,531 Main Street,2,2,40.6327104,-74.0271053
+12,1062466,2018,Illinois,Rockford,426 Howard Ave,1,4,29.9673972,-90.1018231
+13,1061748,2018,New York,Brooklyn,Kings Highway and Utica Avenue,1,3,44.9884743,-93.2549796
+14,1062123,2018,Florida,Miami,1300 Block of NW 62nd Ln,0,4,29.3984415,-98.5042924
+15,1059559,2018,Connecticut,Bridgeport,1306 Stratford Ave,0,4,41.0321327,-87.5381426
+16,1057518,2018,Michigan,Detroit,22700 Fenkell Ave,5,0,36.7565424,-119.7711186
+17,1056240,2018,Florida,Palm Beach Gardens (Riviera Beach),W 23rd St,1,3,37.7849319,-122.4129481
+18,1052372,2018,Texas,San Antonio,2893 Cinema Ridge,0,5,36.1144629,-80.2452659
+19,1052035,2018,Kansas,Kansas City,1615 Minnesota,1,7,30.0216391,-95.3123538
+20,1051407,2018,Tennessee,Memphis,3188 N Watkins Ave,0,5,29.7235827,-95.4421156
+21,1051291,2018,Oklahoma,Oklahoma City,1700 block of SW 15,1,3,40.110245,-88.2353849
+22,1049217,2018,Florida,Pompano Beach (Parkland),5901 Pine Island Rd,17,17,39.3048255,-76.6081873
+23,1049024,2018,Louisiana,New Orleans,5400 block of Andry St,2,3,48.4616279,-122.3386173
+24,1047761,2018,Michigan,Detroit,19432 Lamont St,4,3,39.9854586,-75.08589
+0,1046961,2018,Kentucky,Paintsville,413 Mill St,5,0,36.1450958,-96.0023638
+1,1044234,2018,Florida,Lake Worth (Lantana),I-95 and Lantana Ave,3,3,37.7640281,-122.1743935
+2,1043447,2018,Colorado,Colorado Springs,4225 Galley Rd,2,4,37.7194881,-122.425285
+3,1042280,2018,Ohio,Cleveland (Garfield Heights),11321 Broadway Ave,1,5,41.7718443,-87.672785
+4,1040815,2018,Missouri,Saint Louis,Goodfellow Blvd and Dr Martin Luther King Dr,0,4,30.7029976,-88.0786828
+5,1037529,2018,Pennsylvania,Melcroft,1301 Indian Creek Valley Rd,5,0,42.2699348,-88.9627801
+6,1037515,2018,Indiana,Indianapolis,1313 N Sherman Dr,2,3,34.027134,-118.3507829
+7,1038429,2018,Pennsylvania,Reading,123 S 3rd St,4,0,41.883879,-87.7085187
+8,1037438,2018,Kentucky,Bowling Green,645 Pearl Street,0,4,41.872262,-87.69373
+9,1037541,2018,California,Los Angeles,243 East 119th St,0,5,42.9121115,-85.62301
+10,1035803,2018,District of Columbia,Washington,1600 block of Kenilworth Ave NE,0,4,38.5979369,-121.4276274
+11,1033262,2018,Kentucky,Benton,416 High School Rd,2,14,40.6327104,-74.0271053
+12,1034205,2018,Pennsylvania,Philadelphia,N 24th St and Ridge Ave,0,4,29.9673972,-90.1018231
+13,1032393,2018,Florida,Orlando,3101 Willow Bend Blvd,0,4,44.9884743,-93.2549796
+14,1031851,2018,Illinois,Chicago,3200 W Division St,0,4,29.3984415,-98.5042924
+15,1029095,2018,District of Columbia,Washington,2000 block of 16th St SE,1,3,41.0321327,-87.5381426
+16,1042072,2018,Florida,Alachua,14223 NW 156th Pl,0,5,36.7565424,-119.7711186
+17,1026804,2018,Alabama,Eutaw,809 Mesopotamia St,1,4,37.7849319,-122.4129481
+18,1027013,2018,Alabama,Madison,101 Westchester Dr,0,4,36.1144629,-80.2452659
+19,1025673,2018,Tennessee,Nashville,2614 Jenkins Ct,3,2,30.0216391,-95.3123538
+20,1025272,2018,Missouri,Saint Robert (St Robert),St Robert Outer Road and Houston Road,2,2,29.7235827,-95.4421156
+21,1022067,2018,Alabama,Union Springs,US-29,1,5,40.110245,-88.2353849
+22,1022055,2018,Florida,Plantation,5225 W Broward Blvd,0,4,39.3048255,-76.6081873
+23,1021788,2018,Mississippi,Hattiesburg,6168 US 49,0,6,48.4616279,-122.3386173
+24,1020574,2018,Arkansas,Brinkley,615 W 6th St,1,3,39.9854586,-75.08589
+0,1018295,2018,Alabama,Huntsville,2025 Sparkman Dr NW,1,3,36.1450958,-96.0023638
+1,1017372,2017,Colorado,Littleton (Highlands Ranch),3404 E County Line Rd,2,6,37.7640281,-122.1743935
+2,1017422,2017,Illinois,Chicago,2335 Howard St,0,4,37.7194881,-122.425285
+3,1018118,2017,New Jersey,Long Branch,635 Wall St,4,0,41.7718443,-87.672785
+4,1015666,2017,Nevada,Las Vegas,3750 E Bonanza Rd,2,2,30.7029976,-88.0786828
+5,1015336,2017,Florida,Miami,NW 18th Ave and 86th Ter,0,5,42.2699348,-88.9627801
+6,1013983,2017,Mississippi,Vicksburg,1111 Mulberry Street,0,5,34.027134,-118.3507829
+7,1014052,2017,Alabama,Troy,100 block of Chapman St,1,4,41.883879,-87.7085187
+8,1014971,2017,Louisiana,Eunice,100 block of City Avenue,1,3,41.872262,-87.69373
+9,1013377,2017,Alabama,Birmingham,3rd Ave N and 9th St N,0,4,42.9121115,-85.62301
+10,1011953,2017,Pennsylvania,Philadelphia,6600 block of Dorel St,1,3,38.5979369,-121.4276274
+11,1012704,2017,Louisiana,Lafayette,1500 block of N University Avenue,0,4,40.6327104,-74.0271053
+12,1009629,2017,Mississippi,Mc Cool (Mccool),Ferguson Rd,0,4,29.9673972,-90.1018231
+13,1008310,2017,California,Pacoima,13041 Jouett Street,0,5,44.9884743,-93.2549796
+14,1007054,2017,Ohio,Columbus,200 block of E Barthman Ave,1,3,29.3984415,-98.5042924
+15,1006150,2017,Kentucky,Louisville,17th and Gallagher Streets,0,4,41.0321327,-87.5381426
+16,1006446,2017,Texas,Garland,1301 Rivercrest Ln,0,4,36.7565424,-119.7711186
+17,1004454,2017,Massachusetts,Boston,Proctor St,0,4,37.7849319,-122.4129481
+18,1002514,2017,Illinois,Chicago,4620 N Broadway,0,4,36.1144629,-80.2452659
+19,1001566,2017,Pennsylvania,Pittsburgh,7200 block of Everton St,2,2,30.0216391,-95.3123538
+20,1000479,2017,Tennessee,Memphis,656 Marshall Ave,1,3,29.7235827,-95.4421156
+21,999969,2017,Michigan,Detroit,5200 Woodward Avenue,0,4,40.110245,-88.2353849
+22,998843,2017,Michigan,Detroit,11000 block of Gunston,1,4,39.3048255,-76.6081873
+23,994323,2017,Mississippi,Brookhaven,119 Martin Street,1,6,48.4616279,-122.3386173
+24,995015,2017,Ohio,Cleveland,11618 Buckeye Rd,1,5,39.9854586,-75.08589
+0,991017,2017,Minnesota,Minneapolis,3600 block of N Emerson Ave,0,4,36.1450958,-96.0023638
+1,990974,2017,Louisiana,New Iberia,900 Block of Mississippi St,0,4,37.7640281,-122.1743935
+2,989838,2017,Georgia,Columbus,1400 block of 15th Street,0,7,37.7194881,-122.425285
+3,988824,2017,California,Richmond,900 Block of View Dr,2,2,41.7718443,-87.672785
+4,987611,2017,California,Corning,17357 Stagecoach Rd,6,12,30.7029976,-88.0786828
+5,986236,2017,Indiana,Gary,4601 Melton Rd,0,7,42.2699348,-88.9627801
+6,987134,2017,California,Fresno,S Calvin Ave,0,5,34.027134,-118.3507829
+7,986816,2017,Georgia,Atlanta,50 Lower Alabama St,2,2,41.883879,-87.7085187
+8,985582,2017,Texas,Dallas,2532 Martin Luther King Jr Blvd,1,3,41.872262,-87.69373
+9,985832,2017,North Carolina,Fayetteville,2835 Bragg Blvd,1,5,42.9121115,-85.62301
+10,986092,2017,Louisiana,New Orleans,Forstall St and Burgundy St,1,5,38.5979369,-121.4276274
+11,984822,2017,Ohio,Dayton (Trotwood),193 Olive Rd,0,4,40.6327104,-74.0271053
+12,984455,2017,Pennsylvania,Philadelphia,1800 block of Ringgold,0,4,29.9673972,-90.1018231
+13,980577,2017,Texas,Sutherland Springs,216 4th St,27,20,44.9884743,-93.2549796
+14,980269,2017,Texas,Austin,N Lamar Blvd and Masterson Pass,0,4,29.3984415,-98.5042924
+15,980192,2017,Ohio,Youngstown,2810 Market St,0,4,41.0321327,-87.5381426
+16,980060,2017,California,Santa Monica,1515 Ocean Avenue,1,3,36.7565424,-119.7711186
+17,979651,2017,Minnesota,Minneapolis,10th Ave S and E 24th St,0,4,37.7849319,-122.4129481
+18,980258,2017,California,Gardena,E 163rd St and S Main St,0,4,36.1144629,-80.2452659
+19,980004,2017,New York,Buffalo,147 Roosevelt Ave,0,4,30.0216391,-95.3123538
+20,980401,2017,Louisiana,Lacombe,27600 block of Mirmar Street,1,4,29.7235827,-95.4421156
+21,975600,2017,Texas,Austin,5500 block of Ave F,1,3,40.110245,-88.2353849
+22,975817,2017,Ohio,Toledo,1327 N Huron St,0,4,39.3048255,-76.6081873
+23,974704,2017,Virginia,Petersburg,N Sycamore St and Franklin,1,3,48.4616279,-122.3386173
+24,974051,2017,Kentucky,Louisville,1716 Prentice St,0,6,39.9854586,-75.08589
+0,974411,2017,California,San Francisco,1100 block of Fillmore,0,4,36.1450958,-96.0023638
+1,966895,2017,California,Clearlake Oaks,13000 block of Anchor Village,2,3,37.7640281,-122.1743935
+2,966153,2017,Connecticut,Hartford,Wethersfield Avenue and Elliott Street,0,4,37.7194881,-122.425285
+3,966178,2017,Alabama,Lanett,1606 19th St Sw,2,7,41.7718443,-87.672785
+4,965066,2017,Florida,Tampa,400 block of E Nordica St,0,4,30.7029976,-88.0786828
+5,965077,2017,Florida,Jacksonville,164 E Eubanks St,0,4,42.2699348,-88.9627801
+6,965756,2017,Tennessee,Nashville,1277 12th Ave S,0,4,34.027134,-118.3507829
+7,965251,2017,Pennsylvania,Chester,1200 block of W Carlas Ln,0,4,41.883879,-87.7085187
+8,962359,2017,Maryland,Edgewood,2111 Emmorton Park Rd,3,3,41.872262,-87.69373
+9,962155,2017,New York,Brooklyn,181 Martense St,0,4,42.9121115,-85.62301
+10,962623,2017,Mississippi,Meridian,5th Street,1,3,38.5979369,-121.4276274
+11,960036,2017,Texas,Houston,6233 Gulfton St,2,2,40.6327104,-74.0271053
+12,959126,2017,Arizona,Phoenix,107th Ave and Camelback Rd,1,3,29.9673972,-90.1018231
+13,957980,2017,California,Aliso Viejo,6 Asbury Ct,2,2,44.9884743,-93.2549796
+14,957562,2017,Ohio,Pedro,15497 SR 93,4,0,29.3984415,-98.5042924
+15,956942,2017,California,San Francisco,25th St and Treat Ave,0,4,41.0321327,-87.5381426
+16,955268,2017,Texas,Houston,3352 Old Spanish Trail,0,5,36.7565424,-119.7711186
+17,954428,2017,Arizona,Phoenix,87th Ave and Thomas Rd,0,4,37.7849319,-122.4129481
+18,953156,2017,Illinois,Chicago,8000 block of S Marshfield,0,5,36.1144629,-80.2452659
+19,952720,2017,Arizona,Casa Grande,400 block of W 13th Street,4,0,30.0216391,-95.3123538
+20,952220,2017,Florida,Miami,2051 NW 65th St,0,4,29.7235827,-95.4421156
+21,945990,2017,Kansas,Lawrence,1000 block of Massachusetts St,3,2,40.110245,-88.2353849
+22,946496,2017,Nevada,Las Vegas,3950 Las Vegas Blvd S,59,441,39.3048255,-76.6081873
+23,946138,2017,Tennessee,Memphis,800 block of Kerr Avenue,1,3,48.4616279,-122.3386173
+24,944448,2017,Louisiana,New Orleans,2001 N Rocheblave St,1,3,39.9854586,-75.08589
+0,942628,2017,Pennsylvania,Philadelphia,100 block of Pastorius St,1,3,36.1450958,-96.0023638
+1,942522,2017,Tennessee,Memphis,2531 Chelsea Ave,0,4,37.7640281,-122.1743935
+2,942830,2017,Maryland,Baltimore,3200 block of Lyndale Ave,2,2,37.7194881,-122.425285
+3,941144,2017,Maryland,Baltimore,500 block of E. Patapsco Avenue,0,4,41.7718443,-87.672785
+4,940554,2017,Tennessee,Antioch,3890 Pin Hook Rd,1,8,30.7029976,-88.0786828
+5,940644,2017,New York,Syracuse,1226 E Fayette St,0,4,42.2699348,-88.9627801
+6,1974755,2017,Pennsylvania,Philadelphia,3400 block of H St,0,4,34.027134,-118.3507829
+7,941257,2017,New Jersey,Mays Landing,6000 block of Hoover Dr,1,3,41.883879,-87.7085187
+8,939834,2017,California,Bakersfield,818 Real Rd,1,4,41.872262,-87.69373
+9,940068,2017,Illinois,Danville,Seminary St and Jackson St,0,5,42.9121115,-85.62301
+10,940142,2017,Connecticut,Hartford,1164 Albany Ave,2,2,38.5979369,-121.4276274
+11,939482,2017,Indiana,Gary,4300 block of 23rd Ct,0,5,40.6327104,-74.0271053
+12,936028,2017,Michigan,Detroit,5000 block of Stanton Street,1,3,29.9673972,-90.1018231
+13,935928,2017,Virginia,Petersburg,300 Mistletoe St,1,4,44.9884743,-93.2549796
+14,934036,2017,South Carolina,Columbia,920 Lady Street,0,8,29.3984415,-98.5042924
+15,932526,2017,Tennessee,Memphis,1000 block of Morehead St,1,5,41.0321327,-87.5381426
+16,932181,2017,Washington,Rockford,14626 S Jackson Rd,1,3,36.7565424,-119.7711186
+17,932906,2017,Pennsylvania,York,400 block of S Duke St,0,4,37.7849319,-122.4129481
+18,932619,2017,Pennsylvania,Philadelphia,3100 block of N 2nd St,0,4,36.1144629,-80.2452659
+19,930569,2017,Texas,Plano,1712 West Spring Creek Parkway,9,1,30.0216391,-95.3123538
+20,930266,2017,Louisiana,New Orleans,2101 N Claiborne Ave,1,3,29.7235827,-95.4421156
+21,931139,2017,Alabama,Selma,Kings Bend Road,0,4,40.110245,-88.2353849
+22,928380,2017,Illinois,Chicago,2700 block of Madison,0,4,39.3048255,-76.6081873
+23,927277,2017,Illinois,Bellwood,1000 block of Bellwood Ave,0,4,48.4616279,-122.3386173
+24,926766,2017,California,Inglewood,10100 block of S Firmona Ave,2,3,39.9854586,-75.08589
+0,925809,2017,Kentucky,Louisville,8008 Watterson Trl,0,4,36.1450958,-96.0023638
+1,925436,2017,Illinois,Chicago,8300 block of S Hermitage,1,3,37.7640281,-122.1743935
+2,922184,2017,New Mexico,Clovis,701 N Main St,2,4,37.7194881,-122.425285
+3,921733,2017,California,Sacramento,7760 24th St,1,4,41.7718443,-87.672785
+4,921653,2017,Indiana,Evansville,1127 Chestnut St,1,3,30.7029976,-88.0786828
+5,921289,2017,Florida,Gainesville,1600 NE 8th Ave,0,4,42.2699348,-88.9627801
+6,920513,2017,Missouri,Saint Louis,10400 block of Balmoral Dr,4,0,34.027134,-118.3507829
+7,918204,2017,Illinois,Chicago,300 block of N Central Ave,0,4,41.883879,-87.7085187
+8,917793,2017,New Jersey,Newark,Fabyan Place,0,4,41.872262,-87.69373
+9,917820,2017,North Carolina,Whitakers,980 Fishing Creek Rd,4,0,42.9121115,-85.62301
+10,918061,2017,New Jersey,Newark,700 block of S 19th St,1,3,38.5979369,-121.4276274
+11,917713,2017,Maryland,Baltimore,Cottage Avenue and Park Heights Avenue,1,3,40.6327104,-74.0271053
+12,917838,2017,Tennessee,Memphis,262 Decatur St,0,4,29.9673972,-90.1018231
+13,916808,2017,New York,Brooklyn,100th St and Ave M,0,4,44.9884743,-93.2549796
+14,916848,2017,Illinois,Chicago,11901 S Loomis St,2,5,29.3984415,-98.5042924
+15,916551,2017,Ohio,Cleveland,11143 Superior Ave,1,4,41.0321327,-87.5381426
+16,914819,2017,New York,Wyandanch,Merritt Ave and 15th St,0,4,36.7565424,-119.7711186
+17,913924,2017,California,North Hollywood,Morrison St and Klump Ave,2,2,37.7849319,-122.4129481
+18,912805,2017,Pennsylvania,Philadelphia,39th St and Melon St,0,5,36.1144629,-80.2452659
+19,912322,2017,California,Sacramento,4000 Block of Martin Luther King Jr Blvd,0,4,30.0216391,-95.3123538
+20,912375,2017,Virginia,Suffolk,8700 block of Quay Rd,0,4,29.7235827,-95.4421156
+21,912093,2017,Missouri,Saint Louis,12310 Bellefontaine Rd,1,3,40.110245,-88.2353849
+22,909423,2017,Illinois,Chicago,50 block of E 37th St,1,6,39.3048255,-76.6081873
+23,907555,2017,New York,Bronx,Wickham Ave,0,6,48.4616279,-122.3386173
+24,907546,2017,New York,Bronx,Unionport Rd,0,4,39.9854586,-75.08589
+0,907857,2017,California,Oakland,1000 block of 106th Avenue,0,7,36.1450958,-96.0023638
+1,907247,2017,New Jersey,Lakewood,900 block of Brook Road,0,4,37.7640281,-122.1743935
+2,907611,2017,South Carolina,Allendale,300 block of Ellis St,1,3,37.7194881,-122.425285
+3,906568,2017,Florida,Tallahassee,1939 W Tennessee St,1,3,41.7718443,-87.672785
+4,906509,2017,Montana,Lodge Grass,200 block of North Helen Street,3,2,30.7029976,-88.0786828
+5,906126,2017,District of Columbia,Washington,3426 18th St NE,1,3,42.2699348,-88.9627801
+6,904329,2017,Maryland,Baltimore,900 block of N Broadway,0,4,34.027134,-118.3507829
+7,903853,2017,Illinois,Chicago,800 block of N Monticello Ave,0,4,41.883879,-87.7085187
+8,904106,2017,Washington,Toppenish,8000 Block of Lateral C Rd,0,6,41.872262,-87.69373
+9,904026,2017,California,Fresno,Mariposa St and A St,0,7,42.9121115,-85.62301
+10,903090,2017,Illinois,Decatur,Jasper St and Main St,0,4,38.5979369,-121.4276274
+11,902187,2017,Texas,El Paso,1810 George Dieter Dr,1,3,40.6327104,-74.0271053
+12,901549,2017,Virginia,Norfolk,1500 block of Azalea Garden Rd,1,5,29.9673972,-90.1018231
+13,901083,2017,New York,Buffalo,200 block of Carl St,1,4,44.9884743,-93.2549796
+14,901000,2017,North Carolina,Salisbury,115 W Fisher St,2,3,29.3984415,-98.5042924
+15,900963,2017,Delaware,Wilmington,400 block of N Washington St,0,4,41.0321327,-87.5381426
+16,900387,2017,Illinois,Chicago,2000 block of E 71st St,1,4,36.7565424,-119.7711186
+17,898631,2017,North Carolina,High Point,2111 E. Green Drive,1,6,37.7849319,-122.4129481
+18,898448,2017,Florida,Jacksonville,1040 Golfair Boulevard,1,3,36.1144629,-80.2452659
+19,896444,2017,Illinois,Chicago,1500 block of East 82nd St,1,3,30.0216391,-95.3123538
+20,896889,2017,Louisiana,Baton Rouge,10360 Ave H,0,4,29.7235827,-95.4421156
+21,896149,2017,Ohio,Cincinnati,130 E Clifton Ave,0,5,40.110245,-88.2353849
+22,893690,2017,Virginia,Richmond,2300 block of Bethel St,0,5,39.3048255,-76.6081873
+23,894504,2017,California,Los Angeles,Imperial Hwy and Broadway,1,3,48.4616279,-122.3386173
+24,893726,2017,Wisconsin,Milwaukee,3000 block of N 39th St,0,4,39.9854586,-75.08589
+0,893712,2017,New Jersey,Trenton,Hewitt St and Division St,1,3,36.1450958,-96.0023638
+1,893752,2017,Arizona,El Mirage,NW Grand Ave and W Thunderbird Rd,0,4,37.7640281,-122.1743935
+2,891291,2017,Pennsylvania,Philadelphia,21st and Fitzwater,1,3,37.7194881,-122.425285
+3,891092,2017,Illinois,Chicago,12200 block of S Throop St,0,4,41.7718443,-87.672785
+4,886564,2017,Virginia,Lawrenceville,500 block of Sturgeon Rd,0,7,30.7029976,-88.0786828
+5,886002,2017,Illinois,Alton,700 block of Oakwood Ave,0,4,42.2699348,-88.9627801
+6,886220,2017,Ohio,Cincinnati,9917 Capstan Dr,1,8,34.027134,-118.3507829
+7,884764,2017,Mississippi,Meridian,Eighth Ave,0,4,41.883879,-87.7085187
+8,883052,2017,Georgia,Savannah,Jefferson Street and West St. Julian Street,0,4,41.872262,-87.69373
+9,883282,2017,Illinois,Chicago (Roseland),11000 block of S Eberhart,2,2,42.9121115,-85.62301
+10,883058,2017,Maine,Madison,300 block of Russell Rd,4,1,38.5979369,-121.4276274
+11,882665,2017,Florida,Orlando (Pine Castle),501 W Lancaster Rd,0,4,40.6327104,-74.0271053
+12,882321,2017,Virginia,Hampton,500 block of Patterson Ave,1,4,29.9673972,-90.1018231
+13,883489,2017,North Carolina,Raleigh,105 E South St,1,3,44.9884743,-93.2549796
+14,882422,2017,Alabama,Prattville,112 US 82,3,1,29.3984415,-98.5042924
+15,881921,2017,Michigan,Pontiac,50 block of Thorpe St,1,3,41.0321327,-87.5381426
+16,881700,2017,New Jersey,Jersey City,Wilkinson Avenue,0,4,36.7565424,-119.7711186
+17,880738,2017,South Carolina,Greenwood,SC 72 Bypass,0,4,37.7849319,-122.4129481
+18,879953,2017,Arkansas,Little Rock,220 W 6th St,0,25,36.1144629,-80.2452659
+19,883656,2017,Illinois,Momence,2727 S 13000 Rd E,0,4,30.0216391,-95.3123538
+20,880808,2017,New Jersey,Newark,Lincoln Park and Pennsylvania Avenue,2,2,29.7235827,-95.4421156
+21,880813,2017,California,Oakland,3200 Humboldt Ave,0,4,40.110245,-88.2353849
+22,879412,2017,New York,Bronx,1650 Grand Concourse,2,6,39.3048255,-76.6081873
+23,877295,2017,Illinois,Chicago,200 block of S Lotus,0,5,48.4616279,-122.3386173
+24,876010,2017,District of Columbia,Washington,5900 block of Southern Ave SE,0,4,39.9854586,-75.08589
+0,875886,2017,Missouri,Saint Louis,5000 block of Thekla Ave,1,3,36.1450958,-96.0023638
+1,874613,2017,Florida,Fort Lauderdale,2335 NW 16th Ct,1,4,37.7640281,-122.1743935
+2,875322,2017,New York,New York (Manhattan),114th St and Manhattan Ave,0,5,37.7194881,-122.425285
+3,876076,2017,New Jersey,Willingboro,Pastoral Lane,0,4,41.7718443,-87.672785
+4,873847,2017,Georgia,Atlanta,1100 block of Osborne Street,1,6,30.7029976,-88.0786828
+5,870095,2017,Missouri,Saint Louis,1900 block of N 14th St,3,2,42.2699348,-88.9627801
+6,870222,2017,District of Columbia,Washington,3100 block of Buena Vista Terrace SE,0,4,34.027134,-118.3507829
+7,869877,2017,Illinois,Chicago,3300 block of W Crystal St,0,4,41.883879,-87.7085187
+8,869968,2017,South Carolina,Myrtle Beach,311 N Ocean Blvd,0,7,41.872262,-87.69373
+9,869838,2017,Illinois,Chicago,50 block of N Latrobe Ave,0,4,42.9121115,-85.62301
+10,869357,2017,Ohio,Columbus,6252 Busch Blvd,1,4,38.5979369,-121.4276274
+11,868042,2017,Virginia,Richmond,4053 Old Brook Road,1,3,40.6327104,-74.0271053
+12,868363,2017,New Mexico,La Madera,491 NM-111,5,0,29.9673972,-90.1018231
+13,866739,2017,Virginia,Alexandria,420 E Monroe Ave,1,5,44.9884743,-93.2549796
+14,868147,2017,Ohio,Canton,14th St NE and Gibbs Ave NE,0,4,29.3984415,-98.5042924
+15,866933,2017,California,San Francisco,720 San Bruno,4,2,41.0321327,-87.5381426
+16,866412,2017,Maryland,Baltimore,3300 block of Ayrdale Avenue,0,4,36.7565424,-119.7711186
+17,866448,2017,Maryland,Baltimore,1200 block of Bonaparte Avenue,2,2,37.7849319,-122.4129481
+18,869474,2017,Missouri,Saint Louis (University City),Ferguson Ave and Plymouth Ave,0,4,36.1144629,-80.2452659
+19,864743,2017,Illinois,Chicago,3300 block of W Douglas Blvd,0,9,30.0216391,-95.3123538
+20,864852,2017,Tennessee,Chattanooga,4272 Bonny Oaks Drive,0,4,29.7235827,-95.4421156
+21,865371,2017,Texas,Houston,505 Cypress Station Dr,0,4,40.110245,-88.2353849
+22,865186,2017,Tennessee,Memphis,571 East Street,0,4,39.3048255,-76.6081873
+23,864370,2017,Texas,Fort Worth,East Davis Avenue and New York Avenue,2,5,48.4616279,-122.3386173
+24,863075,2017,Louisiana,New Orleans,3650 Franklin Ave,0,6,39.9854586,-75.08589
+0,861307,2017,Utah,Sandy,2232 Alta Canyon Drive,3,2,36.1450958,-96.0023638
+1,859875,2017,Florida,Orlando,2427 Forsyth Rd,6,0,37.7640281,-122.1743935
+2,858810,2017,Missouri,Saint Louis,1600 Block of Union Blvd,2,2,37.7194881,-122.425285
+3,858719,2017,Louisiana,New Orleans,3717 Tulane Ave,3,2,41.7718443,-87.672785
+4,858877,2017,California,Los Angeles,89th St and Broadway,1,3,30.7029976,-88.0786828
+5,858378,2017,Texas,Laredo,5301 McPherson Rd,2,3,42.2699348,-88.9627801
+6,857443,2017,Missouri,Saint Louis,Beacon Ave and Lillian Ave,3,1,34.027134,-118.3507829
+7,855764,2017,Ohio,Middletown,1200 Elliott Dr,1,3,41.883879,-87.7085187
+8,855113,2017,Kentucky,Louisville,231 Witherspoon St,1,3,41.872262,-87.69373
+9,853901,2017,Alabama,Phenix City,100 block of 6th Street South,0,12,42.9121115,-85.62301
+10,853796,2017,New Jersey,Paterson,86 Main Street,1,5,38.5979369,-121.4276274
+11,853920,2017,Mississippi,Moss Point,6103 Hwy. 63,0,5,40.6327104,-74.0271053
+12,853032,2017,New York,New York (Manhattan),318 W 14th St,0,4,29.9673972,-90.1018231
+13,853119,2017,District of Columbia,Washington,100 block of Q St NW,1,7,44.9884743,-93.2549796
+14,853756,2017,Mississippi,Bogue Chitto,2871 Lee Dr,8,1,29.3984415,-98.5042924
+15,852676,2017,Florida,Miami,2730 NW 167th St,0,4,41.0321327,-87.5381426
+16,848680,2017,Iowa,Des Moines,4300 Beaver Dr,1,3,36.7565424,-119.7711186
+17,849215,2017,Arizona,Mesa,441 N Val Vista Dr,0,4,37.7849319,-122.4129481
+18,848292,2017,Pennsylvania,Philadelphia,2100 block of W Huntingdon St,0,10,36.1144629,-80.2452659
+19,845364,2017,South Carolina,Ruffin,21785 Lowcountry Hwy,3,1,30.0216391,-95.3123538
+20,843078,2017,Arkansas,Jonesboro,311 S Main St,1,6,29.7235827,-95.4421156
+21,843045,2017,Illinois,Dolton,14112 Chicago Road,0,5,40.110245,-88.2353849
+22,843172,2017,Florida,Avon Park,Hal McRae Blvd and Delaney Ave,0,5,39.3048255,-76.6081873
+23,843590,2017,Texas,Fort Worth,8600 block of Calmont Ave,0,4,48.4616279,-122.3386173
+24,840339,2017,New Jersey,Trenton,300 block of Centre St,1,3,39.9854586,-75.08589
+0,839846,2017,Kansas,Kansas City,1900 block of S. Boeke,3,1,36.1450958,-96.0023638
+1,838272,2017,Illinois,Chicago,2600 block of 46th Pl,2,8,37.7640281,-122.1743935
+2,835961,2017,Michigan,Flint,600 block of Copeman Boulevard,1,3,37.7194881,-122.425285
+3,834832,2017,Florida,Jacksonville,1566 West 24th Street,1,3,41.7718443,-87.672785
+4,833152,2017,Texas,Dallas,3200 block of Reynolds Ave,2,3,30.7029976,-88.0786828
+5,832679,2017,California,San Diego,9080 Judicial Dr,2,6,42.2699348,-88.9627801
+6,832528,2017,Kansas,Topeka,4104 SW 28th,4,1,34.027134,-118.3507829
+7,833128,2017,Florida,Jacksonville,1200 Ken Knight Dr N,0,5,41.883879,-87.7085187
+8,832309,2017,South Carolina,Loris,268 N Sea Green Rd,1,5,41.872262,-87.69373
+9,835459,2017,California,Los Angeles (Boyle Heights),Murchison St and Lancaster Ave,1,3,42.9121115,-85.62301
+10,832290,2017,California,Sacramento,3800 block of 26th Avenue,0,5,38.5979369,-121.4276274
+11,831800,2017,California,Whittier,10000 block of Carmentia Rd,1,5,40.6327104,-74.0271053
+12,831667,2017,Maryland,Germantown,12839 Kitchen House Way,1,3,29.9673972,-90.1018231
+13,834788,2017,California,Compton,2000 Block of N Nestor Ave,0,4,44.9884743,-93.2549796
+14,832063,2017,Virginia,Virginia Beach,200 block of 18th St,0,4,29.3984415,-98.5042924
+15,831201,2017,Pennsylvania,Chester,5 E 21st St,0,4,41.0321327,-87.5381426
+16,830984,2017,New Jersey,Newark,1100 block of S Orange Ave,1,3,36.7565424,-119.7711186
+17,829073,2017,Florida,Miami,SW 264th St and 139th Ave,0,4,37.7849319,-122.4129481
+18,825694,2017,Florida,Palm Bay,2500 block of Vernon Dr,2,2,36.1144629,-80.2452659
+19,825111,2017,Kentucky,Louisville,700 block of East Jacob Street,0,4,30.0216391,-95.3123538
+20,821667,2017,California,Vallejo,110 Calhoun Street,0,4,29.7235827,-95.4421156
+21,821723,2017,North Carolina,Elizabeth City,611 S Martin St,0,4,40.110245,-88.2353849
+22,821371,2017,Ohio,Columbus,1710 Cleveland Av,0,9,39.3048255,-76.6081873
+23,821640,2017,Illinois,Rock Falls,311 W 2nd St,0,4,48.4616279,-122.3386173
+24,821055,2017,Pennsylvania,Philadelphia,5900 block of Hammond St,0,4,39.9854586,-75.08589
+0,820565,2017,Indiana,Indianapolis,300 block of S Meridian St,0,4,36.1450958,-96.0023638
+1,821400,2017,Alabama,Birmingham,1480 Center Point Pkwy,0,6,37.7640281,-122.1743935
+2,821651,2017,Illinois,Harvey,14600 block of Myrtle Avenue,0,4,37.7194881,-122.425285
+3,822750,2017,California,Banning,900 block of N Allen St,0,4,41.7718443,-87.672785
+4,818932,2017,Georgia,Atlanta,30 Anderson Ave SW,1,3,30.7029976,-88.0786828
+5,815227,2017,Texas,San Antonio,4000 block of Moss Spring Dr,1,3,42.2699348,-88.9627801
+6,815246,2017,Indiana,Fort Wayne,9439 Lima Rd,1,3,34.027134,-118.3507829
+7,813877,2017,North Carolina,Hickory,1423 29th Ave Dr NE,3,1,41.883879,-87.7085187
+8,813821,2017,Texas,Houston,3829 Mount Pleasant St,5,0,41.872262,-87.69373
+9,813943,2017,Minnesota,Saint Paul,1600 block of English St,4,1,42.9121115,-85.62301
+10,814094,2017,Illinois,Chicago,5600 block of W Lake St,1,5,38.5979369,-121.4276274
+11,813028,2017,Louisiana,Lake Charles,2000 block of Tulip St,1,3,40.6327104,-74.0271053
+12,810756,2017,Pennsylvania,Philadelphia,1100 block of W Stiles St,3,1,29.9673972,-90.1018231
+13,811089,2017,Texas,Lubbock,5401 Ave Q,0,7,44.9884743,-93.2549796
+14,809978,2017,Illinois,Chicago,3500 block of W Van Buren St,2,4,29.3984415,-98.5042924
+15,809683,2017,Iowa,Des Moines,2500 Martin Luther King Jr. Parkway,0,5,41.0321327,-87.5381426
+16,809815,2017,California,Pittsburg,100 block of Madoline Street,0,5,36.7565424,-119.7711186
+17,809048,2017,Florida,Tampa,219 S Howard Ave,1,4,37.7849319,-122.4129481
+18,809499,2017,Oklahoma,Oklahoma City,1200 block of N Woodward Avenue,2,3,36.1144629,-80.2452659
+19,807618,2017,Illinois,Chicago,2704 E 75th St,4,0,30.0216391,-95.3123538
+20,804115,2017,Florida,Sanford,209 Hays Dr,2,4,29.7235827,-95.4421156
+21,803689,2017,Ohio,Cleveland,E 75th St,2,2,40.110245,-88.2353849
+22,803822,2017,Texas,Houston,5619 Aldine Bender Rd,2,4,39.3048255,-76.6081873
+23,803054,2017,Ohio,Cincinnati,4601 Kellogg Ave,2,15,48.4616279,-122.3386173
+24,802926,2017,Tennessee,Knoxville,Minnesota Ave,1,4,39.9854586,-75.08589
+0,803460,2017,Michigan,Detroit,8443 Grand River Ave,1,3,36.1450958,-96.0023638
+1,802837,2017,Ohio,Cleveland,E 79th St and Woodland Ave,2,2,37.7640281,-122.1743935
+2,802425,2017,California,Fresno,300 block of South Villa Avenue,1,4,37.7194881,-122.425285
+3,802240,2017,Missouri,Saint Louis,5100 block of Palm St,1,6,41.7718443,-87.672785
+4,800363,2017,Wisconsin,Rothschild,1133 E Grand Ave,5,0,30.7029976,-88.0786828
+5,797553,2017,Kentucky,Louisville,1512 Portland Avenue,1,5,42.2699348,-88.9627801
+6,797125,2017,Michigan,Detroit,16000 block of Rutherford,3,2,34.027134,-118.3507829
+7,794468,2017,Louisiana,Metairie,2508 Pasadena Ave,3,1,41.883879,-87.7085187
+8,791298,2017,Illinois,Chicago,123 E 51st St,2,2,41.872262,-87.69373
+9,791274,2017,Louisiana,New Orleans (Gentilly),4200 block of Touro St,3,1,42.9121115,-85.62301
+10,789798,2017,Illinois,Chicago,W 76th St and S May St,0,4,38.5979369,-121.4276274
+11,789424,2017,Georgia,Columbus,600 block of 32nd Street,0,4,40.6327104,-74.0271053
+12,787875,2017,Kansas,Topeka,SE Bellview Ave and SE 23rd St,1,4,29.9673972,-90.1018231
+13,787801,2017,California,Sacramento,2500 block of 33rd St,0,4,44.9884743,-93.2549796
+14,786876,2017,Pennsylvania,Philadelphia,7165 Germantown Ave,0,4,29.3984415,-98.5042924
+15,787435,2017,California,Riverside,8300 block of Trey Ave,0,5,41.0321327,-87.5381426
+16,785262,2017,Ohio,Cincinnati,1700 of Casey Dr,0,6,36.7565424,-119.7711186
+17,783963,2017,Virginia,Newport News,11810 Fountain Way,0,4,37.7849319,-122.4129481
+18,783623,2017,Indiana,Gary,1700 Grant St,1,4,36.1144629,-80.2452659
+19,783102,2017,Ohio,Warren,1564 Niles Cortland Rd SE,2,3,30.0216391,-95.3123538
+20,783090,2017,Florida,Jacksonville,3604 Moncrief Rd,1,4,29.7235827,-95.4421156
+21,780792,2017,New York,Rochester,191 Genesee St,0,4,40.110245,-88.2353849
+22,780036,2017,Ohio,Cleveland,16700 Lorain Ave,0,4,39.3048255,-76.6081873
+23,779582,2017,Mississippi,Toomsuba,Butts Road,4,0,48.4616279,-122.3386173
+24,778941,2017,Ohio,Cleveland,1082 East 105th Street,0,5,39.9854586,-75.08589
+0,778182,2017,Virginia,Norfolk,Church Street and East Virginia Beach Blvd,1,3,36.1450958,-96.0023638
+1,777876,2017,Pennsylvania,Philadelphia,1 block of N Conestoga,0,4,37.7640281,-122.1743935
+2,777410,2017,Indiana,South Bend,1000 block of Yukon St,1,3,37.7194881,-122.425285
+3,775903,2017,California,Salinas,30 Soledad Street,0,4,41.7718443,-87.672785
+4,775531,2017,Illinois,Chicago,3949 South Albany Avenue,3,2,30.7029976,-88.0786828
+5,773002,2017,Missouri,Caruthersville,908 Truman Blvd,1,6,42.2699348,-88.9627801
+6,773162,2017,New York,Newburgh,253 South William Street,1,3,34.027134,-118.3507829
+7,773908,2017,Florida,Greenville,Church Ave and Obadiah St,0,5,41.883879,-87.7085187
+8,772753,2017,Illinois,Chicago,100 block of N Mayfield,1,3,41.872262,-87.69373
+9,772989,2017,Tennessee,Savannah,Clifton Road and Midway Drive,0,4,42.9121115,-85.62301
+10,772067,2017,Louisiana,New Orleans,2nd St and Dryades St,1,5,38.5979369,-121.4276274
+11,771826,2017,Mississippi,Jackson,3150 Robinson Road,4,0,40.6327104,-74.0271053
+12,769889,2017,Ohio,Cleveland,16379 Euclid Ave,1,4,29.9673972,-90.1018231
+13,769511,2017,South Carolina,Columbia,5500 block of Fairfield Road,0,4,44.9884743,-93.2549796
+14,769859,2017,Arkansas,Little Rock,25 Par Drive,1,4,29.3984415,-98.5042924
+15,768243,2017,Mississippi,Yazoo City,11th Street,4,0,41.0321327,-87.5381426
+16,765559,2017,Tennessee,Memphis,1576 S White Station Rd,0,4,36.7565424,-119.7711186
+17,765153,2017,District of Columbia,Washington,2900 block of Martin Luther King Jr Ave SE,0,4,37.7849319,-122.4129481
+18,764020,2017,Minnesota,Minneapolis (Crystal),5410 Lakeland Ave N,0,4,36.1144629,-80.2452659
+19,763313,2017,Louisiana,Shreveport,6363 Hearne Ave,1,4,30.0216391,-95.3123538
+20,1025158,2017,Washington,Bremerton,Tenino Dr W,4,0,29.7235827,-95.4421156
+21,761973,2017,Tennessee,Brownsville,221 Morgan St,0,10,40.110245,-88.2353849
+22,760482,2017,Georgia,Albany,1510 Maryland Drive,2,3,39.3048255,-76.6081873
+23,760259,2017,Illinois,Chicago,500 block of E 75th St,0,6,48.4616279,-122.3386173
+24,757158,2017,Texas,Manvel,200 block of Oak Shore Dr,3,2,39.9854586,-75.08589
+0,757032,2017,Illinois,Chicago (Englewood),1800 block of W 63rd,0,4,36.1450958,-96.0023638
+1,757001,2017,Georgia,Atlanta,2841 Greenbriar Pkwy SW,3,1,37.7640281,-122.1743935
+2,756801,2017,Georgia,Jonesboro,6510 Tara Blvd,0,6,37.7194881,-122.425285
+3,756526,2017,Florida,Boynton Beach,500 NE 2nd St,0,5,41.7718443,-87.672785
+4,756504,2017,Tennessee,Memphis,500 block of Delta Road,2,2,30.7029976,-88.0786828
+5,757955,2017,Mississippi,Como,Smart Road,1,4,42.2699348,-88.9627801
+6,756015,2017,California,Fresno,4700 block of E Montecito Ave,0,4,34.027134,-118.3507829
+7,752756,2017,Texas,Houston,8535 Martin Luther King Boulevard,0,4,41.883879,-87.7085187
+8,752222,2017,Florida,Miami,6011 NW 32nd Ave,0,8,41.872262,-87.69373
+9,752249,2017,Colorado,Capulin,County Road Y,3,1,42.9121115,-85.62301
+10,751367,2017,Mississippi,Magnolia,6000 block of Church Road,1,4,38.5979369,-121.4276274
+11,749361,2017,Missouri,Kansas City,8607 E 61st Terrace,3,2,40.6327104,-74.0271053
+12,749769,2017,California,Salinas,500 block of Sunrise St,2,2,29.9673972,-90.1018231
+13,748152,2017,New Jersey,Newark,Hawkins Street and Christie Street,1,3,44.9884743,-93.2549796
+14,748348,2017,Illinois,Chicago,4200 block of S Talman,1,3,29.3984415,-98.5042924
+15,745236,2017,Michigan,Flint,2500 block of Churchill Ave,1,3,41.0321327,-87.5381426
+16,744799,2017,California,Pasadena,100 block of W Claremont St,2,2,36.7565424,-119.7711186
+17,743995,2017,Florida,Fort Lauderdale,100 Terminal Dr,5,6,37.7849319,-122.4129481
+18,742542,2017,California,Fontana,14520 Village Drive,3,1,36.1144629,-80.2452659
+19,742001,2017,Texas,Allen,500 block of Hawthorne Drive,0,4,30.0216391,-95.3123538
+20,743282,2017,Mississippi,Winstonville,114 North Greyer Street,0,5,29.7235827,-95.4421156
+21,739451,2017,Texas,Dallas,9220 Skillman Street,1,3,40.110245,-88.2353849
+22,739766,2017,Florida,Miami,8000 block of NW 14th Ave,0,7,39.3048255,-76.6081873
+23,740447,2016,Georgia,Lenox (El Dorado),27 Briarwood Ct,2,2,48.4616279,-122.3386173
+24,738749,2016,Texas,Houston,3704 Fannin Street,1,3,39.9854586,-75.08589
+0,738041,2016,Ohio,Mansfield,3230 Possum Run Rd,0,5,36.1450958,-96.0023638
+1,738576,2016,Connecticut,Wallingford,95 S Turnpike Rd,2,3,37.7640281,-122.1743935
+2,736690,2016,Georgia,Columbus,2914 10th Street,1,4,37.7194881,-122.425285
+3,734157,2016,Illinois,Chicago,8600 block of S Maryland Ave,3,4,41.7718443,-87.672785
+4,735947,2016,Alabama,Ozark,858 US-231,0,4,30.7029976,-88.0786828
+5,733599,2016,New York,Mount Vernon,4 North 3rd Avenue,1,5,42.2699348,-88.9627801
+6,732927,2016,North Carolina,Madison,490 K Ford Rd,0,7,34.027134,-118.3507829
+7,733176,2016,North Carolina,Wilson,2241 Banks Lane East,4,0,41.883879,-87.7085187
+8,732263,2016,Alabama,Birmingham,3813 Richard Arrington Boulevard North,1,3,41.872262,-87.69373
+9,732574,2016,Illinois,Chicago,4900 block of W Hubbard,0,4,42.9121115,-85.62301
+10,727759,2016,Illinois,Chicago (Roseland),100 block of W 105th St,5,0,38.5979369,-121.4276274
+11,728286,2016,North Carolina,Charlotte,4115 N. Tryon Street,0,4,40.6327104,-74.0271053
+12,727555,2016,Illinois,Chicago,13th and South Kedzie,0,4,29.9673972,-90.1018231
+13,727544,2016,Illinois,Chicago,4300 block of South Rockwell,2,2,44.9884743,-93.2549796
+14,724667,2016,California,Sacramento,4800 block of Myrtle Avenue,1,3,29.3984415,-98.5042924
+15,723649,2016,New York,Brooklyn,192 Knickerbocker Ave,0,4,41.0321327,-87.5381426
+16,723643,2016,Florida,Orlando (Pine Hills),4305 N Pine Hills Rd,1,4,36.7565424,-119.7711186
+17,723292,2016,Maryland,Baltimore,3916 South Hanover Street,0,5,37.7849319,-122.4129481
+18,725338,2016,North Carolina,Rocky Mount,1200 block of East Highland Ave,0,4,36.1144629,-80.2452659
+19,725323,2016,Texas,Channelview,15300 block of Market,4,0,30.0216391,-95.3123538
+20,722452,2016,California,Fresno,842 Fresno Street,0,4,29.7235827,-95.4421156
+21,719128,2016,New Mexico,Albuquerque,1532 Stagecoach Lane,4,1,40.110245,-88.2353849
+22,717873,2016,California,Los Angeles,91st Street and Western Avenue,0,6,39.3048255,-76.6081873
+23,717616,2016,New Jersey,Bloomfield,3 1st Ave,0,6,48.4616279,-122.3386173
+0,715101,2016,Maryland,Baltimore,2901 Garrison Blvd,2,4,36.1450958,-96.0023638
+1,712796,2016,Texas,Mission (Palmview),1840 West Palma Vista Drive,1,3,37.7640281,-122.1743935
+2,712776,2016,California,Wilmington,1067 McDonald Avenue,0,4,37.7194881,-122.425285
+3,713445,2016,California,San Pedro,300 block of West 2nd Street,0,4,41.7718443,-87.672785
+4,711597,2016,Louisiana,New Orleans,100 block of Bourbon Street,1,9,30.7029976,-88.0786828
+5,711744,2016,Missouri,Kansas City,Gregory and Prospect,0,7,42.2699348,-88.9627801
+6,710732,2016,Illinois,Chicago,8800 block of S Exchange Ave,1,5,34.027134,-118.3507829
+7,710467,2016,Louisiana,New Orleans,Magnolia St and Felicity St,0,4,41.883879,-87.7085187
+8,709370,2016,Kentucky,Louisville,4501 W Broadway,2,4,41.872262,-87.69373
+9,709276,2016,New York,Albany,77 Central Ave,1,3,42.9121115,-85.62301
+10,708777,2016,Mississippi,Olive Branch,928 Cross Road,0,4,38.5979369,-121.4276274
+11,708392,2016,Florida,Clewiston,1068 Harlem Academy Ave,1,4,40.6327104,-74.0271053
+12,704568,2016,Illinois,Chicago,5000 block of W Wabansia,0,4,29.9673972,-90.1018231
+13,703245,2016,Tennessee,Dyersburg,160 Longfellow,1,7,44.9884743,-93.2549796
+14,699605,2016,Florida,Jacksonville,5105 Cleveland Rd,3,2,29.3984415,-98.5042924
+15,699332,2016,Texas,San Antonio,8000 Midcrown,0,4,41.0321327,-87.5381426
+16,700232,2016,California,San Diego,3800 block of Marlborough Avenue,3,2,36.7565424,-119.7711186
+17,699316,2016,Florida,Orlando,Conley Street and South Ivey Lane,0,4,37.7849319,-122.4129481
+18,699033,2016,California,Sacramento,8600 block of Ardith Drive,1,5,36.1144629,-80.2452659
+19,700363,2016,Missouri,Kansas City,21st St and Cleveland Ave,1,3,30.0216391,-95.3123538
+20,699303,2016,Connecticut,Bridgeport,2500 Park Avenue,0,5,29.7235827,-95.4421156
+21,699863,2016,Texas,Houston,7705 Channelside Street,0,4,40.110245,-88.2353849
+22,698383,2016,Texas,Houston,6610 S Sam Houston Pkwy W,1,3,39.3048255,-76.6081873
+23,696917,2016,Washington,Seattle,1524 3rd Ave,0,5,48.4616279,-122.3386173
+24,697377,2016,Illinois,Chicago,3400 block of W Monroe,1,3,39.9854586,-75.08589
+0,696352,2016,Tennessee,Memphis,1800 block of East Brooks Road,0,4,36.1450958,-96.0023638
+1,693438,2016,Texas,San Antonio,10726 Perrin Beitel Rd,0,4,37.7640281,-122.1743935
+2,693401,2016,South Carolina,Myrtle Beach,803 Main St,0,5,37.7194881,-122.425285
+3,693624,2016,Florida,Fort Lauderdale (Lauderhill),3135 W Broward Blvd,1,3,41.7718443,-87.672785
+4,693374,2016,California,Oakland,420 14th Street,0,8,30.7029976,-88.0786828
+5,693290,2016,Illinois,Chicago,4800 block of North Winthrop,0,5,42.2699348,-88.9627801
+6,693307,2016,Pennsylvania,Philadelphia,5451 Springfield Ave,0,4,34.027134,-118.3507829
+7,692020,2016,Illinois,Chicago,8000 block of S Shore Dr,2,2,41.883879,-87.7085187
+8,692315,2016,New Jersey,Orange,234 Cleveland Street,2,2,41.872262,-87.69373
+9,692025,2016,Arkansas,Little Rock,2111 Bragg Street,1,4,42.9121115,-85.62301
+10,691113,2016,Tennessee,Memphis,5200 block of Zodiac Rd,1,5,38.5979369,-121.4276274
+11,689518,2016,Louisiana,Shreveport,700 Block of W 68th St,0,4,40.6327104,-74.0271053
+12,688979,2016,Ohio,Toledo,742 Junction Ave,0,4,29.9673972,-90.1018231
+13,689020,2016,Maryland,Capitol Heights,6862 Walker Mill Rd,3,3,44.9884743,-93.2549796
+14,688841,2016,New York,New York (Manhattan),135 Ridge Street,0,4,29.3984415,-98.5042924
+15,688577,2016,New York,Newburgh,119 First Street,2,5,41.0321327,-87.5381426
+16,688592,2016,Texas,San Antonio,2900 block of Aspen Meadow,0,5,36.7565424,-119.7711186
+17,689009,2016,California,Los Angeles,1600 block of Century Boulevard,0,5,37.7849319,-122.4129481
+18,687940,2016,Ohio,Dayton,2010 Cornell Ridge Dr,1,3,36.1144629,-80.2452659
+19,688210,2016,California,Riverside,3500 block of Madison Street,0,4,30.0216391,-95.3123538
+20,688429,2016,Mississippi,Jackson,200 block of Lorenz Blvd,0,6,29.7235827,-95.4421156
+21,687375,2016,Florida,Miami Gardens,Northwest 173rd Terrace and 27th Avenue,0,4,40.110245,-88.2353849
+22,686312,2016,Georgia,Jackson,600 block of Moccasin Gap Road,4,0,39.3048255,-76.6081873
+23,685379,2016,Ohio,Dayton,3300 block of Riverside Dr,1,3,48.4616279,-122.3386173
+24,684130,2016,Virginia,Roanoke,830 Campbell Avenue Southeast,2,3,39.9854586,-75.08589
+0,683142,2016,Oklahoma,Wellston,Highway 66 and N 3310 Rd,1,5,36.1450958,-96.0023638
+1,682298,2016,California,Oakland,77th and Bancroft Avenues,0,7,37.7640281,-122.1743935
+2,679290,2016,California,San Francisco,325 La Grande Ave,0,4,37.7194881,-122.425285
+3,678438,2016,Illinois,Chicago (Englewood),6700 block of South Winchester,1,4,41.7718443,-87.672785
+4,677293,2016,Alabama,Mobile,1800 block of St Stephens Road,0,5,30.7029976,-88.0786828
+5,676686,2016,Illinois,Rockford,7801 East State St,1,5,42.2699348,-88.9627801
+6,676663,2016,California,Los Angeles,2918 Rimpau Blvd,4,11,34.027134,-118.3507829
+7,676376,2016,Illinois,Chicago,3300 block of W Maypole Ave,1,6,41.883879,-87.7085187
+8,675993,2016,Illinois,Chicago,2700 block of West Lexington,0,4,41.872262,-87.69373
+9,672203,2016,Michigan,Grand Rapids,1850 28th Street SE,1,8,42.9121115,-85.62301
+10,672217,2016,California,Sacramento,1696 Arden Way,1,3,38.5979369,-121.4276274
+11,671717,2016,New York,Brooklyn,7301 3rd Ave,0,4,40.6327104,-74.0271053
+12,669777,2016,Louisiana,New Orleans,3727 Ulloa Street,3,2,29.9673972,-90.1018231
+13,668407,2016,Minnesota,Minneapolis,Fourth St and Hennepin Ave,0,4,44.9884743,-93.2549796
+14,667984,2016,Texas,San Antonio,2600 South Flores Street,1,4,29.3984415,-98.5042924
+15,668279,2016,Illinois,Pembroke Township,17250E Road,4,0,41.0321327,-87.5381426
+16,668352,2016,California,Fresno,3200 block of East Clay Avenue,0,4,36.7565424,-119.7711186
+17,665995,2016,California,San Francisco,400 block of Ellis St,1,3,37.7849319,-122.4129481
+18,663624,2016,North Carolina,Winston Salem (Winston-salem),100 block of 5 Royales Dr,0,4,36.1144629,-80.2452659
+19,663789,2016,Texas,Humble,21219 Grand Linden Ct,0,4,30.0216391,-95.3123538
+20,663106,2016,Texas,Houston,5450 Weslayan St,1,6,29.7235827,-95.4421156
+21,662548,2016,Illinois,Champaign,300 block of E. Green St,1,3,40.110245,-88.2353849
+22,662342,2016,Maryland,Baltimore,Greenmount Ave and Preston St,0,8,39.3048255,-76.6081873
+23,661703,2016,Washington,Burlington,201 Cascade Mall Dr,5,0,48.4616279,-122.3386173
+24,657854,2016,Pennsylvania,Philadelphia,3001 Castor Avenue,0,4,39.9854586,-75.08589
