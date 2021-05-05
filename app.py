@@ -54,7 +54,7 @@ def msa():
     # Close session
     session.close()
 
-    return incident_list
+    return jsonify(incident_list)
 
 # create route that returns gun ownership data
 @app.route("/guns")
