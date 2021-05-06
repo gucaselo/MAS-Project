@@ -49,11 +49,20 @@ function randomColors(n) {
       return color;
 };
 
+// d3.csv("static/data/state_coordinates.csv").then(function(stateCoord) {
+//   console.log(stateCoord)
+//   // for (i=0; i < stateCoord.length; i++) {
+//   //   console.log(stateCoord[i].name);
+//   // };
+// });
+
 // MSA Json data
-d3.json("/msa").then(function(data) {
-  console.log(data)
+d3.json("/data").then(function(data) {
+  // console.log(data.data.killed)
   // Grabbing our GeoJSON data..
   d3.json(link).then(function(geoData) {
+    // State coordinates
+    d3.csv("static/data/state_coordinates.csv").then(function(stateCoord) {
 
     var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -123,8 +132,8 @@ d3.json("/msa").then(function(data) {
 
     var shootingsMarkers = []
     for (var i = 0; i < data.length; i++) {
-      var lat = data[i].latitude;
-      var lng = data[i].longitude;
+      var lat = +data[i].latitude;
+      var lng = +data[i].longitude;
       var coordinates = [lat, lng];
       // console.log(coordinates)
 
@@ -142,7 +151,7 @@ d3.json("/msa").then(function(data) {
     // Create a map object
     var myMap = L.map("map", {
       center: [37.09, -95.71],
-      // center: [40.7128, -74.0059],
+      // center: ["42.407211", "-71.382437"],
       zoom: 4,
       layers:[streetmap, shootings]
     });
@@ -172,16 +181,75 @@ d3.json("/msa").then(function(data) {
     // Pass our map layers into our layer control
     // Add the layer control to the map
     L.control.layers(baseMaps, overlayMaps).addTo(myMap);
+    // Default State
+    // console.log(d3.select('#selDataset').property("value"))
 
+    // Event listeners
+    // d3.select('#selDataset').on("change", stateSelection);
+    d3.select('#selDataset').on("change", updateMap);
+
+
+
+    function updateMap(){
+      // console.log(d3.select('#selDataset').property("value"))
+      var selection = d3.select('#selDataset').property("value")
+      console.log(selection)
+      for (i=0; i < stateCoord.length; i++){
+        if (selection === stateCoord[i].name){
+          var coordinate = [stateCoord[i].latitude, stateCoord[i].longitude];
+          var zoom = 8
+          console.log(coordinate);
+        }
+        else if (selection === '-All-') {
+          console.log('Entire country selected');
+          var coordinate = [37.09, -95.71];
+          var zoom = 4;
+        }
+      }
+    };
+
+
+
+
+    }); //StateCoord
   });//geoJson
 }); //msa data
 
-function stateSelection(){
+// Zoom in on Map depending on user selection
+function stateSelection(states){
   console.log(d3.select(this).property("value"))
-}
+  // console.log(d3.select('#selDataset').property("value"))
+};
 
-// event listeners
-d3.select('#selDataset').on("change", stateSelection);
+//
+
+// function updateMap(data, geoData, stateCoord){
+//   console.log(d3.select('#selDataset').property("value"))
+  
+//   // var selection = d3.select('#selDataset').property("value")
+//   // console.log(selection)
+//   // var coordinates = stateSelection()
+//   // var names = states.map(function(data) {
+//   //   return data.name;
+//   // });
+//   // for (i=0; i < stateCoord.length; i++){
+//   //   if (selection === stateCoord[i].name){
+//   //     console.log(coordinate = [stateCoord[i].latitude, stateCoord[i].longitude]);
+//   //   }
+//   //   else if (selection === '-All-') {
+//   //     console.log('Entire country selected');
+//   //   }
+//   // }
+// };
+
+
+
+
+// // Event listeners
+// d3.select('#selDataset').on("change", stateSelection);
+// d3.select('#selDataset').on("change", updateMap);
+// d3.select(window).on('load', stateSelection);
+
 
 // d3.select('#selDataset').property("value").on('change', function(){
 //   var id = d3.select(this)
