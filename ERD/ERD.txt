@@ -1,0 +1,36 @@
+mass_shooting_data
+-
+index INT
+incident_id PK INT
+incident_date Date
+state VARCHAR FK - state.name 
+city_county VARCHAR
+address VARCHAR
+number_killed INT
+number_injured INT
+latitude DECIMAL(10,8)
+longitude DECIMAL(11,8)
+
+election_data
+-
+state PK VARCHAR FK - state.name
+result VARCHAR
+
+gun_ownership_data
+-
+state PK VARCHAR FK - state.name
+number_per_capita DECIMAL
+number_registered INT
+
+poverty_data
+-
+rank INT
+state PK VARCHAR FK - state.name
+2019_poverty DECIMAL
+
+state
+-
+state VARCHAR
+latitude DECIMAL(10,8)
+longitude DECIMAL(11,8)
+name PK VARCHAR FK
