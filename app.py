@@ -39,20 +39,17 @@ def msa():
     # Create variables for the shooting incident dictionary
     lng = session.query(data.longitude).all()
     lat = session.query(data.latitude).all()
-    killed = session.query(data.number_killed).all()
-    injured = session.query(data.number_injured).all
+    killed = str(session.query(data.number_killed).all())
+    injured = str(session.query(data.number_injured).all())
     date = session.query(data.incident_date).all()
     state = session.query(data.state).all()
     locale = session.query(data.city_county).all()
 
     # Create shooting data dictionary to be returned
     incident_list = {'date': date,
-                'state': state,
-                'city_county': locale,
-                'killed': killed,
-                'injured': injured,
-                'latitude': lat,
-                'longitude': lng}
+                    'location': {'state': state, 'city_county': locale,
+                                'longitude': lng, 'latitude': lat},
+                  'data': {'killed': killed, 'injured': injured}}
     
     # Close session
     session.close()
