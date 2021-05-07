@@ -209,47 +209,22 @@ d3.json("/data").then(function(data) {
         }
         
         // console.log(geoData.features[0].properties.NAME)
-        // Update layer for state layer
-        // var mapLayerGroups = [];
-        // L.geoJson(geoData, {onEachFeature: onEachFeature})
-
-        // function onEachFeature(feature, featureLayer){
-        //   // var lg = mapLayerGroups[feature.properties.type]
-        //   lg = new L.layerGroup();
-        //   //add the layer to the map
-        //   lg.addTo(map)
-
-        // }
-        // When new state selection is made only highlight one state
-          // stateLayer = L.geoJson(geoData, {
-          // // Passing in our style object
-          // style: function (feature) {
-          //   // if the state name in the geojson file matches the user selection then draw it on the map
-          //   if (feature.properties.NAME === selection) {
-          //     return {
-          //       color:"black",
-          //       fillColor: randomColors(feature.features),
-          //       fillOpacity: 0.5,
-          //       weight: 1.5
-          //       };
-          //   }
-          //   // if values not found the L.geoJson will use a default line thickness (weight ~1.5), color (blue), fillcolor (blue)
-          //   // and fillOpacity (~0.5). To avoid this I set color and fillcolor to none.
-          //   else {
-          //     return {
-          //       color:"none",
-          //       fillColor: "none",
-          //       };
-          //   }
-          // }
-          // }).addTo(myMap);
+        console.log(counties)
+        console.log(geoData)
+        
+        // Grab state ID to select counties when a state is selected by user
+        for (i=0; i < geoData.features.length; i++) {
+          if (selection === geoData.features[i].properties.NAME){
+            var stateId = geoData.features[i].properties.STATE
+          }
+        }
         
         if (selection !== '-All-') {
-          stateLayer = L.geoJson(geoData, {
+          stateLayer = L.geoJson(counties, {
             // Passing in our style object
             style: function (feature) {
               // if the state name in the geojson file matches the user selection then draw it on the map
-              if (feature.properties.NAME === selection) {
+              if (feature.properties.STATE === stateId) {
                 return {
                   color:"black",
                   fillColor: randomColors(feature.features),
@@ -257,6 +232,21 @@ d3.json("/data").then(function(data) {
                   weight: 1.5
                   };
               }
+          /////////////////////////////////////
+          // 100% functional for state layer
+          // stateLayer = L.geoJson(geoData, {
+          //   // Passing in our style object
+          //   style: function (feature) {
+          //     // if the state name in the geojson file matches the user selection then draw it on the map
+          //     if (feature.properties.NAME === selection) {
+          //       return {
+          //         color:"black",
+          //         fillColor: randomColors(feature.features),
+          //         fillOpacity: 0.5,
+          //         weight: 1.5
+          //         };
+          //     }
+              //////////////////////////////////////////////////
               // if values not found the L.geoJson will use a default line thickness (weight ~1.5), color (blue), fillcolor (blue)
               // and fillOpacity (~0.5). To avoid this I set color and fillcolor to none.
               else {
