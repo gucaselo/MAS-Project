@@ -58,9 +58,10 @@ function randomColors(n) {
 
 // MSA Json data
 d3.json("/data").then(function(data) {
-  // console.log(data.data.killed)
+  // console.log(data[0].state)
   // Grabbing our GeoJSON data..
   d3.json(link).then(function(geoData) {
+    // console.log(geoData.features[0].geometry.coordinates);
     // State coordinates
     d3.csv("static/data/state_coordinates.csv").then(function(stateCoord) {
 
@@ -123,7 +124,11 @@ d3.json("/data").then(function(data) {
     // -------------------------------------------------- //
 
     // Create a new marker cluster group
-    // var markers = L.markerClusterGroup();
+    var markers = L.markerClusterGroup();
+
+    // // Create layer support group 
+    // var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport(options);
+
     // var markers = L.markerClusterGroup({
     //   spiderfyOnMaxZoom: true,
     //   showCoverageOnHover: true,
@@ -141,7 +146,7 @@ d3.json("/data").then(function(data) {
       // markers.addLayer(L.marker([lat, lng])
       //   .bindPopup(data[i].address));
       shootingsMarkers.push(L.marker([lat, lng])
-      .bindPopup(data[i].address));
+      .bindPopup(data[i].address).update());
       // .addTo(myMap);
 
     }
@@ -159,6 +164,7 @@ d3.json("/data").then(function(data) {
     var overlayMaps = {
       Shootings: shootings,
     };
+
     
     // Add our marker cluster layer to the map
     // myMap.addLayer(markers);
@@ -180,7 +186,7 @@ d3.json("/data").then(function(data) {
 
     // Pass our map layers into our layer control
     // Add the layer control to the map
-    L.control.layers(baseMaps, overlayMaps).addTo(myMap);
+    var controller = L.control.layers(baseMaps, overlayMaps).addTo(myMap);
     // Default State
     // console.log(d3.select('#selDataset').property("value"))
 
@@ -193,19 +199,57 @@ d3.json("/data").then(function(data) {
     function updateMap(){
       // console.log(d3.select('#selDataset').property("value"))
       var selection = d3.select('#selDataset').property("value")
-      console.log(selection)
+      var defaultCoord = [37.09, -95.71];
       for (i=0; i < stateCoord.length; i++){
         if (selection === stateCoord[i].name){
           var coordinate = [stateCoord[i].latitude, stateCoord[i].longitude];
-          var zoom = 8
+          var zoom = 7;
+          console.log(selection);
           console.log(coordinate);
+          // console.log(i)
+          break
+          
         }
         else if (selection === '-All-') {
-          console.log('Entire country selected');
-          var coordinate = [37.09, -95.71];
+          var coordinate = defaultCoord;
           var zoom = 4;
+          console.log('Entire country selected');
+          console.log(defaultCoord);
+          // console.log(i)
+          break
         }
       }
+      // myMap.flyToBounds(coordinate, [50, 50])
+      myMap.flyTo(coordinate, zoom, 2)
+      // myMap.panTo(coordinate, zoom)
+      // myMap.setView(coordinate, zoom)
+      // console.log('found value')
+
+      console.log("Shootings before")
+      // console.log()
+
+      myMap.removeControl(controller)
+      myMap.removeLayer(shootings)
+      // shootingsMarkers.clearLayers();
+      var shootingsMarkersUpdated = [];
+      for (var i = 0; i < data.length; i++) {
+        if (data[i].state === selection) {
+          // console.log(data[i].state)
+          lat = +data[i].latitude;
+          lng = +data[i].longitude;
+          shootingsMarkersUpdated.push(L.marker([lat, lng])
+          .bindPopup(data[i].address));
+          // console.log(shootingsMarkers)
+        }
+      }
+      // Create layer groups:
+      shootings = L.layerGroup(shootingsMarkersUpdated);
+      myMap.addLayer(shootings);
+      overlayMaps = {
+        Shootings: shootings,
+      };
+      controller = L.control.layers(baseMaps, overlayMaps).addTo(myMap);
+
     };
 
 
