@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Charts</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
 
      <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
@@ -20,20 +21,12 @@
    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
    crossorigin=""></script>
      
-    <!-- Icons -->
-   <script src="assets/js/leaflet.extra-markers.min.js"></script>
-     
     <!-- polyfill.io is library for using newer JavaScript features in older browers (such as Object.assign) -->
    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
      
-   <!-- API Key -->
-   <script type="text/javascript" src="assets/js/config.js"></script>
      
    <!-- Our JavaScript -->
    <script type="text/javascript" src="assets/js/logic.js"></script>
-    <!-- Icons -->
-    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/leaflet.extra-markers.min.css">
 
     <title>Project 2 </title>
     <!-- STYLE SHEETS-->
@@ -43,8 +36,6 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
     <!--ANIMATED FONTAWESOME STYLE CSS -->
     <link href="assets/css/font-awesome-animation.css" rel="stylesheet" />
-    <!-- VEGAS STYLE CSS -->
-    <link href="assets/scripts/vegas/jquery.vegas.min.css" rel="stylesheet" />
     <!-- SIDE MENU STYLE CSS -->
     <link href="assets/css/component.css" rel="stylesheet" />
     <!-- CUSTOM STYLE CSS -->
@@ -53,7 +44,9 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   
 </head>
-
+<body>
+    <div id="plot"></div>
+</body>
 <body class="cbp-spmenu-push">
 
     <!-- MAIN HEADING-->
@@ -79,67 +72,6 @@
         </div>
     </div>
     <!--END HOME SECTION-->
-
-
-    <!--Mass Shooting Rates Section-->
-    <section class="for-full-back color-bg-one" id="MassShootingRates-sec">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Mass Shooting Rates</h1>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <section class="for-full-back color-white" id="MassShootingRates-sec">
-            <div class="container">
-                <!--ADD CODE HERE-->
-                <div class="row text-center g-pad-bottom">
-                    <div class="col-md-8 col-md-offset-2 ">
-    </section>
-
-     <!--Mass Shooting Rates By State Section-->
-     <section class="for-full-back color-bg-one" id="MassShootingRatesByState-sec">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Mass Shooting Rates By State</h1>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <section class="for-full-back color-white" id="MassShootingRatesByState-sec">
-            <div class="container">
-                <!--ADD CODE HERE-->
-                <div class="row text-center g-pad-bottom">
-                    <div class="col-md-8 col-md-offset-2 ">
-    </section>
-
-     <!--Mass Shooting Across the Country Section-->
-     <section class="for-full-back color-bg-one" id="MassShootingAcrosstheCountry-sec">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Mass Shooting Across the Country</h1>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <section class="for-full-back color-white" id="MassShootingAcrosstheCountry-sec">
-            <div class="container">
-                <!--ADD CODE HERE-->
-                <div class="row text-center g-pad-bottom">
-                    <div class="col-md-8 col-md-offset-2 ">
-    </section>
 
     <!--ABOUT SECTION-->
     <section class="for-full-back color-bg-one" id="about-sec">
@@ -204,17 +136,76 @@
     </section>
     <!--END ABOUT SECTION-->
 
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  -->
-    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <!--Mass Shooting Rates Section-->
+    <section class="for-full-back color-bg-one" id="MassShootingRates-sec">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h1>Mass Shooting Rates</h1>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="for-full-back color-white" id="MassShootingRates-sec">
+            <div class="container">
+                <body>
+                    <div id="line"></div>
+                </body>
+                <div class="row text-center g-pad-bottom">
+                    <div class="col-md-8 col-md-offset-2 ">
+    </section>
+
+     <!--Mass Shooting Rates By State Section-->
+     <section class="for-full-back color-bg-one" id="MassShootingRatesByState-sec">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h1>Mass Shooting Rates By State</h1>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="for-full-back color-white" id="MassShootingRatesByState-sec">
+            <div class="container">
+                <!--ADD CODE HERE-->
+                <div class="row text-center g-pad-bottom">
+                    <div class="col-md-8 col-md-offset-2 ">
+    </section>
+
+     <!--Mass Shooting Across the Country Section-->
+     <section class="for-full-back color-bg-one" id="MassShootingAcrosstheCountry-sec">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h1>Mass Shooting Across the Country</h1>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="for-full-back color-white" id="MassShootingAcrosstheCountry-sec">
+            <div class="container">
+                <div id="plot"></div>
+                <script src="plotly.js"></script>
+                <div class="row text-center g-pad-bottom">
+                    <div class="col-md-8 col-md-offset-2 ">
+    </section>
+
+
     <!-- BOOTSTRAP CORE SCRIPT   -->
-    <script src="assets/plugins/bootstrap.js"></script>
     <script src="assets/js/app.js"></script>
     <!-- CUSTOM SCRIPTS -->
-    <script src="assets/js/app2.js"></script>      
+    <script src="plotly.js"></script>      
     <!-- D3 -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="plotly.js"></script> 
 
 </body>
 </html>
