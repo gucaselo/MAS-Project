@@ -68,8 +68,3 @@
     $(document).ready(function () {
         mainApp.main_fun();
     });
-
-}(jQuery));
-
-
-

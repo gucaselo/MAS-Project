@@ -78,61 +78,61 @@
     //   // }
 
       
-  //     var state_arr = [] // holds all the states
-  //     // Loop through the csv to return all states in dataset in year 2020
-  //     for(var i = 0; i < number_killedData.length; i++) {
-  //       allStates = number_killedData[i].state
+      // var state_arr = [] // holds all the states
+      // // Loop through the csv to return all states in dataset in year 2020
+      // for(var i = 0; i < number_killedData.length; i++) {
+      //   allStates = number_killedData[i].state
         
-  //       // Conditional statement showing each state in year 2020
-  //       if (number_killedData[i].incident_date === "2020" && !state_arr.includes(allStates)) {
-  //         state_arr.push(allStates)
-  //         state_arr.sort()
-  //       }        
-  //     };
-  //     console.log("States Array",state_arr)
-  //     //[Alabama, Arkansa, Delaware]
-  //     //[90]
+      //   // Conditional statement showing each state in year 2020
+      //   if (number_killedData[i].incident_date === "2020" && !state_arr.includes(allStates)) {
+      //     state_arr.push(allStates)
+      //     state_arr.sort()
+      //   }        
+      // };
+      // console.log("States Array",state_arr)
+      // //[Alabama, Arkansa, Delaware]
+      // //[90]
 
-  //     var numberStateDeaths = [] // total # of deaths per state in year 2020
-  //     var totalDeaths = 0
+      // var numberStateDeaths = [] // total # of deaths per state in year 2020
+      // var totalDeaths = 0
 
-  //     for(var i = 0; i < state_arr.length; i++) {
-  //       for(j = 0; j < number_killedData.length; j++) {
-  //         // if (number_killedData[j].incident_date === "2020" && state_arr.includes(number_killedData[j].state)) {
-  //         if (number_killedData[j].incident_date === "2020" && number_killedData[j].state === state_arr[i]) {
-  //         totalDeaths += parseInt(number_killedData[j].number_killed)
-  //           console.log("Total deaths",totalDeaths)
-  //         }
-  //         numberStateDeaths.push(totalDeaths)
-  //       }
-  //     }
-  //     console.log("State Deaths", numberStateDeaths)
+      // for(var i = 0; i < state_arr.length; i++) {
+      //   for(j = 0; j < number_killedData.length; j++) {
+      //     // if (number_killedData[j].incident_date === "2020" && state_arr.includes(number_killedData[j].state)) {
+      //     if (number_killedData[j].incident_date === "2020" && number_killedData[j].state === state_arr[i]) {
+      //     totalDeaths += parseInt(number_killedData[j].number_killed)
+      //       console.log("Total deaths",totalDeaths)
+      //     }
+      //     numberStateDeaths.push(totalDeaths)
+      //   }
+      // }
+      // console.log("State Deaths", numberStateDeaths)
     
-  //       // Build bar chart
-  //       var myPlot = document.getElementById('bar'),
-  //       data = [{
-  //               x: state_arr,
-  //               y: numberStateDeaths, //[1, 4, 2, 5]
-  //               type: "bar",
-  //               marker: {
-  //                   color: 'light blue'
-  //               },
-  //           }]
-  //           layout = {
-  //               title: "Mass Shootings By state in 2020",
-  //               xaxis: { 
-  //                   tickangle: 40,
-  //                   tickfont: {
-  //                       size: 9.5
-  //                   }
-  //               },
-  //               yaxis: {title: "Mass Shootings"},
-  //               hovermode: 'closest'
-  //           };
+      //   // Build bar chart
+      //   var myPlot = document.getElementById('bar'),
+      //   data = [{
+      //           x: state_arr,
+      //           y: numberStateDeaths, //[1, 4, 2, 5]
+      //           type: "bar",
+      //           marker: {
+      //               color: 'light blue'
+      //           },
+      //       }]
+      //       layout = {
+      //           title: "Mass Shootings By state in 2020",
+      //           xaxis: { 
+      //               tickangle: 40,
+      //               tickfont: {
+      //                   size: 9.5
+      //               }
+      //           },
+      //           yaxis: {title: "Mass Shootings"},
+      //           hovermode: 'closest'
+      //       };
 
-  //       Plotly.newPlot("bar", data, layout);
-  //         });
-  // //   function buildCharts(year) {
+      //   Plotly.newPlot("bar", data, layout);
+      //     });
+  //   function buildCharts(year) {
   //     // TO DO: Iterate through all states
   
   //     d3.json("final_msa.json", function(yearData) {
