@@ -21,7 +21,7 @@ d3.json("/data").then(function(data) {
   // Grabbing our GeoJSON data..
   d3.json(link).then(function(geoData) {
     console.log(geoData.features[0].properties.NAME);
-    console.log(geoData.features[0]);
+    console.log(geoData.features.length);
     // State coordinates
     d3.csv("static/data/state_coordinates.csv").then(function(stateCoord) {
 
@@ -208,37 +208,78 @@ d3.json("/data").then(function(data) {
           }
         }
         
-        if (selection !== '-All-') {
-        // Update state layer for county layer
-        stateLayer = L.geoJson(counties, {
-          // filter: function(feature, layer) {
-          //   return feature.features.properties.NAME === selection; 
-          // },
-          // Passing in our style object
-          style: function (feature) {
-            return {
-            color:"white",
-            fillColor: randomColors(feature.features),
-            fillOpacity: 0.5,
-            weight: 1.5
-            };
-          }
-        }).addTo(myMap);
-        } // end if
-        else {
-          // Update layer for state layer
+        // console.log(geoData.features[0].properties.NAME)
+        // Update layer for state layer
+        // var mapLayerGroups = [];
+        // L.geoJson(geoData, {onEachFeature: onEachFeature})
+
+        // function onEachFeature(feature, featureLayer){
+        //   // var lg = mapLayerGroups[feature.properties.type]
+        //   lg = new L.layerGroup();
+        //   //add the layer to the map
+        //   lg.addTo(map)
+
+        // }
+        // When new state selection is made only highlight one state
           stateLayer = L.geoJson(geoData, {
           // Passing in our style object
           style: function (feature) {
-            return {
-            color:"white",
-            fillColor: randomColors(feature.features),
-            fillOpacity: 0.5,
-            weight: 1.5
-            };
+            // if (feature.properties.NAME === selection) {
+            //   console.log("This is the feature");
+            //   console.log(feature.properties.NAME)
+            //   console.log("This is End of the feature");
+            // }
+            // if the state name in the geojson file matches the user selection then draw it on the map
+            if (feature.properties.NAME === selection) {
+              return {
+                color:"black",
+                fillColor: randomColors(feature.features),
+                fillOpacity: 0.5,
+                weight: 1.5
+                };
+            }
+            // if values not found the L.geoJson will use a default line thickness (weight ~1.5), color (blue), fillcolor (blue)
+            // and fillOpacity (~0.5). To avoid this I set color and fillcolor to none.
+            else {
+              return {
+                color:"none",
+                fillColor: "none",
+                };
+            }
           }
           }).addTo(myMap);
-        } //end else
+        
+        // if (selection !== '-All-') {
+        // // Update state layer for county layer
+        // stateLayer = L.geoJson(counties, {
+        //   // filter: function(feature, layer) {
+        //   //   return feature.features.properties.NAME === selection; 
+        //   // },
+        //   // Passing in our style object
+        //   style: function (feature) {
+        //     return {
+        //     color:"white",
+        //     fillColor: randomColors(feature.features),
+        //     fillOpacity: 0.5,
+        //     weight: 1.5
+        //     };
+        //   }
+        // }).addTo(myMap);
+        // } // end if
+        // else {
+        //   // Update layer for state layer
+        //   stateLayer = L.geoJson(geoData, {
+        //   // Passing in our style object
+        //   style: function (feature) {
+        //     return {
+        //     color:"white",
+        //     fillColor: randomColors(feature.features),
+        //     fillOpacity: 0.5,
+        //     weight: 1.5
+        //     };
+        //   }
+        //   }).addTo(myMap);
+        // } //end else
 
         // Create layer groups:
         shootings = L.layerGroup(shootingsMarkersUpdated);
