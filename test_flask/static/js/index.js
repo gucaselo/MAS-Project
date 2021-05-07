@@ -1,44 +1,3 @@
-
-
-// var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-//     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
-//     tileSize: 512,
-//     maxZoom: 18,
-//     zoomOffset: -1,
-//     id: "mapbox/streets-v11",
-//     accessToken: API_KEY
-// });
-   
-
-// var dark = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-//     attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-//     maxZoom: 18,
-//     id: "dark-v10",
-//     accessToken: API_KEY
-// });
-  
-// var waterColor = L.tileLayer.provider('Stamen.Watercolor');
-  
-// var nasa = L.tileLayer.provider('NASAGIBS.ViirsEarthAtNight2012');
-  
-// // Only one base layer can be shown at a time
-// var baseMaps = {
-//     Street: streetmap,
-//     Dark: dark,
-//     Water: waterColor,
-//     Nasa: nasa
-// };
-  
-// // Create a map object
-// var myMap = L.map("map", {
-//     center: [37.09, -95.71],
-//     // center: [40.7128, -74.0059],
-//     zoom: 4,
-//     layers:[streetmap]
-// });
-
-
-
 // var link = "/static/data/us_counties.json";
 var link = "static/data/us_states.json";
 // var link = "static/data/us_congressional.json";
@@ -170,7 +129,7 @@ d3.json("/data").then(function(data) {
     // myMap.addLayer(markers);
 
     // Creating a geoJSON layer with the retrieved data
-    L.geoJson(geoData, {
+    var stateLayer = L.geoJson(geoData, {
       // Passing in our style object
       style: function (feature) {
         return {
@@ -197,60 +156,96 @@ d3.json("/data").then(function(data) {
 
 
     function updateMap(){
-      // console.log(d3.select('#selDataset').property("value"))
-      var selection = d3.select('#selDataset').property("value")
-      var defaultCoord = [37.09, -95.71];
-      for (i=0; i < stateCoord.length; i++){
-        if (selection === stateCoord[i].name){
-          var coordinate = [stateCoord[i].latitude, stateCoord[i].longitude];
-          var zoom = 7;
-          console.log(selection);
-          console.log(coordinate);
-          // console.log(i)
-          break
-          
-        }
-        else if (selection === '-All-') {
-          var coordinate = defaultCoord;
-          var zoom = 4;
-          console.log('Entire country selected');
-          console.log(defaultCoord);
-          // console.log(i)
-          break
-        }
-      }
-      // myMap.flyToBounds(coordinate, [50, 50])
-      myMap.flyTo(coordinate, zoom, 2)
-      // myMap.panTo(coordinate, zoom)
-      // myMap.setView(coordinate, zoom)
-      // console.log('found value')
+      var countiesJson = "/static/data/us_counties.json";
+      d3.json(countiesJson).then(function(counties) {
 
-      console.log("Shootings before")
-      // console.log()
+        // console.log(d3.select('#selDataset').property("value"))
+        var selection = d3.select('#selDataset').property("value")
+        var defaultCoord = [37.09, -95.71];
+        for (i=0; i < stateCoord.length; i++){
+          if (selection === stateCoord[i].name){
+            var coordinate = [stateCoord[i].latitude, stateCoord[i].longitude];
+            var zoom = 7;
+            console.log(selection);
+            console.log(coordinate);
+            // console.log(i)
+            break
+            
+          }
+          else if (selection === '-All-') {
+            var coordinate = defaultCoord;
+            var zoom = 4;
+            console.log('Entire country selected');
+            console.log(defaultCoord);
+            // console.log(i)
+            break
+          }
+        }
+        // myMap.flyToBounds(coordinate, [50, 50])
+        myMap.flyTo(coordinate, zoom, 0.1)
+        // myMap.panTo(coordinate, zoom)
+        // myMap.setView(coordinate, zoom)
+        // console.log('found value')
 
-      myMap.removeControl(controller)
-      myMap.removeLayer(shootings)
-      // shootingsMarkers.clearLayers();
-      var shootingsMarkersUpdated = [];
-      for (var i = 0; i < data.length; i++) {
-        if (data[i].state === selection) {
-          // console.log(data[i].state)
+        myMap.removeControl(controller);
+        myMap.removeLayer(shootings);
+        myMap.removeLayer(stateLayer);
+        // shootingsMarkers.clearLayers();
+        var shootingsMarkersUpdated = [];
+        for (var i = 0; i < data.length; i++) {
           lat = +data[i].latitude;
           lng = +data[i].longitude;
-          shootingsMarkersUpdated.push(L.marker([lat, lng])
-          .bindPopup(data[i].address));
-          // console.log(shootingsMarkers)
+          if (selection === data[i].state) {
+            // console.log(data[i].state)
+            shootingsMarkersUpdated.push(L.marker([lat, lng])
+            .bindPopup(data[i].address));
+            // console.log(shootingsMarkers)
+          }
+          else if (selection === '-All-') {
+            shootingsMarkersUpdated.push(L.marker([lat, lng])
+            .bindPopup(data[i].address));
+          }
         }
-      }
-      // Create layer groups:
-      shootings = L.layerGroup(shootingsMarkersUpdated);
-      myMap.addLayer(shootings);
-      overlayMaps = {
-        Shootings: shootings,
-      };
-      controller = L.control.layers(baseMaps, overlayMaps).addTo(myMap);
+        
+        if (selection !== '-All-') {
+        // Update state layer for county layer
+        stateLayer = L.geoJson(counties, {
+          // Passing in our style object
+          style: function (feature) {
+            return {
+            color:"white",
+            fillColor: randomColors(feature.features),
+            fillOpacity: 0.5,
+            weight: 1.5
+            };
+          }
+        }).addTo(myMap);
+        } // end if
+        else {
+          // Update layer for state layer
+          stateLayer = L.geoJson(geoData, {
+          // Passing in our style object
+          style: function (feature) {
+            return {
+            color:"white",
+            fillColor: randomColors(feature.features),
+            fillOpacity: 0.5,
+            weight: 1.5
+            };
+          }
+          }).addTo(myMap);
+        } //end else
 
-    };
+        // Create layer groups:
+        shootings = L.layerGroup(shootingsMarkersUpdated);
+        myMap.addLayer(shootings);
+        overlayMaps = {
+          Shootings: shootings,
+        };
+        controller = L.control.layers(baseMaps, overlayMaps).addTo(myMap);
+
+      }); //counties getoJson
+    }; // function
 
 
 
