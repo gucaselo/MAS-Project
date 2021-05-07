@@ -20,7 +20,8 @@ d3.json("/data").then(function(data) {
   // console.log(data[0].state)
   // Grabbing our GeoJSON data..
   d3.json(link).then(function(geoData) {
-    // console.log(geoData.features[0].geometry.coordinates);
+    console.log(geoData.features[0].properties.NAME);
+    console.log(geoData.features[0]);
     // State coordinates
     d3.csv("static/data/state_coordinates.csv").then(function(stateCoord) {
 
@@ -210,6 +211,9 @@ d3.json("/data").then(function(data) {
         if (selection !== '-All-') {
         // Update state layer for county layer
         stateLayer = L.geoJson(counties, {
+          // filter: function(feature, layer) {
+          //   return feature.features.properties.NAME === selection; 
+          // },
           // Passing in our style object
           style: function (feature) {
             return {
