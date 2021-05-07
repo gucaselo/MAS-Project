@@ -183,7 +183,7 @@ d3.json("/data").then(function(data) {
           }
         }
         // myMap.flyToBounds(coordinate, [50, 50])
-        myMap.flyTo(coordinate, zoom, 0.1)
+        myMap.flyTo(coordinate, zoom)
         // myMap.panTo(coordinate, zoom)
         // myMap.setView(coordinate, zoom)
         // console.log('found value')
@@ -221,65 +221,66 @@ d3.json("/data").then(function(data) {
 
         // }
         // When new state selection is made only highlight one state
-          stateLayer = L.geoJson(geoData, {
-          // Passing in our style object
-          style: function (feature) {
-            // if (feature.properties.NAME === selection) {
-            //   console.log("This is the feature");
-            //   console.log(feature.properties.NAME)
-            //   console.log("This is End of the feature");
-            // }
-            // if the state name in the geojson file matches the user selection then draw it on the map
-            if (feature.properties.NAME === selection) {
-              return {
-                color:"black",
-                fillColor: randomColors(feature.features),
-                fillOpacity: 0.5,
-                weight: 1.5
-                };
-            }
-            // if values not found the L.geoJson will use a default line thickness (weight ~1.5), color (blue), fillcolor (blue)
-            // and fillOpacity (~0.5). To avoid this I set color and fillcolor to none.
-            else {
-              return {
-                color:"none",
-                fillColor: "none",
-                };
-            }
-          }
-          }).addTo(myMap);
+          // stateLayer = L.geoJson(geoData, {
+          // // Passing in our style object
+          // style: function (feature) {
+          //   // if the state name in the geojson file matches the user selection then draw it on the map
+          //   if (feature.properties.NAME === selection) {
+          //     return {
+          //       color:"black",
+          //       fillColor: randomColors(feature.features),
+          //       fillOpacity: 0.5,
+          //       weight: 1.5
+          //       };
+          //   }
+          //   // if values not found the L.geoJson will use a default line thickness (weight ~1.5), color (blue), fillcolor (blue)
+          //   // and fillOpacity (~0.5). To avoid this I set color and fillcolor to none.
+          //   else {
+          //     return {
+          //       color:"none",
+          //       fillColor: "none",
+          //       };
+          //   }
+          // }
+          // }).addTo(myMap);
         
-        // if (selection !== '-All-') {
-        // // Update state layer for county layer
-        // stateLayer = L.geoJson(counties, {
-        //   // filter: function(feature, layer) {
-        //   //   return feature.features.properties.NAME === selection; 
-        //   // },
-        //   // Passing in our style object
-        //   style: function (feature) {
-        //     return {
-        //     color:"white",
-        //     fillColor: randomColors(feature.features),
-        //     fillOpacity: 0.5,
-        //     weight: 1.5
-        //     };
-        //   }
-        // }).addTo(myMap);
-        // } // end if
-        // else {
-        //   // Update layer for state layer
-        //   stateLayer = L.geoJson(geoData, {
-        //   // Passing in our style object
-        //   style: function (feature) {
-        //     return {
-        //     color:"white",
-        //     fillColor: randomColors(feature.features),
-        //     fillOpacity: 0.5,
-        //     weight: 1.5
-        //     };
-        //   }
-        //   }).addTo(myMap);
-        // } //end else
+        if (selection !== '-All-') {
+          stateLayer = L.geoJson(geoData, {
+            // Passing in our style object
+            style: function (feature) {
+              // if the state name in the geojson file matches the user selection then draw it on the map
+              if (feature.properties.NAME === selection) {
+                return {
+                  color:"black",
+                  fillColor: randomColors(feature.features),
+                  fillOpacity: 0.5,
+                  weight: 1.5
+                  };
+              }
+              // if values not found the L.geoJson will use a default line thickness (weight ~1.5), color (blue), fillcolor (blue)
+              // and fillOpacity (~0.5). To avoid this I set color and fillcolor to none.
+              else {
+                return {
+                  color:"none",
+                  fillColor: "none",
+                  };
+              }
+            }
+            }).addTo(myMap);
+        } // end if
+        else if (selection === '-All-') {
+          stateLayer = L.geoJson(geoData, {
+            // Passing in our style object
+            style: function (feature) {
+                return {
+                  color:"white",
+                  fillColor: randomColors(feature.features),
+                  fillOpacity: 0.5,
+                  weight: 1.5
+                  };
+            }
+            }).addTo(myMap);
+        } //end else if
 
         // Create layer groups:
         shootings = L.layerGroup(shootingsMarkersUpdated);
