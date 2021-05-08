@@ -224,7 +224,7 @@ def state():
                 'latitude': state_lat[i],
                 'longitude': state_long[i]}
 
-        election_data.append(state_list)
+        state_data.append(state_list)
             
 
     # Close session
