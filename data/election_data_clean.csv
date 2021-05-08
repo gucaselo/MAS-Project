@@ -20,6 +20,8 @@ Kansas,red
 Kentucky,blue
 Louisiana,blue
 Maine,blue
+ME-1,blue
+ME-2,red
 Maryland,red
 Massachusetts,blue
 Michigan,blue
@@ -28,6 +30,9 @@ Mississippi,red
 Missouri,red
 Montana,red
 Nebraska,red
+NE-1,red
+NE-2,blue
+NE-3,blue
 Nevada,blue
 New Hampshire,blue
 New Jersey,blue
@@ -51,3 +56,5 @@ Washington,blue
 West Virginia,red
 Wisconsin,blue
 Wyoming,blue
+Total,blue
+,red
