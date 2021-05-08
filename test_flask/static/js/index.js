@@ -36,54 +36,17 @@ function getFillColor(name, data) {
                             '#FFC305';
   }
 
-  function lineChart(dataset) {
       //----------------------------------------------//
       //               Line Plot - Plotly             //
       //----------------------------------------------//
 
-      var incidentDates = dataset.map(row => row.incident_date)
-      // console.log("Array of dates", incidentDates)
-      var stateID = dataset.map(row => row.state)
-      var total_killed_arr = [] // total kills per year
-      var year_arr = []
-      var prev_year = 2021
-      var total_killed = 0
 
-      for(var i = 0; i < dataset.length; i++) {
-        year = parseInt(dataset[i].incident_date)
-        // console.log(year)
-        if (prev_year == year) {
-          total_killed += parseInt(dataset[i].killed)
-        }
-        else {
-          total_killed_arr.push(total_killed)
-          total_killed = 0
-          // console.log(total_killed_arr)
-          prev_year = year
-        }
-      }
 
-      // Build line chart
-      var trace1 = {
-        x: ['2021', '2020', '2019', '2018', '2017', '2016',],
-        y: total_killed_arr,
-      
-      };
-      var data = [trace1];
-      var layout = {
-          title: "Mass Shooting Rates from 2017 to 2021",
-          xaxis: { title: "Incident Date"},
-          yaxis: { title: "Number Killed"}
-      };
-      Plotly.newPlot("plotly", data, layout);   
-  }
 
-// d3.csv("static/data/state_coordinates.csv").then(function(stateCoord) {
-//   console.log(stateCoord)
-//   // for (i=0; i < stateCoord.length; i++) {
-//   //   console.log(stateCoord[i].name);
-//   // };
-// });
+
+
+
+
 
 // MSA Json data
 d3.json("/data").then(function(data) {
@@ -94,7 +57,7 @@ d3.json("/data").then(function(data) {
     // console.log(geoData.features[0].properties.NAME);
     // console.log(geoData.features[0]);
     // State coordinates
-    d3.csv("static/data/state_coordinates.csv").then(function(stateCoord) {
+    d3.csv("static/data/state_clean.csv").then(function(stateCoord) {
 
       // Poverty data
       d3.csv("static/data/poverty_data_cleaned.csv").then(function(povertyData) {
@@ -252,77 +215,6 @@ d3.json("/data").then(function(data) {
       // // //----------------------------------------------//
       // // //               Line Plot - Plotly             //
       // // //----------------------------------------------//
-      // // lineChart(data);
-
-      // // var incidentDates = data.map(row => row.incident_date)
-      // // console.log("Array of dates", incidentDates)
-      // // var stateID = data.map(row => row.state)
-      // var total_killed_arr = [] // total kills per year
-      // var year_arr = []
-      // var prev_year = 2016
-      // var total_killed = 0
-      // var year16 = []
-      // var year17 = []
-      // var year18 = []
-      // var year19 = []
-      // var year20 = []
-      // var year21 = []
-
-      // // // console.log(data.length)
-      // for(var i = 0; i < data.length; i++) {
-      //   var year_sliced = data[i].incident_date.slice(0, 4);
-      //   year = +year_sliced;
-
-      //   if (year === 2016) {
-      //     // total_killed += +data[i].killed;
-      //     year16.push(+data[i].killed)
-      //   }
-      //   else if (year === 2017) {
-      //     // total_killed += +data[i].killed;
-      //     year17.push(+data[i].killed)
-      //   }
-      //   else if (year === 2018) {
-      //     total_killed += +data[i].killed;
-      //     year18.push(+data[i].killed)
-      //   }
-      //   else if (year === 2019) {
-      //     total_killed += +data[i].killed;
-      //     year19.push(+data[i].killed)
-      //   }
-      //   else if (year === 2020) {
-      //     total_killed += +data[i].killed;
-      //     year20.push(+data[i].killed)
-      //   }
-      //   else if (year === 2021) {
-      //     total_killed += +data[i].killed;
-      //     year21.push(+data[i].killed)
-      //   }
-      // }
-      // year16.concat(year17, year18, year19, year20, year21);
-      // console.log(total_killed_arr)
-
-
-
-      // // Build line chart
-      // var trace1 = {
-      //   x: ['2021', '2020', '2019', '2018', '2017', '2016'].reverse(),
-      //   // x: year_arr,
-      //   // y: total_killed_arr,
-      //   // y: data.map(row => row.incident_date+=row.incident_date)
-      //   y: year16
-      
-      // };
-      // var data1 = [trace1];
-      // var layout = {
-      //     title: "Mass Shooting Rates from 2017 to 2021",
-      //     xaxis: { title: "Incident Date"},
-      //     yaxis: { title: "Number Killed"}
-      // };
-      // Plotly.newPlot("plotly", data1, layout);
-
-
- 
-
       
 
       
@@ -356,7 +248,7 @@ d3.json("/data").then(function(data) {
           var selection = d3.select('#selDataset').property("value")
           var defaultCoord = [37.09, -95.71];
           for (i=0; i < stateCoord.length; i++){
-            if (selection === stateCoord[i].name){
+            if (selection === stateCoord[i].state){
               var coordinate = [stateCoord[i].latitude, stateCoord[i].longitude];
               var zoom = 7;
               // console.log(selection);
@@ -412,36 +304,36 @@ d3.json("/data").then(function(data) {
           }
           
           if (selection !== '-All-') {
-            // stateLayer = L.geoJson(counties, {
-            //   // Passing in our style object
-            //   style: function (feature) {
-            //     // if the state name in the geojson file matches the user selection then draw it on the map
-            //     if (feature.properties.STATE === stateId) {
-            //       console.log(feature)
-            //       return {
-            //         color:"black",
-            //         fillColor: randomColors(feature.features),
-            //         fillOpacity: 0.5,
-            //         weight: 1.5
-            //         };
-            //     }
-            /////////////////////////////////////
-            // 100% functional for state layer
-            stateLayer = L.geoJson(geoData, {
+            stateLayer = L.geoJson(counties, {
               // Passing in our style object
               style: function (feature) {
                 // if the state name in the geojson file matches the user selection then draw it on the map
-                if (feature.properties.NAME === selection) {
-                  console.log("This is the data")
+                if (feature.properties.STATE === stateId) {
                   console.log(feature)
                   return {
                     color:"black",
-                    // fillColor: randomColors(feature.features),
-                    fillColor:getFillColor(feature.properties.NAME, povertyData),
+                    fillColor: randomColors(feature.features),
                     fillOpacity: 0.5,
                     weight: 1.5
                     };
                 }
+            /////////////////////////////////////
+            // 100% functional for state layer
+            // stateLayer = L.geoJson(geoData, {
+            //   // Passing in our style object
+            //   style: function (feature) {
+            //     // if the state name in the geojson file matches the user selection then draw it on the map
+            //     if (feature.properties.NAME === selection) {
+            //       console.log("This is the data")
+            //       console.log(feature)
+            //       return {
+            //         color:"black",
+            //         // fillColor: randomColors(feature.features),
+            //         fillColor:getFillColor(feature.properties.NAME, povertyData),
+            //         fillOpacity: 0.5,
+            //         weight: 1.5
+            //         };
+            //     }
                 //////////////////////////////////////////////////
                 // if values not found the L.geoJson will use a default line thickness (weight ~1.5), color (blue), fillcolor (blue)
                 // and fillOpacity (~0.5). To avoid this I set color and fillcolor to none.

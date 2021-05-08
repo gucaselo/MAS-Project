@@ -1,4 +1,21 @@
-﻿body {
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
           font-family:'Open Sans', sans-serif;
     font-size:14px;
 }
@@ -21,7 +38,7 @@ display: block;
 position: absolute;
 width: 120px;
 height: 1px;
-background: #fff;
+background: rgb(5, 0, 0);
 margin: auto;
 left: -150px;
 right: 0;
@@ -33,7 +50,7 @@ display: block;
 position: absolute;
 width: 120px;
 height: 1px;
-background: #fff;
+background: rgb(7, 0, 0);
 margin: auto;
 left: 0;
 right: -150px;
@@ -94,6 +111,29 @@ section {
     padding-top:20px;
 }
 
+/*=======================================
+    Map Styles
+==================================================*/
+#map {
+    height: 500px;
+    width: 750px;
+    margin: auto;
+  }
+
+.legend {
+    line-height: 18px;
+    color: #555;
+    background-color: whitesmoke;
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
  /*=======================================
     SIDE MENUS STYLES
 ==================================================*/
@@ -114,7 +154,7 @@ section {
     z-index:9999;
     left:5px;
     top:20px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 #cbp-spmenu-s2 {
@@ -131,7 +171,7 @@ section {
     z-index: 9999;
      right: 5px; 
      top: 20px; 
-     color: #fff;
+     color: rgb(255, 255, 255);
 }
 /*=======================================
     COMPONENTS.CSS ADJUSTMENTS STYLES
@@ -147,7 +187,7 @@ section {
 .cbp-spmenu h3 {
 font-size: 2.9em;
 font-weight: 900;
-color:#fff;
+color:rgb(255, 255, 255);
 padding:30px;
 
 }
@@ -166,14 +206,14 @@ font-weight: 900;
 
 .head-btn-one {
     background-color: rgba(252, 64, 101, 1);
-     border: 0px solid #fff;
+     border: 0px solid rgb(255, 255, 255);
 
 }
 
 #home {
     padding-top:130px;
     padding-bottom:200px;
-    color:#fff;
+    color:rgb(255, 255, 255);
 }
 .head-main {
     font-size:80px ;
@@ -210,7 +250,7 @@ border-radius: 0px;
     width: 100%;
 }
 .team-member > h3 {
-    background: rgba(252, 64, 101, 1);
+    background: rgb(0, 0, 0);
     bottom: 25px;
     color:#fff;
     font-size: 20px;
@@ -228,7 +268,7 @@ border-radius: 0px;
 	transition: all 0.3s ease 0s;
 }
 .team-member:hover > h3 {
-    background: #b60d0d;
+    background: #0d77b6;
     bottom: -55px;
     color: #FFFFFF;	
 	-webkit-transition: all 0.3s ease 0s;
@@ -239,11 +279,143 @@ border-radius: 0px;
 }
 
 /*=======================================
+    PRICE SECTION STYLES
+==================================================*/
+#price-sec {
+    padding-top: 80px;
+     padding-bottom: 80px;
+}
+
+.plan {
+    background: #eef1f3;
+    padding: 0 0 15px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+  
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+         -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+}
+
+.plan:hover {
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.plan li {
+    padding: 15px 0px;
+    color: #434749;
+    border-top: 1px dashed #000;
+}
+
+.plan li.plan-head {
+   padding: 15px 0px;
+background-color: #0d77b6;
+color: #FFFFFF;
+line-height: 20px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+   }
+
+.plan li.main-price {
+   padding: 25px 0px;
+background-color:rgba(21, 180, 255, 1);
+color: #fff;
+border: none;
+font-weight: 900;
+font-size: 30px;
+}
+
+.c-b {
+    background-color:#B60D43!important;
+}
+.c-v {
+    background-color: #01AA30!important;
+}
+.c-a {
+    background-color: #818181!important;
+}
+/*=======================================
+    SERVICE SECTION STYLES
+==================================================*/
+#services-inner {
+    padding-top:50px;
+    padding-bottom:40px;
+}
+
+.service-div {
+	width: 100%;
+	min-height: 100px;
+	background-color: #F2F4F6;
+	box-shadow: none;
+	border: 0;
+    padding:20px;
+    margin-bottom:30px;
+}
+.service-div > i {
+    color:rgba(252, 64, 101, 1);
+}
+
+/*=======================================
+    STATS SECTION STYLES
+==================================================*/
+.stats-div {
+    text-align:center;
+    width: 100%;
+    min-height: 100px;
+    padding: 30px 20px 30px 20px;
+    color:#fff;
+}
+
+.stats-div > h3 {
+    font-size:60px;
+    font-weight:900;
+}
+
+/*=======================================
+    CONTACT STYLES
+==================================================*/
+#contact-inner {
+    padding-bottom:60px;
+    padding-bottom:50px;
+}
+.contact-cls {
+    font-size:20px;
+    line-height:40px;
+}
+    .contact-cls i {
+        margin-right:8px;
+    }
+
+ /*=======================================
+  SOCIAL  STATS SECTION STYLES
+==================================================*/
+ .social-stats-div {
+    text-align:center;
+    width: 100%;
+    min-height: 100px;
+    padding: 30px 20px 30px 20px;
+    color:#fff;
+}
+
+.social-stats-div > h3 {
+    font-size:35px;
+    font-weight:900;
+    line-height:40px;
+}
+
+/*=======================================
     COLOR CODES
 ==================================================*/
 
 .color-bg-one {
-    background-color:rgba(0, 122, 255, 1)!important;
+    background-color:rgb(0, 0, 0)!important;
     color:#fff;
 }
 .color-white {
@@ -257,6 +429,17 @@ border-radius: 0px;
    background-color:#E9E9E9!important;
 }
 
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    background-color:#000;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
 
 
 
