@@ -48,13 +48,13 @@ def msa():
     incidents = []
     # Create shooting data dictionary to be returned
     for i in range(len(date)):
-        incident_list = [{'date': date[i],
+        incident_list = {'date': date[i],
                         'state': state[i],
                         'city_county': locale[i],
                         'longitude': lng[i],
                         'latitude': lat[i],
                         'killed': killed[i],
-                        'injured': injured[i]}]
+                        'injured': injured[i]}
 
         incidents.append(incident_list)
 
