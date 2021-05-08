@@ -19,7 +19,7 @@ function getColor(d) {
 function getPoverty(name, data) {
   for (i=0; i < data.length; i++) {
     if (name === data[i].state) {
-      var value = parseFloat(data[i]['2019_poverty'])
+      var value = parseFloat(data[i]['poverty_rates'])
       return value
     }
   }
@@ -49,24 +49,24 @@ function getFillColor(name, data) {
 
 
 // MSA Json data
-d3.json("/data").then(function(data) {
-  // console.log(data[0].latitude[0])
-  console.log(data)
+d3.json("/msa").then(function(data) {
+  console.log(data[0].latitude)
+  // console.log(data)
   // Grabbing our GeoJSON data..
   d3.json(link).then(function(geoData) {
     // console.log(geoData.features[0].properties.NAME);
     // console.log(geoData.features[0]);
     // State coordinates
     d3.csv("static/data/state_clean.csv").then(function(stateCoord) {
+      // d3.csv("/state").then(function(stateCoord) {
+        console.log(stateCoord);
 
       // Poverty data
-      d3.csv("static/data/poverty_data_cleaned.csv").then(function(povertyData) {
-
-        // Gun ownership dataset
-        d3.csv("static/data/gun_ownership_clean.csv").then(function(gunOwnership) {
-        var a = parseFloat(povertyData[0]['2019_poverty'])
-        var b = parseFloat(povertyData[1]['2019_poverty'])
-        console.log(a + b)
+      // d3.csv("static/data/poverty_data_cleaned.csv").then(function(povertyData) {
+      d3.csv("/poverty").then(function(povertyData) {
+        // var a = parseFloat(povertyData[0]['2019_poverty'])
+        // var b = parseFloat(povertyData[1]['2019_poverty'])
+        // console.log(a + b)
 
       var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
       attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -102,7 +102,7 @@ d3.json("/data").then(function(data) {
       // Grab all unique states values to create a dropdown menu
       var states = []
       for (var i=0;i<data.length;i++){
-        var currentState = data[i].state
+        var currentState = data[i].state[0]
         if (!states.includes(currentState)) {
             // Add an all option to array
             if (i === 0) {
@@ -140,8 +140,9 @@ d3.json("/data").then(function(data) {
 
       var shootingsMarkers = []
       for (var i = 0; i < data.length; i++) {
-        var lat = +data[i].latitude;
-        var lng = +data[i].longitude;
+        console.log(i)
+        var lat = parseFloat(data[i].latitude);
+        var lng = parseFloat(data[i].longitude);
         var coordinates = [lat, lng];
         // console.log(coordinates)
 
@@ -218,53 +219,6 @@ d3.json("/data").then(function(data) {
       // // //----------------------------------------------//
       // // //               Line Plot - Plotly             //
       // // //----------------------------------------------//
-
-
-
-
-//////////////////////////////////////////////////////////////////////
-      // var tbody = d3.select('tbody');
-      // var location = "United States"
-      // var noCapita = 0;
-      // var gunRegistered = 0;     
-      // for (i=0; i < gunOwnership.length; i++){
-      //         noCapita =+ gunOwnership[i]['number_per_capita'];
-      //         gunRegistered =+ +gunOwnership[i]['number_registered']
-      //       }
-      //       console.log(noCapita)
-      //       console.log(gunOwnership)
-      // var gunData = [noCapita, gunOwnership];
-
-      // gunData.forEach(value => {
-      //   var rows = tbody.append('tr')
-      //   Object.entries(value).forEach(([key, value]) => {
-      //       var data = rows.append('td');
-      //       data.text(value);
-      //   }) 
-      // });
-
-
-
-
-
-
-
-
-
-
-
-////////////////////////////////////////////////////////////////////
-
-
-
-
-      //----------------------------------------------//
-      //               Summary Table                  //
-      //----------------------------------------------//
-      // var tbody = d3.select('tbody');
-      // var location = "United States"
-
-
       
 
       
@@ -354,36 +308,36 @@ d3.json("/data").then(function(data) {
           }
           
           if (selection !== '-All-') {
-            // stateLayer = L.geoJson(counties, {
-            //   // Passing in our style object
-            //   style: function (feature) {
-            //     // if the state name in the geojson file matches the user selection then draw it on the map
-            //     if (feature.properties.STATE === stateId) {
-            //       console.log(feature)
-            //       return {
-            //         color:"black",
-            //         fillColor: randomColors(feature.features),
-            //         fillOpacity: 0.5,
-            //         weight: 1.5
-            //         };
-            //     }
-            /////////////////////////////////////
-            // 100% functional for state layer
-            stateLayer = L.geoJson(geoData, {
+            stateLayer = L.geoJson(counties, {
               // Passing in our style object
               style: function (feature) {
                 // if the state name in the geojson file matches the user selection then draw it on the map
-                if (feature.properties.NAME === selection) {
-                  console.log("This is the data")
+                if (feature.properties.STATE === stateId) {
                   console.log(feature)
                   return {
                     color:"black",
-                    // fillColor: randomColors(feature.features),
-                    fillColor:getFillColor(feature.properties.NAME, povertyData),
+                    fillColor: randomColors(feature.features),
                     fillOpacity: 0.5,
                     weight: 1.5
                     };
                 }
+            /////////////////////////////////////
+            // 100% functional for state layer
+            // stateLayer = L.geoJson(geoData, {
+            //   // Passing in our style object
+            //   style: function (feature) {
+            //     // if the state name in the geojson file matches the user selection then draw it on the map
+            //     if (feature.properties.NAME === selection) {
+            //       console.log("This is the data")
+            //       console.log(feature)
+            //       return {
+            //         color:"black",
+            //         // fillColor: randomColors(feature.features),
+            //         fillColor:getFillColor(feature.properties.NAME, povertyData),
+            //         fillOpacity: 0.5,
+            //         weight: 1.5
+            //         };
+            //     }
                 //////////////////////////////////////////////////
                 // if values not found the L.geoJson will use a default line thickness (weight ~1.5), color (blue), fillcolor (blue)
                 // and fillOpacity (~0.5). To avoid this I set color and fillcolor to none.
@@ -422,7 +376,7 @@ d3.json("/data").then(function(data) {
       }; // function
 
 
-      }); //Gun Ownership
+
       }); //Poverty Data
     }); //StateCoord
   });//geoJson

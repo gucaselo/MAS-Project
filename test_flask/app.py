@@ -147,5 +147,92 @@ def poverty():
 
     return jsonify(poverty_data)
 
+    # create route that returns election data
+@app.route("/election")
+def election():
+
+    # Create Engine
+    engine = create_engine("sqlite:///data/shootings.sqlite")
+
+    # Connect to the engine
+    conn = engine.connect()
+
+    # Start a session
+    session = Session(bind=engine)
+
+    # Declare a Base using `automap_base()`
+    Base = automap_base()
+
+    # Use the Base class to reflect the database tables
+    Base.prepare(engine, reflect=True)
+
+    # Assign class to variable data
+    election = Base.classes.election_data
+
+    # Create variables for the election info
+    state_name = session.query(election.state).all()
+    state_result = session.query(election.result).all()
+  
+    election_data = []
+
+    # Create election dictionary to be returned
+    for i in range(len(state_name)):
+    
+        election_list = {'state' : state_name[i],
+                'result': state_result[i]}
+
+        election_data.append(election_list)
+            
+
+    # Close session
+    session.close()
+
+    return jsonify(election_data)
+
+    
+    # create route that returns state data
+@app.route("/state")
+def state():
+
+    # Create Engine
+    engine = create_engine("sqlite:///data/shootings.sqlite")
+
+    # Connect to the engine
+    conn = engine.connect()
+
+    # Start a session
+    session = Session(bind=engine)
+
+    # Declare a Base using `automap_base()`
+    Base = automap_base()
+
+    # Use the Base class to reflect the database tables
+    Base.prepare(engine, reflect=True)
+
+    # Assign class to variable data
+    state = Base.classes.state_data
+
+    # Create variables for the election info
+    state_name = session.query(state.state).all()
+    state_lat = session.query(state.latitude).all()
+    state_long = session.query(state.longitude).all()
+  
+    state_data = []
+
+    # Create election dictionary to be returned
+    for i in range(len(state_name)):
+    
+        state_list = {'state' : state_name[i],
+                'latitude': state_lat[i],
+                'longitude': state_long[i]}
+
+        state_data.append(state_list)
+            
+
+    # Close session
+    session.close()
+
+    return jsonify(state_data)
+
 if __name__ == "__main__":
     app.run(debug=True)

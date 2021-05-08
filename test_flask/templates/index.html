@@ -18,7 +18,7 @@
     <!-- MomentJS -->
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script> -->
  
-    <title>AWESOME BOOTSTRAP TEMPLATE - BIWAS </title>
+    <title>MSA </title>
     <!--REQUIRED STYLE SHEETS-->
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="{{ url_for('static', filename = 'css/bootstrap.css') }}" rel="stylesheet" />
@@ -113,10 +113,10 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-12">
-                    <!-- <body>
+                    <body>
                         <div id="line"></div>
                         <script src="{{ url_for('static', filename = 'js/plotly.js') }}"></script>
-                    </body> -->
+                    </body>
                 </div>
             </div>
         </div>
@@ -163,13 +163,38 @@
         </div>
     </section>
     <section class="for-full-back color-white " id="services-inner">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row text-center">
-                <!-- <div class="col-md-12"> -->
+                <div class="col-md-2">
+                    <div class="well">
+                        <h5>Select State:</h5>
+                        <select id="selDataset"></select>
+                    </div>   
+                </div>
+                <div class="col-md-8">
                     <div>
                         <div id="map"></div>   
                     </div>   
-                <!-- </div> -->
+                </div>
+                <!-- <div class="col-md-4">
+                    <div id="table-area" class="">
+                      <table id="info" class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th class="table-head">Location</th>
+                            <th class="table-head">Guns per capita</th>
+                            <th class="table-head">Guns Registered</th>
+                            <th class="table-head">Poverty Rate</th>
+                            <th class="table-head">Incidents</th>
+                            <th class="table-head">Injured</th>
+                            <th class="table-head">Killed</th>
+                          </tr>
+                        </thead>
+                        <tbody></tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div> -->
             </div>
         </div>
     </section>
