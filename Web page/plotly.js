@@ -1,4 +1,4 @@
-    Plotly.d3.csv(`final_msa.csv`, function(number_killedData) {
+    Plotly.d3.csv("final_msa.csv", function(number_killedData) {
       console.log("number_killedData: ", number_killedData);
            
       //This array holds all the incident dates in an array
@@ -42,97 +42,98 @@
         }
     
       
-        // Build line chart
-	        var trace1 = {
-          x: ['2021', '2020', '2019', '2018', '2017', '2016',],
-          y: total_killed_arr,
+    //     // Build line chart
+	  //       var trace1 = {
+    //       x: ['2021', '2020', '2019', '2018', '2017', '2016',],
+    //       y: total_killed_arr,
         
-        };
-        var data = [trace1];
-        var layout = {
-            title: "Mass Shooting Rates from 2017 to 2021",
-            xaxis: { title: "Incident Date"},
-            yaxis: { title: "Number Killed"}
-        };
-        Plotly.newPlot("line", data, layout);        
-      };
-    });
+    //     };
+    //     var data = [trace1];
+    //     var layout = {
+    //         title: "Mass Shooting Rates from 2017 to 2021",
+    //         xaxis: { title: "Incident Date"},
+    //         yaxis: { title: "Number Killed"}
+    //     };
+    //     Plotly.newPlot("line", data, layout);        
+    //   };
+    // });
     //   ///////////////////////////////////
     //   ////////////// BAR CHART /////////
     //   ///////////////////////////////////
       
       
-    //   // var first_state = 'Alabama'
-    //   // var killed = 0 
-    //   // for(var i = 0; i < number_killedData.length; i++) {
-    //   //   states = number_killedData[i].state
-    //   //   // console.log(states)
-    //   //   if (first_state === states && incidentDates === 2020) {
-    //   //     // killed += parseInt(number_killedData[i].number_killed)
-    //   //   }
-    //   //   else {
-    //   //     state_arr.push(killed)
-    //   //     killed = 0
-    //   //     console.log(state_arr)
-    //   //     first_state = states
-    //   //   }
-    //   // }
-
+      // Create an object that will summarize the state date...need to put states in as keys and the number of deaths in as values
+      // iterate over the data
+      // check to see if state is already in object created...if it is then add the number of deaths from the line to the number of deaths in your sumamry object
+      // if state is NOT in the summary object, create the key and value and set the value to the number of deaths on the line you are processing
+      // keep doing this until all lines are processed
+      // you now have a summary object with keys for each state and values of the number of deaths
       
-  //     var state_arr = [] // holds all the states
-  //     // Loop through the csv to return all states in dataset in year 2020
-  //     for(var i = 0; i < number_killedData.length; i++) {
-  //       allStates = number_killedData[i].state
+      // var state_arr = [] // holds all the states
+      // // Loop through the csv to return all states in dataset in year 2020
+      // for(var i = 0; i < number_killedData.length; i++) {
+      //   allStates = number_killedData[i].state
         
-  //       // Conditional statement showing each state in year 2020
-  //       if (number_killedData[i].incident_date === "2020" && !state_arr.includes(allStates)) {
-  //         state_arr.push(allStates)
-  //         state_arr.sort()
-  //       }        
-  //     };
-  //     console.log("States Array",state_arr)
-  //     //[Alabama, Arkansa, Delaware]
-  //     //[90]
+      //   // Conditional statement showing each state in year 2020
+      //   if (number_killedData[i].incident_date === "2020" && !state_arr.includes(allStates)) {
+      //     state_arr.push(allStates)
+      //     state_arr.sort()
+      //   }        
+      // };
+      // console.log("States Array",state_arr)
+      // //[Alabama, Arkansa, Delaware]
+      // //[90]
 
-  //     var numberStateDeaths = [] // total # of deaths per state in year 2020
-  //     var totalDeaths = 0
+      // var numberStateDeaths = [] // total # of deaths per state in year 2020
+      // var totalDeaths = 0
 
-  //     for(var i = 0; i < state_arr.length; i++) {
-  //       for(j = 0; j < number_killedData.length; j++) {
-  //         // if (number_killedData[j].incident_date === "2020" && state_arr.includes(number_killedData[j].state)) {
-  //         if (number_killedData[j].incident_date === "2020" && number_killedData[j].state === state_arr[i]) {
-  //         totalDeaths += parseInt(number_killedData[j].number_killed)
-  //           console.log("Total deaths",totalDeaths)
-  //         }
-  //         numberStateDeaths.push(totalDeaths)
-  //       }
-  //     }
-  //     console.log("State Deaths", numberStateDeaths)
-    
-  //       // Build bar chart
-  //       var myPlot = document.getElementById('bar'),
-  //       data = [{
-  //               x: state_arr,
-  //               y: numberStateDeaths, //[1, 4, 2, 5]
-  //               type: "bar",
-  //               marker: {
-  //                   color: 'light blue'
-  //               },
-  //           }]
-  //           layout = {
-  //               title: "Mass Shootings By state in 2020",
-  //               xaxis: { 
-  //                   tickangle: 40,
-  //                   tickfont: {
-  //                       size: 9.5
-  //                   }
-  //               },
-  //               yaxis: {title: "Mass Shootings"},
-  //               hovermode: 'closest'
-  //           };
+      // for(var i = 0; i < state_arr.length; i++) {
+      //   for(j = 0; j < number_killedData.length; j++) {
+      //     // if (number_killedData[j].incident_date === "2020" && state_arr.includes(number_killedData[j].state)) {
+      //     if (number_killedData[j].incident_date === "2020" && number_killedData[j].state === state_arr[i]) {
+      //     totalDeaths += parseInt(number_killedData[j].number_killed)
+      //       console.log("Total deaths",totalDeaths)
+      //     }
+      //     numberStateDeaths.push(totalDeaths)
+      //   }
+      // }
+      // console.log("State Deaths", numberStateDeaths)
+        var total_killed_arr = []
+        var year_arr = []
+        var key_arr = []
+        var key = ""
+        var prev_year = 2021
+        var prev_state = 'Alabama'
+        var total_killed = 0
+        for(var i = 0; i < number_killedData.length; i++) {
+          year = parseInt(number_killedData[i].incident_date)
+          state  =number_killedData[i].state
+          consolge.log(year)
+        }
+        // // Build bar chart
+        // var myPlot = document.getElementById('bar'),
+        // data = [{
+        //         x: state_arr,
+        //         y: numberStateDeaths, //[1, 4, 2, 5]
+        //         type: "bar",
+        //         marker: {
+        //             color: 'light blue'
+        //         },
+        //     }]
+        //     layout = {
+        //         title: "Mass Shootings By state in 2020",
+        //         xaxis: { 
+        //             tickangle: 40,
+        //             tickfont: {
+        //                 size: 9.5
+        //             }
+        //         },
+        //         yaxis: {title: "Mass Shootings"},
+        //         hovermode: 'closest'
+        //     };
 
-  //       Plotly.newPlot("bar", data, layout);
-  //         });
+        // Plotly.newPlot("bar", data, layout);
+        //   });
   // //   function buildCharts(year) {
   //     // TO DO: Iterate through all states
   
