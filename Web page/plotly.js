@@ -29,6 +29,7 @@
      var total_killed = 0
       for(var i = 0; i < number_killedData.length; i++) {
         year = parseInt(number_killedData[i].incident_date)
+        // console.log(year)
         console.log(year)
         if (prev_year == year) {
           total_killed += parseInt(number_killedData[i].number_killed)
