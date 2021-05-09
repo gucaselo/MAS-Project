@@ -44,15 +44,13 @@ def msa():
     date = session.query(data.incident_date).all()
     state = session.query(data.state).all()
     locale = session.query(data.city_county).all()
-    address = session.query(data.address).all()
 
     incidents = []
     # Create shooting data dictionary to be returned
     for i in range(len(date)):
-        incident_list = {'incident_date': date[i],
+        incident_list = {'date': date[i],
                         'state': state[i],
-                        'city': locale[i],
-                        'address': address[i],
+                        'city_county': locale[i],
                         'longitude': lng[i],
                         'latitude': lat[i],
                         'killed': killed[i],
