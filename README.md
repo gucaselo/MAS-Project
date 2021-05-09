@@ -18,10 +18,18 @@ Our entire website is interactive and includes visualizations.
 
 
 ### Technologies
-'Python' 'Pandas' 'API'
-'SQLite' 'SQLAlchemy' 'Flask'
-'JavaScript' 'HTML' 'Leaflet' 
-'D3' 'CSS' 'Bootstrap'
+* `Python`
+* `Pandas` 
+* `API`
+* `SQLite` 
+* `SQLAlchemy` 
+* `Flask`
+* `JavaScript` 
+* `HTML` 
+* `Leaflet`
+* `D3`
+* `CSS` 
+* `Bootstrap`
 
 
 ### Project Overview
@@ -30,7 +38,7 @@ We then used Flask to connect and create visualizations and our interactive map.
 
 
 #### References
-[Gun Violence Archive] (https://www.gunviolencearchive.org/)
+[Gun Violence Archive](https://www.gunviolencearchive.org/)
 
 ##### Defined Elements
 Mass Shooting - Four or more shot and/or killed in a single event/incident, at the same general time and location  not including the shooter.
