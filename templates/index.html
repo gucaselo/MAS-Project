@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <!-- MomentJS -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script> -->
+ 
+    <title>MSA </title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="{{ url_for('static', filename = 'css/bootstrap.css') }}" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="{{ url_for('static', filename = 'css/font-awesome.min.css') }}" rel="stylesheet" />
+    <!--ANIMATED FONTAWESOME STYLE CSS -->
+    <link href="{{ url_for('static', filename = 'css/font-awesome-animation.css') }}" rel="stylesheet" />
+    <!-- VEGAS STYLE CSS -->
+    <!-- <link href="{{ url_for('static', filename = 'plugins/vegas/jquery.vegas.min.css') }}" rel="stylesheet" /> -->
+    <!-- SIDE MENU STYLE CSS -->
+    <link href="{{ url_for('static', filename = 'css/component.css') }}" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="{{ url_for('static', filename = 'css/style_john.css') }}" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+</head>
+<body class="cbp-spmenu-push">
+
+    <!-- MAIN HEADING-->
+    <div class="for-full-back color-bg-one" id="main-sec">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h1 class="pad-adjust"><i class="fa fa-plus faa-pulse animated"></i>Mass Shootings</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END MAIN HEADING-->
+    <!--LEFT SLIDE MENU-->
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+        <h3>Menu</h3>
+        <a href="#main-sec"><i class="fa fa-home fa-3x"></i>HOME</a>
+        <a href="#rates-sec"><i class="fa fa-microphone fa-3x"></i>Mass Shooting Rates</a>
+        <a href="#state-sec"><i class="fa fa-dollar fa-3x"></i>Mass Shooting by State</a>
+        <a href="#country-sec"><i class="fa fa-rocket fa-3x"></i>Mass Shootings Across the Country</a>
+        <a href="#about-sec"><i class="fa fa-globe fa-3x"></i>About</a>
+    </nav>
+
+    <div class="row" id="icon-left">
+        <div class="col-md-12">
+            <i id="showLeftPush" class="fa fa-cut fa-4x faa-horizontal animated "></i>
+        </div>
+    </div>
+    <!--END LEFT SLIDE MENU-->
+
+    <!--RIGHT SLIDE MENU-->
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+    </nav>
+
+    <div class="row" id="icon-right">
+        <div class="col-md-12">
+            <i id="showRightPush" class="fa fa-paperclip fa-4x "></i>
+        </div>
+    </div>
+    <!--END RIGHT SLIDE MENU-->
+
+    <!--HOME SECTION-->
+    <div class="container" id="home">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <span class="head-main">Data Analytics and Visualization</span>
+                <h2 class="head-sub-main">Project 2</h2>
+               
+                <a href="#about-sec" class="btn btn-danger btn-lg head-btn-one">Our Team</a> &nbsp;  
+            </div>
+        </div>
+    </div>
+    <!--END HOME SECTION-->
+
+
+
+    <!--SERVICES SECTION-->
+    <section class="for-full-back color-bg-one" id="rates-sec">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h1><i class="fa fa-rocket faa-pulse animated  "></i>Mass Shooting Rates</h1>
+
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 ">
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="for-full-back color-white " id="services-inner">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <body>
+                        <div id="line"></div>
+                        <script src="{{ url_for('static', filename = 'js/plotly.js') }}"></script>
+                    </body>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END SERVICES SECTION-->
+      <!--SERVICES SECTION-->
+      <!-- <section class="for-full-back color-bg-one" id="state-sec">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h1><i class="fa fa-rocket faa-pulse animated  "></i>Mass Shooting Rates by State</h1>
+
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 ">
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="for-full-back color-white " id="services-inner">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END SERVICES SECTION-->
+      <!--SERVICES SECTION-->
+      <section class="for-full-back color-bg-one" id="country-sec">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h1><i class="fa fa-rocket faa-pulse animated  "></i>Mass Shooting Rates Across the Country</h1>   
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 ">                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="for-full-back color-white " id="services-inner">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-2">
+                    <div class="well">
+                        <h5>Select State:</h5>
+                        <select id="selDataset"></select>
+                    </div>   
+                </div>
+                <div class="col-md-8">
+                    <div>
+                        <div id="map"></div>   
+                    </div>   
+                </div>
+                <!-- <div class="col-md-4">
+                    <div id="table-area" class="">
+                      <table id="info" class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th class="table-head">Location</th>
+                            <th class="table-head">Guns per capita</th>
+                            <th class="table-head">Guns Registered</th>
+                            <th class="table-head">Poverty Rate</th>
+                            <th class="table-head">Incidents</th>
+                            <th class="table-head">Injured</th>
+                            <th class="table-head">Killed</th>
+                          </tr>
+                        </thead>
+                        <tbody></tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!--END SERVICES SECTION-->
+      
+    <!--STATS SECTION-->
+    <section>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-3 ">
+                    <div class="stats-div">
+                        <h3>20,000+ </h3>
+                        <h4>Gun related Deaths</h4>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 ">
+                    <div class="stats-div">
+                        <h3>~40,000 </h3>
+                        <h4>Gun Related Injuries</h4>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+
+                    <div class="stats-div">
+                        <h3>100+ </h3>
+                        <h4>Killed Daily</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="stats-div">
+                        <h3>~23M+ </h3>
+                        <h4>Guns Purchased in 2020</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END STATS SECTION-->
+
+
+ <!--ABOUT SECTION-->
+ <section class="for-full-back color-bg-one" id="about-sec">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-8 col-md-offset-2 ">
+                <h1><i class="fa fa-microphone faa-pulse animated  "></i>About</h1>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h4>
+                        <strong>Our task is to create a web-based dashboard application using Leaflet or Plotly. Our application runs off of Flask, and we used web scraping to extract our data.
+                        </strong>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="for-full-back color-white" id="about-team">
+    <div class="container">
+        <div class="row text-center g-pad-bottom">
+            <div class="col-md-8 col-md-offset-2 ">
+                <h3>OUR TEAM PROFILE</h3>
+            </div>
+
+        </div>
+        <div class="row text-center g-pad-bottom">
+            <div class="col-md-12 ">
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="{{ url_for('static', filename = 'img/team/1.png') }}" alt="">
+                        <h3><strong>John Eagan </strong></h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="{{ url_for('static', filename = 'img/team/2.png') }}" alt="">
+                        <h3><strong>Kelvyn Guzman </strong></h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="{{ url_for('static', filename = 'img/team/3.png') }}" alt="">
+                        <h3><strong>Jeremy Strauch </strong></h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="{{ url_for('static', filename = 'img/team/4.png') }}" alt="">
+                        <h3><strong>Ryan Sabon </strong></h3>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+        <div class="row g-pad-bottom">
+        </div>
+
+    </div>
+</section>
+<!--END ABOUT SECTION-->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- Marker Cluster JS -->
+    <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <!-- Extra Leaflet -->
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/leaflet-providers.js') }}"></script>
+    <!-- API key -->
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/config.js') }}"></script>
+    <!-- Main JavaScript file -->
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/index.js') }}"></script>
+    <!-- Marker Cluster JS -->
+    <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <!-- Leaflet MarkerCluster LayerSupport -->
+    <script src="https://unpkg.com/leaflet.markercluster.layersupport@2.0.1/dist/leaflet.markercluster.layersupport.js"></script>
+
+
+
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="{{ url_for('static', filename = 'plugins/jquery-1.10.2.js') }}"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="{{ url_for('static', filename = 'plugins/bootstrap.js') }}"></script>
+    <!-- SIDE MENU SCRIPTS -->
+    <script src="{{ url_for('static', filename = 'js/modernizr.custom.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'js/classie.js') }}"></script>
+    <!-- VEGAS SLIDESHOW SCRIPTS -->
+    <script src="{{ url_for('static', filename = 'plugins/vegas/jquery.vegas.min.js') }}"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="{{ url_for('static', filename = 'js/custom.js') }}"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+</body>
+</html>
