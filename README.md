@@ -38,6 +38,8 @@ We then used Flask to connect and create visualizations and our interactive map.
 
 <img src="img/demo.png"/>
 
+<img src="img/demo2.png"/>
+
 
 #### References
 [Gun Violence Archive](https://www.gunviolencearchive.org/)
