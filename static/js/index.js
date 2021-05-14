@@ -39,21 +39,23 @@ function getFillColor(name, data) {
 
 // MSA Json data
 d3.json("/data").then(function(data) {
+  // console.log('Data route')
+  // console.log(data)
 
   // Grabbing our GeoJSON data..
   d3.json(link).then(function(geoData) {
-    console.log(geoData)
+    // console.log(geoData)
 
     // State coordinates
-    d3.csv(linkState).then(function(stateCoord) {
-    // d3.csv("/state").then(function(stateCoord) {
-      console.log(stateCoord)
+    // d3.csv(linkState).then(function(stateCoord) {
+    d3.json("/state").then(function(stateCoord) {
+      // console.log(stateCoord)
 
       // Poverty data
       d3.csv(povertyLink).then(function(povertyData) {
 
         // Gun ownership dataset
-        // d3.csv("static/data/gun_ownership_clean.csv").then(function(gunOwnership) {
+        // d3.json("static/data/gun_ownership_clean.csv").then(function(gunOwnership) {
         var a = parseFloat(povertyData[0]['2019_poverty'])
         var b = parseFloat(povertyData[1]['2019_poverty'])
         console.log(a + b)
