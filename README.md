@@ -36,6 +36,8 @@ Our entire website is interactive and includes visualizations.
 We transformed and cleaned our MSA, gun ownership, election, and state coordinate data before loading it into a SQLite database.  
 We then used Flask to connect and create visualizations and our interactive map.
 
+<img src="img/demo.png"/>
+
 
 #### References
 [Gun Violence Archive](https://www.gunviolencearchive.org/)
